@@ -1,3 +1,9 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='3'
+
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 import six
 
 if six.PY3:
@@ -10,6 +16,7 @@ import logging
 import logging.handlers
 
 from h5json import Hdf5db
+
 
 """
 Writeh5 - return json representation of all objects within the given file

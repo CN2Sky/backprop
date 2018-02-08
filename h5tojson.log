@@ -1966,3 +1966,2627 @@ dumpAttributes: 23331868-f5f7-11e7-9faa-acbc32d35fbf
 getDatasetObjByUuid(23331868-f5f7-11e7-9faa-acbc32d35fbf)
 db.getCollection(datatypes)
 Hdf5db __exit
+h5tojson models/my_model.h5
+Using dbFile: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpnAQDfV
+init -- filePath: models/my_model.h5 mode: r
+dbFilePath: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpnAQDfV mode: r+
+Hdf5db __enter
+initializing file
+visit: model_weights name: Group
+visit: model_weights/dense_1 name: Group
+visit: model_weights/dense_1/dense_1 name: Group
+visit: model_weights/dense_1/dense_1/bias:0 name: Dataset
+visit: model_weights/dense_1/dense_1/kernel:0 name: Dataset
+visit: model_weights/dense_2 name: Group
+visit: model_weights/dense_2/dense_2 name: Group
+visit: model_weights/dense_2/dense_2/bias:0 name: Dataset
+visit: model_weights/dense_2/dense_2/kernel:0 name: Dataset
+visit: model_weights/dense_3 name: Group
+visit: model_weights/dense_3/dense_3 name: Group
+visit: model_weights/dense_3/dense_3/bias:0 name: Dataset
+visit: model_weights/dense_3/dense_3/kernel:0 name: Dataset
+visit: model_weights/dense_4 name: Group
+visit: model_weights/dense_4/dense_4 name: Group
+visit: model_weights/dense_4/dense_4/bias:0 name: Dataset
+visit: model_weights/dense_4/dense_4/kernel:0 name: Dataset
+visit: optimizer_weights name: Group
+visit: optimizer_weights/SGD name: Group
+visit: optimizer_weights/SGD/iterations:0 name: Dataset
+visit: optimizer_weights/training name: Group
+visit: optimizer_weights/training/SGD name: Group
+visit: optimizer_weights/training/SGD/Variable:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_1:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_2:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_3:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_4:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_5:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_6:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_7:0 name: Dataset
+getUUIDByPath: [/]
+getGroupObjByUuid(e4d74342-0cf4-11e8-b651-acbc32d35fbf)
+dumpGroup alias: [/]
+db.getAttributeItems(e4d74342-0cf4-11e8-b651-acbc32d35fbf)
+dumpAttributes: e4d74342-0cf4-11e8-b651-acbc32d35fbf
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, e4d74342-0cf4-11e8-b651-acbc32d35fbf, keras_version)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, e4d74342-0cf4-11e8-b651-acbc32d35fbf, backend)
+dumpAttribute: [model_config]
+getAttributeItemByUuid(groups, e4d74342-0cf4-11e8-b651-acbc32d35fbf, model_config)
+dumpAttribute: [training_config]
+getAttributeItemByUuid(groups, e4d74342-0cf4-11e8-b651-acbc32d35fbf, training_config)
+db.getLinkItems(e4d74342-0cf4-11e8-b651-acbc32d35fbf)
+getGroupObjByUuid(e4d74342-0cf4-11e8-b651-acbc32d35fbf)
+db.getLinkItemByUuid(e4d74342-0cf4-11e8-b651-acbc32d35fbf, [model_weights])
+getGroupObjByUuid(e4d74342-0cf4-11e8-b651-acbc32d35fbf)
+db.getLinkItemByUuid(e4d74342-0cf4-11e8-b651-acbc32d35fbf, [optimizer_weights])
+getGroupObjByUuid(e4d74342-0cf4-11e8-b651-acbc32d35fbf)
+db.getCollection(groups)
+getGroupObjByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf)
+dumpGroup alias: [/model_weights]
+db.getAttributeItems(e4d9746e-0cf4-11e8-941a-acbc32d35fbf)
+dumpAttributes: e4d9746e-0cf4-11e8-941a-acbc32d35fbf
+dumpAttribute: [layer_names]
+getAttributeItemByUuid(groups, e4d9746e-0cf4-11e8-941a-acbc32d35fbf, layer_names)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, e4d9746e-0cf4-11e8-941a-acbc32d35fbf, backend)
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, e4d9746e-0cf4-11e8-941a-acbc32d35fbf, keras_version)
+db.getLinkItems(e4d9746e-0cf4-11e8-941a-acbc32d35fbf)
+getGroupObjByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf)
+db.getLinkItemByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf)
+db.getLinkItemByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf)
+db.getLinkItemByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf)
+db.getLinkItemByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(e4d9746e-0cf4-11e8-941a-acbc32d35fbf)
+getGroupObjByUuid(e4d98a4c-0cf4-11e8-8b49-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1]
+db.getAttributeItems(e4d98a4c-0cf4-11e8-8b49-acbc32d35fbf)
+dumpAttributes: e4d98a4c-0cf4-11e8-8b49-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, e4d98a4c-0cf4-11e8-8b49-acbc32d35fbf, weight_names)
+db.getLinkItems(e4d98a4c-0cf4-11e8-8b49-acbc32d35fbf)
+getGroupObjByUuid(e4d98a4c-0cf4-11e8-8b49-acbc32d35fbf)
+db.getLinkItemByUuid(e4d98a4c-0cf4-11e8-8b49-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(e4d98a4c-0cf4-11e8-8b49-acbc32d35fbf)
+getGroupObjByUuid(e4d99e30-0cf4-11e8-bf1e-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1/dense_1]
+db.getAttributeItems(e4d99e30-0cf4-11e8-bf1e-acbc32d35fbf)
+dumpAttributes: e4d99e30-0cf4-11e8-bf1e-acbc32d35fbf
+db.getLinkItems(e4d99e30-0cf4-11e8-bf1e-acbc32d35fbf)
+getGroupObjByUuid(e4d99e30-0cf4-11e8-bf1e-acbc32d35fbf)
+db.getLinkItemByUuid(e4d99e30-0cf4-11e8-bf1e-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(e4d99e30-0cf4-11e8-bf1e-acbc32d35fbf)
+db.getLinkItemByUuid(e4d99e30-0cf4-11e8-bf1e-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(e4d99e30-0cf4-11e8-bf1e-acbc32d35fbf)
+getGroupObjByUuid(e4da0db5-0cf4-11e8-bbb9-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2]
+db.getAttributeItems(e4da0db5-0cf4-11e8-bbb9-acbc32d35fbf)
+dumpAttributes: e4da0db5-0cf4-11e8-bbb9-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, e4da0db5-0cf4-11e8-bbb9-acbc32d35fbf, weight_names)
+db.getLinkItems(e4da0db5-0cf4-11e8-bbb9-acbc32d35fbf)
+getGroupObjByUuid(e4da0db5-0cf4-11e8-bbb9-acbc32d35fbf)
+db.getLinkItemByUuid(e4da0db5-0cf4-11e8-bbb9-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(e4da0db5-0cf4-11e8-bbb9-acbc32d35fbf)
+getGroupObjByUuid(e4da1fe8-0cf4-11e8-b394-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2/dense_2]
+db.getAttributeItems(e4da1fe8-0cf4-11e8-b394-acbc32d35fbf)
+dumpAttributes: e4da1fe8-0cf4-11e8-b394-acbc32d35fbf
+db.getLinkItems(e4da1fe8-0cf4-11e8-b394-acbc32d35fbf)
+getGroupObjByUuid(e4da1fe8-0cf4-11e8-b394-acbc32d35fbf)
+db.getLinkItemByUuid(e4da1fe8-0cf4-11e8-b394-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(e4da1fe8-0cf4-11e8-b394-acbc32d35fbf)
+db.getLinkItemByUuid(e4da1fe8-0cf4-11e8-b394-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(e4da1fe8-0cf4-11e8-b394-acbc32d35fbf)
+getGroupObjByUuid(e4da66ba-0cf4-11e8-8777-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3]
+db.getAttributeItems(e4da66ba-0cf4-11e8-8777-acbc32d35fbf)
+dumpAttributes: e4da66ba-0cf4-11e8-8777-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, e4da66ba-0cf4-11e8-8777-acbc32d35fbf, weight_names)
+db.getLinkItems(e4da66ba-0cf4-11e8-8777-acbc32d35fbf)
+getGroupObjByUuid(e4da66ba-0cf4-11e8-8777-acbc32d35fbf)
+db.getLinkItemByUuid(e4da66ba-0cf4-11e8-8777-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(e4da66ba-0cf4-11e8-8777-acbc32d35fbf)
+getGroupObjByUuid(e4da8138-0cf4-11e8-aa02-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3/dense_3]
+db.getAttributeItems(e4da8138-0cf4-11e8-aa02-acbc32d35fbf)
+dumpAttributes: e4da8138-0cf4-11e8-aa02-acbc32d35fbf
+db.getLinkItems(e4da8138-0cf4-11e8-aa02-acbc32d35fbf)
+getGroupObjByUuid(e4da8138-0cf4-11e8-aa02-acbc32d35fbf)
+db.getLinkItemByUuid(e4da8138-0cf4-11e8-aa02-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(e4da8138-0cf4-11e8-aa02-acbc32d35fbf)
+db.getLinkItemByUuid(e4da8138-0cf4-11e8-aa02-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(e4da8138-0cf4-11e8-aa02-acbc32d35fbf)
+getGroupObjByUuid(e4dad67d-0cf4-11e8-893d-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4]
+db.getAttributeItems(e4dad67d-0cf4-11e8-893d-acbc32d35fbf)
+dumpAttributes: e4dad67d-0cf4-11e8-893d-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, e4dad67d-0cf4-11e8-893d-acbc32d35fbf, weight_names)
+db.getLinkItems(e4dad67d-0cf4-11e8-893d-acbc32d35fbf)
+getGroupObjByUuid(e4dad67d-0cf4-11e8-893d-acbc32d35fbf)
+db.getLinkItemByUuid(e4dad67d-0cf4-11e8-893d-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(e4dad67d-0cf4-11e8-893d-acbc32d35fbf)
+getGroupObjByUuid(e4daf119-0cf4-11e8-b4fd-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4/dense_4]
+db.getAttributeItems(e4daf119-0cf4-11e8-b4fd-acbc32d35fbf)
+dumpAttributes: e4daf119-0cf4-11e8-b4fd-acbc32d35fbf
+db.getLinkItems(e4daf119-0cf4-11e8-b4fd-acbc32d35fbf)
+getGroupObjByUuid(e4daf119-0cf4-11e8-b4fd-acbc32d35fbf)
+db.getLinkItemByUuid(e4daf119-0cf4-11e8-b4fd-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(e4daf119-0cf4-11e8-b4fd-acbc32d35fbf)
+db.getLinkItemByUuid(e4daf119-0cf4-11e8-b4fd-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(e4daf119-0cf4-11e8-b4fd-acbc32d35fbf)
+getGroupObjByUuid(e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights]
+db.getAttributeItems(e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf)
+dumpAttributes: e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf, weight_names)
+db.getLinkItems(e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf)
+getGroupObjByUuid(e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf)
+db.getLinkItemByUuid(e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf, [SGD])
+getGroupObjByUuid(e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf)
+db.getLinkItemByUuid(e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf, [training])
+getGroupObjByUuid(e4db3ed1-0cf4-11e8-a4e3-acbc32d35fbf)
+getGroupObjByUuid(e4db56b0-0cf4-11e8-8a3b-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/SGD]
+db.getAttributeItems(e4db56b0-0cf4-11e8-8a3b-acbc32d35fbf)
+dumpAttributes: e4db56b0-0cf4-11e8-8a3b-acbc32d35fbf
+db.getLinkItems(e4db56b0-0cf4-11e8-8a3b-acbc32d35fbf)
+getGroupObjByUuid(e4db56b0-0cf4-11e8-8a3b-acbc32d35fbf)
+db.getLinkItemByUuid(e4db56b0-0cf4-11e8-8a3b-acbc32d35fbf, [iterations:0])
+getGroupObjByUuid(e4db56b0-0cf4-11e8-8a3b-acbc32d35fbf)
+getGroupObjByUuid(e4db870f-0cf4-11e8-8347-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training]
+db.getAttributeItems(e4db870f-0cf4-11e8-8347-acbc32d35fbf)
+dumpAttributes: e4db870f-0cf4-11e8-8347-acbc32d35fbf
+db.getLinkItems(e4db870f-0cf4-11e8-8347-acbc32d35fbf)
+getGroupObjByUuid(e4db870f-0cf4-11e8-8347-acbc32d35fbf)
+db.getLinkItemByUuid(e4db870f-0cf4-11e8-8347-acbc32d35fbf, [SGD])
+getGroupObjByUuid(e4db870f-0cf4-11e8-8347-acbc32d35fbf)
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training/SGD]
+db.getAttributeItems(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+dumpAttributes: e4db9d51-0cf4-11e8-8311-acbc32d35fbf
+db.getLinkItems(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+db.getLinkItemByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf, [Variable:0])
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+db.getLinkItemByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf, [Variable_1:0])
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+db.getLinkItemByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf, [Variable_2:0])
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+db.getLinkItemByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf, [Variable_3:0])
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+db.getLinkItemByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf, [Variable_4:0])
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+db.getLinkItemByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf, [Variable_5:0])
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+db.getLinkItemByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf, [Variable_6:0])
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+db.getLinkItemByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf, [Variable_7:0])
+getGroupObjByUuid(e4db9d51-0cf4-11e8-8311-acbc32d35fbf)
+db.getCollection(datasets)
+dumpDataset: e4d9d1a1-0cf4-11e8-8e46-acbc32d35fbf
+getDatasetObjByUuid(e4d9d1a1-0cf4-11e8-8e46-acbc32d35fbf)
+getDatasetObjByUuid(e4d9d1a1-0cf4-11e8-8e46-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/bias:0]
+db.getAttributeItems(e4d9d1a1-0cf4-11e8-8e46-acbc32d35fbf)
+dumpAttributes: e4d9d1a1-0cf4-11e8-8e46-acbc32d35fbf
+getDatasetObjByUuid(e4d9d1a1-0cf4-11e8-8e46-acbc32d35fbf)
+dumpDataset: e4d9fa6b-0cf4-11e8-8e42-acbc32d35fbf
+getDatasetObjByUuid(e4d9fa6b-0cf4-11e8-8e42-acbc32d35fbf)
+getDatasetObjByUuid(e4d9fa6b-0cf4-11e8-8e42-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/kernel:0]
+db.getAttributeItems(e4d9fa6b-0cf4-11e8-8e42-acbc32d35fbf)
+dumpAttributes: e4d9fa6b-0cf4-11e8-8e42-acbc32d35fbf
+getDatasetObjByUuid(e4d9fa6b-0cf4-11e8-8e42-acbc32d35fbf)
+dumpDataset: e4da33de-0cf4-11e8-bc56-acbc32d35fbf
+getDatasetObjByUuid(e4da33de-0cf4-11e8-bc56-acbc32d35fbf)
+getDatasetObjByUuid(e4da33de-0cf4-11e8-bc56-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/bias:0]
+db.getAttributeItems(e4da33de-0cf4-11e8-bc56-acbc32d35fbf)
+dumpAttributes: e4da33de-0cf4-11e8-bc56-acbc32d35fbf
+getDatasetObjByUuid(e4da33de-0cf4-11e8-bc56-acbc32d35fbf)
+dumpDataset: e4da4a6b-0cf4-11e8-bb6a-acbc32d35fbf
+getDatasetObjByUuid(e4da4a6b-0cf4-11e8-bb6a-acbc32d35fbf)
+getDatasetObjByUuid(e4da4a6b-0cf4-11e8-bb6a-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/kernel:0]
+db.getAttributeItems(e4da4a6b-0cf4-11e8-bb6a-acbc32d35fbf)
+dumpAttributes: e4da4a6b-0cf4-11e8-bb6a-acbc32d35fbf
+getDatasetObjByUuid(e4da4a6b-0cf4-11e8-bb6a-acbc32d35fbf)
+dumpDataset: e4da9dc5-0cf4-11e8-b8ab-acbc32d35fbf
+getDatasetObjByUuid(e4da9dc5-0cf4-11e8-b8ab-acbc32d35fbf)
+getDatasetObjByUuid(e4da9dc5-0cf4-11e8-b8ab-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/bias:0]
+db.getAttributeItems(e4da9dc5-0cf4-11e8-b8ab-acbc32d35fbf)
+dumpAttributes: e4da9dc5-0cf4-11e8-b8ab-acbc32d35fbf
+getDatasetObjByUuid(e4da9dc5-0cf4-11e8-b8ab-acbc32d35fbf)
+dumpDataset: e4dabb4c-0cf4-11e8-876b-acbc32d35fbf
+getDatasetObjByUuid(e4dabb4c-0cf4-11e8-876b-acbc32d35fbf)
+getDatasetObjByUuid(e4dabb4c-0cf4-11e8-876b-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/kernel:0]
+db.getAttributeItems(e4dabb4c-0cf4-11e8-876b-acbc32d35fbf)
+dumpAttributes: e4dabb4c-0cf4-11e8-876b-acbc32d35fbf
+getDatasetObjByUuid(e4dabb4c-0cf4-11e8-876b-acbc32d35fbf)
+dumpDataset: e4db0b45-0cf4-11e8-b3c9-acbc32d35fbf
+getDatasetObjByUuid(e4db0b45-0cf4-11e8-b3c9-acbc32d35fbf)
+getDatasetObjByUuid(e4db0b45-0cf4-11e8-b3c9-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/bias:0]
+db.getAttributeItems(e4db0b45-0cf4-11e8-b3c9-acbc32d35fbf)
+dumpAttributes: e4db0b45-0cf4-11e8-b3c9-acbc32d35fbf
+getDatasetObjByUuid(e4db0b45-0cf4-11e8-b3c9-acbc32d35fbf)
+dumpDataset: e4db25d4-0cf4-11e8-a4b9-acbc32d35fbf
+getDatasetObjByUuid(e4db25d4-0cf4-11e8-a4b9-acbc32d35fbf)
+getDatasetObjByUuid(e4db25d4-0cf4-11e8-a4b9-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/kernel:0]
+db.getAttributeItems(e4db25d4-0cf4-11e8-a4b9-acbc32d35fbf)
+dumpAttributes: e4db25d4-0cf4-11e8-a4b9-acbc32d35fbf
+getDatasetObjByUuid(e4db25d4-0cf4-11e8-a4b9-acbc32d35fbf)
+dumpDataset: e4db702b-0cf4-11e8-b3a7-acbc32d35fbf
+getDatasetObjByUuid(e4db702b-0cf4-11e8-b3a7-acbc32d35fbf)
+getDatasetObjByUuid(e4db702b-0cf4-11e8-b3a7-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/SGD/iterations:0]
+db.getAttributeItems(e4db702b-0cf4-11e8-b3a7-acbc32d35fbf)
+dumpAttributes: e4db702b-0cf4-11e8-b3a7-acbc32d35fbf
+getDatasetObjByUuid(e4db702b-0cf4-11e8-b3a7-acbc32d35fbf)
+dumpDataset: e4dbb697-0cf4-11e8-b992-acbc32d35fbf
+getDatasetObjByUuid(e4dbb697-0cf4-11e8-b992-acbc32d35fbf)
+getDatasetObjByUuid(e4dbb697-0cf4-11e8-b992-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable:0]
+db.getAttributeItems(e4dbb697-0cf4-11e8-b992-acbc32d35fbf)
+dumpAttributes: e4dbb697-0cf4-11e8-b992-acbc32d35fbf
+getDatasetObjByUuid(e4dbb697-0cf4-11e8-b992-acbc32d35fbf)
+dumpDataset: e4dbcfe8-0cf4-11e8-b656-acbc32d35fbf
+getDatasetObjByUuid(e4dbcfe8-0cf4-11e8-b656-acbc32d35fbf)
+getDatasetObjByUuid(e4dbcfe8-0cf4-11e8-b656-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_1:0]
+db.getAttributeItems(e4dbcfe8-0cf4-11e8-b656-acbc32d35fbf)
+dumpAttributes: e4dbcfe8-0cf4-11e8-b656-acbc32d35fbf
+getDatasetObjByUuid(e4dbcfe8-0cf4-11e8-b656-acbc32d35fbf)
+dumpDataset: e4dbe726-0cf4-11e8-91c1-acbc32d35fbf
+getDatasetObjByUuid(e4dbe726-0cf4-11e8-91c1-acbc32d35fbf)
+getDatasetObjByUuid(e4dbe726-0cf4-11e8-91c1-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_2:0]
+db.getAttributeItems(e4dbe726-0cf4-11e8-91c1-acbc32d35fbf)
+dumpAttributes: e4dbe726-0cf4-11e8-91c1-acbc32d35fbf
+getDatasetObjByUuid(e4dbe726-0cf4-11e8-91c1-acbc32d35fbf)
+dumpDataset: e4dbfe6e-0cf4-11e8-8eba-acbc32d35fbf
+getDatasetObjByUuid(e4dbfe6e-0cf4-11e8-8eba-acbc32d35fbf)
+getDatasetObjByUuid(e4dbfe6e-0cf4-11e8-8eba-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_3:0]
+db.getAttributeItems(e4dbfe6e-0cf4-11e8-8eba-acbc32d35fbf)
+dumpAttributes: e4dbfe6e-0cf4-11e8-8eba-acbc32d35fbf
+getDatasetObjByUuid(e4dbfe6e-0cf4-11e8-8eba-acbc32d35fbf)
+dumpDataset: e4dc1430-0cf4-11e8-8c89-acbc32d35fbf
+getDatasetObjByUuid(e4dc1430-0cf4-11e8-8c89-acbc32d35fbf)
+getDatasetObjByUuid(e4dc1430-0cf4-11e8-8c89-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_4:0]
+db.getAttributeItems(e4dc1430-0cf4-11e8-8c89-acbc32d35fbf)
+dumpAttributes: e4dc1430-0cf4-11e8-8c89-acbc32d35fbf
+getDatasetObjByUuid(e4dc1430-0cf4-11e8-8c89-acbc32d35fbf)
+dumpDataset: e4dc29b5-0cf4-11e8-a1d6-acbc32d35fbf
+getDatasetObjByUuid(e4dc29b5-0cf4-11e8-a1d6-acbc32d35fbf)
+getDatasetObjByUuid(e4dc29b5-0cf4-11e8-a1d6-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_5:0]
+db.getAttributeItems(e4dc29b5-0cf4-11e8-a1d6-acbc32d35fbf)
+dumpAttributes: e4dc29b5-0cf4-11e8-a1d6-acbc32d35fbf
+getDatasetObjByUuid(e4dc29b5-0cf4-11e8-a1d6-acbc32d35fbf)
+dumpDataset: e4dc4191-0cf4-11e8-a49b-acbc32d35fbf
+getDatasetObjByUuid(e4dc4191-0cf4-11e8-a49b-acbc32d35fbf)
+getDatasetObjByUuid(e4dc4191-0cf4-11e8-a49b-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_6:0]
+db.getAttributeItems(e4dc4191-0cf4-11e8-a49b-acbc32d35fbf)
+dumpAttributes: e4dc4191-0cf4-11e8-a49b-acbc32d35fbf
+getDatasetObjByUuid(e4dc4191-0cf4-11e8-a49b-acbc32d35fbf)
+dumpDataset: e4dc5761-0cf4-11e8-b07d-acbc32d35fbf
+getDatasetObjByUuid(e4dc5761-0cf4-11e8-b07d-acbc32d35fbf)
+getDatasetObjByUuid(e4dc5761-0cf4-11e8-b07d-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_7:0]
+db.getAttributeItems(e4dc5761-0cf4-11e8-b07d-acbc32d35fbf)
+dumpAttributes: e4dc5761-0cf4-11e8-b07d-acbc32d35fbf
+getDatasetObjByUuid(e4dc5761-0cf4-11e8-b07d-acbc32d35fbf)
+db.getCollection(datatypes)
+Hdf5db __exit
+h5tojson models/my_model.h5
+Using dbFile: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmphUHUUB
+init -- filePath: models/my_model.h5 mode: r
+dbFilePath: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmphUHUUB mode: r+
+Hdf5db __enter
+initializing file
+visit: model_weights name: Group
+visit: model_weights/dense_1 name: Group
+visit: model_weights/dense_1/dense_1 name: Group
+visit: model_weights/dense_1/dense_1/bias:0 name: Dataset
+visit: model_weights/dense_1/dense_1/kernel:0 name: Dataset
+visit: model_weights/dense_2 name: Group
+visit: model_weights/dense_2/dense_2 name: Group
+visit: model_weights/dense_2/dense_2/bias:0 name: Dataset
+visit: model_weights/dense_2/dense_2/kernel:0 name: Dataset
+visit: model_weights/dense_3 name: Group
+visit: model_weights/dense_3/dense_3 name: Group
+visit: model_weights/dense_3/dense_3/bias:0 name: Dataset
+visit: model_weights/dense_3/dense_3/kernel:0 name: Dataset
+visit: model_weights/dense_4 name: Group
+visit: model_weights/dense_4/dense_4 name: Group
+visit: model_weights/dense_4/dense_4/bias:0 name: Dataset
+visit: model_weights/dense_4/dense_4/kernel:0 name: Dataset
+visit: optimizer_weights name: Group
+visit: optimizer_weights/SGD name: Group
+visit: optimizer_weights/SGD/iterations:0 name: Dataset
+visit: optimizer_weights/training name: Group
+visit: optimizer_weights/training/SGD name: Group
+visit: optimizer_weights/training/SGD/Variable:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_1:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_2:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_3:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_4:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_5:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_6:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_7:0 name: Dataset
+getUUIDByPath: [/]
+getGroupObjByUuid(12b40e26-0cf5-11e8-8016-acbc32d35fbf)
+dumpGroup alias: [/]
+db.getAttributeItems(12b40e26-0cf5-11e8-8016-acbc32d35fbf)
+dumpAttributes: 12b40e26-0cf5-11e8-8016-acbc32d35fbf
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 12b40e26-0cf5-11e8-8016-acbc32d35fbf, keras_version)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 12b40e26-0cf5-11e8-8016-acbc32d35fbf, backend)
+dumpAttribute: [model_config]
+getAttributeItemByUuid(groups, 12b40e26-0cf5-11e8-8016-acbc32d35fbf, model_config)
+dumpAttribute: [training_config]
+getAttributeItemByUuid(groups, 12b40e26-0cf5-11e8-8016-acbc32d35fbf, training_config)
+db.getLinkItems(12b40e26-0cf5-11e8-8016-acbc32d35fbf)
+getGroupObjByUuid(12b40e26-0cf5-11e8-8016-acbc32d35fbf)
+db.getLinkItemByUuid(12b40e26-0cf5-11e8-8016-acbc32d35fbf, [model_weights])
+getGroupObjByUuid(12b40e26-0cf5-11e8-8016-acbc32d35fbf)
+db.getLinkItemByUuid(12b40e26-0cf5-11e8-8016-acbc32d35fbf, [optimizer_weights])
+getGroupObjByUuid(12b40e26-0cf5-11e8-8016-acbc32d35fbf)
+db.getCollection(groups)
+getGroupObjByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf)
+dumpGroup alias: [/model_weights]
+db.getAttributeItems(12b55178-0cf5-11e8-bdda-acbc32d35fbf)
+dumpAttributes: 12b55178-0cf5-11e8-bdda-acbc32d35fbf
+dumpAttribute: [layer_names]
+getAttributeItemByUuid(groups, 12b55178-0cf5-11e8-bdda-acbc32d35fbf, layer_names)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 12b55178-0cf5-11e8-bdda-acbc32d35fbf, backend)
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 12b55178-0cf5-11e8-bdda-acbc32d35fbf, keras_version)
+db.getLinkItems(12b55178-0cf5-11e8-bdda-acbc32d35fbf)
+getGroupObjByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf)
+db.getLinkItemByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf)
+db.getLinkItemByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf)
+db.getLinkItemByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf)
+db.getLinkItemByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(12b55178-0cf5-11e8-bdda-acbc32d35fbf)
+getGroupObjByUuid(12b56757-0cf5-11e8-8a44-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1]
+db.getAttributeItems(12b56757-0cf5-11e8-8a44-acbc32d35fbf)
+dumpAttributes: 12b56757-0cf5-11e8-8a44-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 12b56757-0cf5-11e8-8a44-acbc32d35fbf, weight_names)
+db.getLinkItems(12b56757-0cf5-11e8-8a44-acbc32d35fbf)
+getGroupObjByUuid(12b56757-0cf5-11e8-8a44-acbc32d35fbf)
+db.getLinkItemByUuid(12b56757-0cf5-11e8-8a44-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(12b56757-0cf5-11e8-8a44-acbc32d35fbf)
+getGroupObjByUuid(12b579a8-0cf5-11e8-8045-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1/dense_1]
+db.getAttributeItems(12b579a8-0cf5-11e8-8045-acbc32d35fbf)
+dumpAttributes: 12b579a8-0cf5-11e8-8045-acbc32d35fbf
+db.getLinkItems(12b579a8-0cf5-11e8-8045-acbc32d35fbf)
+getGroupObjByUuid(12b579a8-0cf5-11e8-8045-acbc32d35fbf)
+db.getLinkItemByUuid(12b579a8-0cf5-11e8-8045-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(12b579a8-0cf5-11e8-8045-acbc32d35fbf)
+db.getLinkItemByUuid(12b579a8-0cf5-11e8-8045-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(12b579a8-0cf5-11e8-8045-acbc32d35fbf)
+getGroupObjByUuid(12b5b938-0cf5-11e8-a0e8-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2]
+db.getAttributeItems(12b5b938-0cf5-11e8-a0e8-acbc32d35fbf)
+dumpAttributes: 12b5b938-0cf5-11e8-a0e8-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 12b5b938-0cf5-11e8-a0e8-acbc32d35fbf, weight_names)
+db.getLinkItems(12b5b938-0cf5-11e8-a0e8-acbc32d35fbf)
+getGroupObjByUuid(12b5b938-0cf5-11e8-a0e8-acbc32d35fbf)
+db.getLinkItemByUuid(12b5b938-0cf5-11e8-a0e8-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(12b5b938-0cf5-11e8-a0e8-acbc32d35fbf)
+getGroupObjByUuid(12b5cb4c-0cf5-11e8-999b-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2/dense_2]
+db.getAttributeItems(12b5cb4c-0cf5-11e8-999b-acbc32d35fbf)
+dumpAttributes: 12b5cb4c-0cf5-11e8-999b-acbc32d35fbf
+db.getLinkItems(12b5cb4c-0cf5-11e8-999b-acbc32d35fbf)
+getGroupObjByUuid(12b5cb4c-0cf5-11e8-999b-acbc32d35fbf)
+db.getLinkItemByUuid(12b5cb4c-0cf5-11e8-999b-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(12b5cb4c-0cf5-11e8-999b-acbc32d35fbf)
+db.getLinkItemByUuid(12b5cb4c-0cf5-11e8-999b-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(12b5cb4c-0cf5-11e8-999b-acbc32d35fbf)
+getGroupObjByUuid(12b60597-0cf5-11e8-9651-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3]
+db.getAttributeItems(12b60597-0cf5-11e8-9651-acbc32d35fbf)
+dumpAttributes: 12b60597-0cf5-11e8-9651-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 12b60597-0cf5-11e8-9651-acbc32d35fbf, weight_names)
+db.getLinkItems(12b60597-0cf5-11e8-9651-acbc32d35fbf)
+getGroupObjByUuid(12b60597-0cf5-11e8-9651-acbc32d35fbf)
+db.getLinkItemByUuid(12b60597-0cf5-11e8-9651-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(12b60597-0cf5-11e8-9651-acbc32d35fbf)
+getGroupObjByUuid(12b61914-0cf5-11e8-a6b6-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3/dense_3]
+db.getAttributeItems(12b61914-0cf5-11e8-a6b6-acbc32d35fbf)
+dumpAttributes: 12b61914-0cf5-11e8-a6b6-acbc32d35fbf
+db.getLinkItems(12b61914-0cf5-11e8-a6b6-acbc32d35fbf)
+getGroupObjByUuid(12b61914-0cf5-11e8-a6b6-acbc32d35fbf)
+db.getLinkItemByUuid(12b61914-0cf5-11e8-a6b6-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(12b61914-0cf5-11e8-a6b6-acbc32d35fbf)
+db.getLinkItemByUuid(12b61914-0cf5-11e8-a6b6-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(12b61914-0cf5-11e8-a6b6-acbc32d35fbf)
+getGroupObjByUuid(12b65726-0cf5-11e8-a83e-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4]
+db.getAttributeItems(12b65726-0cf5-11e8-a83e-acbc32d35fbf)
+dumpAttributes: 12b65726-0cf5-11e8-a83e-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 12b65726-0cf5-11e8-a83e-acbc32d35fbf, weight_names)
+db.getLinkItems(12b65726-0cf5-11e8-a83e-acbc32d35fbf)
+getGroupObjByUuid(12b65726-0cf5-11e8-a83e-acbc32d35fbf)
+db.getLinkItemByUuid(12b65726-0cf5-11e8-a83e-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(12b65726-0cf5-11e8-a83e-acbc32d35fbf)
+getGroupObjByUuid(12b66b8a-0cf5-11e8-90dc-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4/dense_4]
+db.getAttributeItems(12b66b8a-0cf5-11e8-90dc-acbc32d35fbf)
+dumpAttributes: 12b66b8a-0cf5-11e8-90dc-acbc32d35fbf
+db.getLinkItems(12b66b8a-0cf5-11e8-90dc-acbc32d35fbf)
+getGroupObjByUuid(12b66b8a-0cf5-11e8-90dc-acbc32d35fbf)
+db.getLinkItemByUuid(12b66b8a-0cf5-11e8-90dc-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(12b66b8a-0cf5-11e8-90dc-acbc32d35fbf)
+db.getLinkItemByUuid(12b66b8a-0cf5-11e8-90dc-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(12b66b8a-0cf5-11e8-90dc-acbc32d35fbf)
+getGroupObjByUuid(12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights]
+db.getAttributeItems(12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf)
+dumpAttributes: 12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf, weight_names)
+db.getLinkItems(12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf)
+getGroupObjByUuid(12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf)
+db.getLinkItemByUuid(12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf, [SGD])
+getGroupObjByUuid(12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf)
+db.getLinkItemByUuid(12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf, [training])
+getGroupObjByUuid(12b6d2fa-0cf5-11e8-93c2-acbc32d35fbf)
+getGroupObjByUuid(12b6eb8c-0cf5-11e8-928e-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/SGD]
+db.getAttributeItems(12b6eb8c-0cf5-11e8-928e-acbc32d35fbf)
+dumpAttributes: 12b6eb8c-0cf5-11e8-928e-acbc32d35fbf
+db.getLinkItems(12b6eb8c-0cf5-11e8-928e-acbc32d35fbf)
+getGroupObjByUuid(12b6eb8c-0cf5-11e8-928e-acbc32d35fbf)
+db.getLinkItemByUuid(12b6eb8c-0cf5-11e8-928e-acbc32d35fbf, [iterations:0])
+getGroupObjByUuid(12b6eb8c-0cf5-11e8-928e-acbc32d35fbf)
+getGroupObjByUuid(12b71d8c-0cf5-11e8-be7f-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training]
+db.getAttributeItems(12b71d8c-0cf5-11e8-be7f-acbc32d35fbf)
+dumpAttributes: 12b71d8c-0cf5-11e8-be7f-acbc32d35fbf
+db.getLinkItems(12b71d8c-0cf5-11e8-be7f-acbc32d35fbf)
+getGroupObjByUuid(12b71d8c-0cf5-11e8-be7f-acbc32d35fbf)
+db.getLinkItemByUuid(12b71d8c-0cf5-11e8-be7f-acbc32d35fbf, [SGD])
+getGroupObjByUuid(12b71d8c-0cf5-11e8-be7f-acbc32d35fbf)
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training/SGD]
+db.getAttributeItems(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+dumpAttributes: 12b731dc-0cf5-11e8-8be6-acbc32d35fbf
+db.getLinkItems(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+db.getLinkItemByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf, [Variable:0])
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+db.getLinkItemByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf, [Variable_1:0])
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+db.getLinkItemByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf, [Variable_2:0])
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+db.getLinkItemByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf, [Variable_3:0])
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+db.getLinkItemByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf, [Variable_4:0])
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+db.getLinkItemByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf, [Variable_5:0])
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+db.getLinkItemByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf, [Variable_6:0])
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+db.getLinkItemByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf, [Variable_7:0])
+getGroupObjByUuid(12b731dc-0cf5-11e8-8be6-acbc32d35fbf)
+db.getCollection(datasets)
+dumpDataset: 12b59180-0cf5-11e8-85a4-acbc32d35fbf
+getDatasetObjByUuid(12b59180-0cf5-11e8-85a4-acbc32d35fbf)
+getDatasetObjByUuid(12b59180-0cf5-11e8-85a4-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/bias:0]
+db.getAttributeItems(12b59180-0cf5-11e8-85a4-acbc32d35fbf)
+dumpAttributes: 12b59180-0cf5-11e8-85a4-acbc32d35fbf
+getDatasetObjByUuid(12b59180-0cf5-11e8-85a4-acbc32d35fbf)
+dumpDataset: 12b5a6b3-0cf5-11e8-9623-acbc32d35fbf
+getDatasetObjByUuid(12b5a6b3-0cf5-11e8-9623-acbc32d35fbf)
+getDatasetObjByUuid(12b5a6b3-0cf5-11e8-9623-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/kernel:0]
+db.getAttributeItems(12b5a6b3-0cf5-11e8-9623-acbc32d35fbf)
+dumpAttributes: 12b5a6b3-0cf5-11e8-9623-acbc32d35fbf
+getDatasetObjByUuid(12b5a6b3-0cf5-11e8-9623-acbc32d35fbf)
+dumpDataset: 12b5df07-0cf5-11e8-b228-acbc32d35fbf
+getDatasetObjByUuid(12b5df07-0cf5-11e8-b228-acbc32d35fbf)
+getDatasetObjByUuid(12b5df07-0cf5-11e8-b228-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/bias:0]
+db.getAttributeItems(12b5df07-0cf5-11e8-b228-acbc32d35fbf)
+dumpAttributes: 12b5df07-0cf5-11e8-b228-acbc32d35fbf
+getDatasetObjByUuid(12b5df07-0cf5-11e8-b228-acbc32d35fbf)
+dumpDataset: 12b5f326-0cf5-11e8-bda6-acbc32d35fbf
+getDatasetObjByUuid(12b5f326-0cf5-11e8-bda6-acbc32d35fbf)
+getDatasetObjByUuid(12b5f326-0cf5-11e8-bda6-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/kernel:0]
+db.getAttributeItems(12b5f326-0cf5-11e8-bda6-acbc32d35fbf)
+dumpAttributes: 12b5f326-0cf5-11e8-bda6-acbc32d35fbf
+getDatasetObjByUuid(12b5f326-0cf5-11e8-bda6-acbc32d35fbf)
+dumpDataset: 12b62da8-0cf5-11e8-8502-acbc32d35fbf
+getDatasetObjByUuid(12b62da8-0cf5-11e8-8502-acbc32d35fbf)
+getDatasetObjByUuid(12b62da8-0cf5-11e8-8502-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/bias:0]
+db.getAttributeItems(12b62da8-0cf5-11e8-8502-acbc32d35fbf)
+dumpAttributes: 12b62da8-0cf5-11e8-8502-acbc32d35fbf
+getDatasetObjByUuid(12b62da8-0cf5-11e8-8502-acbc32d35fbf)
+dumpDataset: 12b643ee-0cf5-11e8-8f39-acbc32d35fbf
+getDatasetObjByUuid(12b643ee-0cf5-11e8-8f39-acbc32d35fbf)
+getDatasetObjByUuid(12b643ee-0cf5-11e8-8f39-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/kernel:0]
+db.getAttributeItems(12b643ee-0cf5-11e8-8f39-acbc32d35fbf)
+dumpAttributes: 12b643ee-0cf5-11e8-8f39-acbc32d35fbf
+getDatasetObjByUuid(12b643ee-0cf5-11e8-8f39-acbc32d35fbf)
+dumpDataset: 12b69440-0cf5-11e8-8132-acbc32d35fbf
+getDatasetObjByUuid(12b69440-0cf5-11e8-8132-acbc32d35fbf)
+getDatasetObjByUuid(12b69440-0cf5-11e8-8132-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/bias:0]
+db.getAttributeItems(12b69440-0cf5-11e8-8132-acbc32d35fbf)
+dumpAttributes: 12b69440-0cf5-11e8-8132-acbc32d35fbf
+getDatasetObjByUuid(12b69440-0cf5-11e8-8132-acbc32d35fbf)
+dumpDataset: 12b6b68a-0cf5-11e8-9d5e-acbc32d35fbf
+getDatasetObjByUuid(12b6b68a-0cf5-11e8-9d5e-acbc32d35fbf)
+getDatasetObjByUuid(12b6b68a-0cf5-11e8-9d5e-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/kernel:0]
+db.getAttributeItems(12b6b68a-0cf5-11e8-9d5e-acbc32d35fbf)
+dumpAttributes: 12b6b68a-0cf5-11e8-9d5e-acbc32d35fbf
+getDatasetObjByUuid(12b6b68a-0cf5-11e8-9d5e-acbc32d35fbf)
+dumpDataset: 12b705d7-0cf5-11e8-89ff-acbc32d35fbf
+getDatasetObjByUuid(12b705d7-0cf5-11e8-89ff-acbc32d35fbf)
+getDatasetObjByUuid(12b705d7-0cf5-11e8-89ff-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/SGD/iterations:0]
+db.getAttributeItems(12b705d7-0cf5-11e8-89ff-acbc32d35fbf)
+dumpAttributes: 12b705d7-0cf5-11e8-89ff-acbc32d35fbf
+getDatasetObjByUuid(12b705d7-0cf5-11e8-89ff-acbc32d35fbf)
+dumpDataset: 12b74aee-0cf5-11e8-94ee-acbc32d35fbf
+getDatasetObjByUuid(12b74aee-0cf5-11e8-94ee-acbc32d35fbf)
+getDatasetObjByUuid(12b74aee-0cf5-11e8-94ee-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable:0]
+db.getAttributeItems(12b74aee-0cf5-11e8-94ee-acbc32d35fbf)
+dumpAttributes: 12b74aee-0cf5-11e8-94ee-acbc32d35fbf
+getDatasetObjByUuid(12b74aee-0cf5-11e8-94ee-acbc32d35fbf)
+dumpDataset: 12b769d7-0cf5-11e8-b5dc-acbc32d35fbf
+getDatasetObjByUuid(12b769d7-0cf5-11e8-b5dc-acbc32d35fbf)
+getDatasetObjByUuid(12b769d7-0cf5-11e8-b5dc-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_1:0]
+db.getAttributeItems(12b769d7-0cf5-11e8-b5dc-acbc32d35fbf)
+dumpAttributes: 12b769d7-0cf5-11e8-b5dc-acbc32d35fbf
+getDatasetObjByUuid(12b769d7-0cf5-11e8-b5dc-acbc32d35fbf)
+dumpDataset: 12b788f8-0cf5-11e8-9500-acbc32d35fbf
+getDatasetObjByUuid(12b788f8-0cf5-11e8-9500-acbc32d35fbf)
+getDatasetObjByUuid(12b788f8-0cf5-11e8-9500-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_2:0]
+db.getAttributeItems(12b788f8-0cf5-11e8-9500-acbc32d35fbf)
+dumpAttributes: 12b788f8-0cf5-11e8-9500-acbc32d35fbf
+getDatasetObjByUuid(12b788f8-0cf5-11e8-9500-acbc32d35fbf)
+dumpDataset: 12b7a8eb-0cf5-11e8-bf20-acbc32d35fbf
+getDatasetObjByUuid(12b7a8eb-0cf5-11e8-bf20-acbc32d35fbf)
+getDatasetObjByUuid(12b7a8eb-0cf5-11e8-bf20-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_3:0]
+db.getAttributeItems(12b7a8eb-0cf5-11e8-bf20-acbc32d35fbf)
+dumpAttributes: 12b7a8eb-0cf5-11e8-bf20-acbc32d35fbf
+getDatasetObjByUuid(12b7a8eb-0cf5-11e8-bf20-acbc32d35fbf)
+dumpDataset: 12b7c80f-0cf5-11e8-8a5e-acbc32d35fbf
+getDatasetObjByUuid(12b7c80f-0cf5-11e8-8a5e-acbc32d35fbf)
+getDatasetObjByUuid(12b7c80f-0cf5-11e8-8a5e-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_4:0]
+db.getAttributeItems(12b7c80f-0cf5-11e8-8a5e-acbc32d35fbf)
+dumpAttributes: 12b7c80f-0cf5-11e8-8a5e-acbc32d35fbf
+getDatasetObjByUuid(12b7c80f-0cf5-11e8-8a5e-acbc32d35fbf)
+dumpDataset: 12b7e7a8-0cf5-11e8-b32c-acbc32d35fbf
+getDatasetObjByUuid(12b7e7a8-0cf5-11e8-b32c-acbc32d35fbf)
+getDatasetObjByUuid(12b7e7a8-0cf5-11e8-b32c-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_5:0]
+db.getAttributeItems(12b7e7a8-0cf5-11e8-b32c-acbc32d35fbf)
+dumpAttributes: 12b7e7a8-0cf5-11e8-b32c-acbc32d35fbf
+getDatasetObjByUuid(12b7e7a8-0cf5-11e8-b32c-acbc32d35fbf)
+dumpDataset: 12b806c0-0cf5-11e8-9348-acbc32d35fbf
+getDatasetObjByUuid(12b806c0-0cf5-11e8-9348-acbc32d35fbf)
+getDatasetObjByUuid(12b806c0-0cf5-11e8-9348-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_6:0]
+db.getAttributeItems(12b806c0-0cf5-11e8-9348-acbc32d35fbf)
+dumpAttributes: 12b806c0-0cf5-11e8-9348-acbc32d35fbf
+getDatasetObjByUuid(12b806c0-0cf5-11e8-9348-acbc32d35fbf)
+dumpDataset: 12b81e45-0cf5-11e8-a3a1-acbc32d35fbf
+getDatasetObjByUuid(12b81e45-0cf5-11e8-a3a1-acbc32d35fbf)
+getDatasetObjByUuid(12b81e45-0cf5-11e8-a3a1-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_7:0]
+db.getAttributeItems(12b81e45-0cf5-11e8-a3a1-acbc32d35fbf)
+dumpAttributes: 12b81e45-0cf5-11e8-a3a1-acbc32d35fbf
+getDatasetObjByUuid(12b81e45-0cf5-11e8-a3a1-acbc32d35fbf)
+db.getCollection(datatypes)
+Hdf5db __exit
+h5tojson models/my_model.h5
+Using dbFile: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpLIGQPE
+init -- filePath: models/my_model.h5 mode: r
+dbFilePath: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpLIGQPE mode: r+
+Hdf5db __enter
+initializing file
+visit: model_weights name: Group
+visit: model_weights/dense_1 name: Group
+visit: model_weights/dense_1/dense_1 name: Group
+visit: model_weights/dense_1/dense_1/bias:0 name: Dataset
+visit: model_weights/dense_1/dense_1/kernel:0 name: Dataset
+visit: model_weights/dense_2 name: Group
+visit: model_weights/dense_2/dense_2 name: Group
+visit: model_weights/dense_2/dense_2/bias:0 name: Dataset
+visit: model_weights/dense_2/dense_2/kernel:0 name: Dataset
+visit: model_weights/dense_3 name: Group
+visit: model_weights/dense_3/dense_3 name: Group
+visit: model_weights/dense_3/dense_3/bias:0 name: Dataset
+visit: model_weights/dense_3/dense_3/kernel:0 name: Dataset
+visit: model_weights/dense_4 name: Group
+visit: model_weights/dense_4/dense_4 name: Group
+visit: model_weights/dense_4/dense_4/bias:0 name: Dataset
+visit: model_weights/dense_4/dense_4/kernel:0 name: Dataset
+visit: optimizer_weights name: Group
+visit: optimizer_weights/SGD name: Group
+visit: optimizer_weights/SGD/iterations:0 name: Dataset
+visit: optimizer_weights/training name: Group
+visit: optimizer_weights/training/SGD name: Group
+visit: optimizer_weights/training/SGD/Variable:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_1:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_2:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_3:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_4:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_5:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_6:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_7:0 name: Dataset
+getUUIDByPath: [/]
+getGroupObjByUuid(1e580aa3-0cf5-11e8-a856-acbc32d35fbf)
+dumpGroup alias: [/]
+db.getAttributeItems(1e580aa3-0cf5-11e8-a856-acbc32d35fbf)
+dumpAttributes: 1e580aa3-0cf5-11e8-a856-acbc32d35fbf
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 1e580aa3-0cf5-11e8-a856-acbc32d35fbf, keras_version)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 1e580aa3-0cf5-11e8-a856-acbc32d35fbf, backend)
+dumpAttribute: [model_config]
+getAttributeItemByUuid(groups, 1e580aa3-0cf5-11e8-a856-acbc32d35fbf, model_config)
+dumpAttribute: [training_config]
+getAttributeItemByUuid(groups, 1e580aa3-0cf5-11e8-a856-acbc32d35fbf, training_config)
+db.getLinkItems(1e580aa3-0cf5-11e8-a856-acbc32d35fbf)
+getGroupObjByUuid(1e580aa3-0cf5-11e8-a856-acbc32d35fbf)
+db.getLinkItemByUuid(1e580aa3-0cf5-11e8-a856-acbc32d35fbf, [model_weights])
+getGroupObjByUuid(1e580aa3-0cf5-11e8-a856-acbc32d35fbf)
+db.getLinkItemByUuid(1e580aa3-0cf5-11e8-a856-acbc32d35fbf, [optimizer_weights])
+getGroupObjByUuid(1e580aa3-0cf5-11e8-a856-acbc32d35fbf)
+db.getCollection(groups)
+getGroupObjByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf)
+dumpGroup alias: [/model_weights]
+db.getAttributeItems(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf)
+dumpAttributes: 1e593b8c-0cf5-11e8-8cab-acbc32d35fbf
+dumpAttribute: [layer_names]
+getAttributeItemByUuid(groups, 1e593b8c-0cf5-11e8-8cab-acbc32d35fbf, layer_names)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 1e593b8c-0cf5-11e8-8cab-acbc32d35fbf, backend)
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 1e593b8c-0cf5-11e8-8cab-acbc32d35fbf, keras_version)
+db.getLinkItems(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf)
+getGroupObjByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf)
+db.getLinkItemByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf)
+db.getLinkItemByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf)
+db.getLinkItemByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf)
+db.getLinkItemByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(1e593b8c-0cf5-11e8-8cab-acbc32d35fbf)
+getGroupObjByUuid(1e595330-0cf5-11e8-8bb7-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1]
+db.getAttributeItems(1e595330-0cf5-11e8-8bb7-acbc32d35fbf)
+dumpAttributes: 1e595330-0cf5-11e8-8bb7-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 1e595330-0cf5-11e8-8bb7-acbc32d35fbf, weight_names)
+db.getLinkItems(1e595330-0cf5-11e8-8bb7-acbc32d35fbf)
+getGroupObjByUuid(1e595330-0cf5-11e8-8bb7-acbc32d35fbf)
+db.getLinkItemByUuid(1e595330-0cf5-11e8-8bb7-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(1e595330-0cf5-11e8-8bb7-acbc32d35fbf)
+getGroupObjByUuid(1e596a63-0cf5-11e8-a2ab-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1/dense_1]
+db.getAttributeItems(1e596a63-0cf5-11e8-a2ab-acbc32d35fbf)
+dumpAttributes: 1e596a63-0cf5-11e8-a2ab-acbc32d35fbf
+db.getLinkItems(1e596a63-0cf5-11e8-a2ab-acbc32d35fbf)
+getGroupObjByUuid(1e596a63-0cf5-11e8-a2ab-acbc32d35fbf)
+db.getLinkItemByUuid(1e596a63-0cf5-11e8-a2ab-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(1e596a63-0cf5-11e8-a2ab-acbc32d35fbf)
+db.getLinkItemByUuid(1e596a63-0cf5-11e8-a2ab-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(1e596a63-0cf5-11e8-a2ab-acbc32d35fbf)
+getGroupObjByUuid(1e59b475-0cf5-11e8-bd3c-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2]
+db.getAttributeItems(1e59b475-0cf5-11e8-bd3c-acbc32d35fbf)
+dumpAttributes: 1e59b475-0cf5-11e8-bd3c-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 1e59b475-0cf5-11e8-bd3c-acbc32d35fbf, weight_names)
+db.getLinkItems(1e59b475-0cf5-11e8-bd3c-acbc32d35fbf)
+getGroupObjByUuid(1e59b475-0cf5-11e8-bd3c-acbc32d35fbf)
+db.getLinkItemByUuid(1e59b475-0cf5-11e8-bd3c-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(1e59b475-0cf5-11e8-bd3c-acbc32d35fbf)
+getGroupObjByUuid(1e59c87d-0cf5-11e8-8acb-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2/dense_2]
+db.getAttributeItems(1e59c87d-0cf5-11e8-8acb-acbc32d35fbf)
+dumpAttributes: 1e59c87d-0cf5-11e8-8acb-acbc32d35fbf
+db.getLinkItems(1e59c87d-0cf5-11e8-8acb-acbc32d35fbf)
+getGroupObjByUuid(1e59c87d-0cf5-11e8-8acb-acbc32d35fbf)
+db.getLinkItemByUuid(1e59c87d-0cf5-11e8-8acb-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(1e59c87d-0cf5-11e8-8acb-acbc32d35fbf)
+db.getLinkItemByUuid(1e59c87d-0cf5-11e8-8acb-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(1e59c87d-0cf5-11e8-8acb-acbc32d35fbf)
+getGroupObjByUuid(1e5a0457-0cf5-11e8-be0d-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3]
+db.getAttributeItems(1e5a0457-0cf5-11e8-be0d-acbc32d35fbf)
+dumpAttributes: 1e5a0457-0cf5-11e8-be0d-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 1e5a0457-0cf5-11e8-be0d-acbc32d35fbf, weight_names)
+db.getLinkItems(1e5a0457-0cf5-11e8-be0d-acbc32d35fbf)
+getGroupObjByUuid(1e5a0457-0cf5-11e8-be0d-acbc32d35fbf)
+db.getLinkItemByUuid(1e5a0457-0cf5-11e8-be0d-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(1e5a0457-0cf5-11e8-be0d-acbc32d35fbf)
+getGroupObjByUuid(1e5a17ca-0cf5-11e8-bee4-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3/dense_3]
+db.getAttributeItems(1e5a17ca-0cf5-11e8-bee4-acbc32d35fbf)
+dumpAttributes: 1e5a17ca-0cf5-11e8-bee4-acbc32d35fbf
+db.getLinkItems(1e5a17ca-0cf5-11e8-bee4-acbc32d35fbf)
+getGroupObjByUuid(1e5a17ca-0cf5-11e8-bee4-acbc32d35fbf)
+db.getLinkItemByUuid(1e5a17ca-0cf5-11e8-bee4-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(1e5a17ca-0cf5-11e8-bee4-acbc32d35fbf)
+db.getLinkItemByUuid(1e5a17ca-0cf5-11e8-bee4-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(1e5a17ca-0cf5-11e8-bee4-acbc32d35fbf)
+getGroupObjByUuid(1e5a59e3-0cf5-11e8-88eb-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4]
+db.getAttributeItems(1e5a59e3-0cf5-11e8-88eb-acbc32d35fbf)
+dumpAttributes: 1e5a59e3-0cf5-11e8-88eb-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 1e5a59e3-0cf5-11e8-88eb-acbc32d35fbf, weight_names)
+db.getLinkItems(1e5a59e3-0cf5-11e8-88eb-acbc32d35fbf)
+getGroupObjByUuid(1e5a59e3-0cf5-11e8-88eb-acbc32d35fbf)
+db.getLinkItemByUuid(1e5a59e3-0cf5-11e8-88eb-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(1e5a59e3-0cf5-11e8-88eb-acbc32d35fbf)
+getGroupObjByUuid(1e5a7314-0cf5-11e8-abd8-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4/dense_4]
+db.getAttributeItems(1e5a7314-0cf5-11e8-abd8-acbc32d35fbf)
+dumpAttributes: 1e5a7314-0cf5-11e8-abd8-acbc32d35fbf
+db.getLinkItems(1e5a7314-0cf5-11e8-abd8-acbc32d35fbf)
+getGroupObjByUuid(1e5a7314-0cf5-11e8-abd8-acbc32d35fbf)
+db.getLinkItemByUuid(1e5a7314-0cf5-11e8-abd8-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(1e5a7314-0cf5-11e8-abd8-acbc32d35fbf)
+db.getLinkItemByUuid(1e5a7314-0cf5-11e8-abd8-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(1e5a7314-0cf5-11e8-abd8-acbc32d35fbf)
+getGroupObjByUuid(1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights]
+db.getAttributeItems(1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf)
+dumpAttributes: 1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf, weight_names)
+db.getLinkItems(1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf)
+getGroupObjByUuid(1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf)
+db.getLinkItemByUuid(1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf, [SGD])
+getGroupObjByUuid(1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf)
+db.getLinkItemByUuid(1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf, [training])
+getGroupObjByUuid(1e5ab6f8-0cf5-11e8-aee4-acbc32d35fbf)
+getGroupObjByUuid(1e5ac97d-0cf5-11e8-bb98-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/SGD]
+db.getAttributeItems(1e5ac97d-0cf5-11e8-bb98-acbc32d35fbf)
+dumpAttributes: 1e5ac97d-0cf5-11e8-bb98-acbc32d35fbf
+db.getLinkItems(1e5ac97d-0cf5-11e8-bb98-acbc32d35fbf)
+getGroupObjByUuid(1e5ac97d-0cf5-11e8-bb98-acbc32d35fbf)
+db.getLinkItemByUuid(1e5ac97d-0cf5-11e8-bb98-acbc32d35fbf, [iterations:0])
+getGroupObjByUuid(1e5ac97d-0cf5-11e8-bb98-acbc32d35fbf)
+getGroupObjByUuid(1e5af8b5-0cf5-11e8-b45c-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training]
+db.getAttributeItems(1e5af8b5-0cf5-11e8-b45c-acbc32d35fbf)
+dumpAttributes: 1e5af8b5-0cf5-11e8-b45c-acbc32d35fbf
+db.getLinkItems(1e5af8b5-0cf5-11e8-b45c-acbc32d35fbf)
+getGroupObjByUuid(1e5af8b5-0cf5-11e8-b45c-acbc32d35fbf)
+db.getLinkItemByUuid(1e5af8b5-0cf5-11e8-b45c-acbc32d35fbf, [SGD])
+getGroupObjByUuid(1e5af8b5-0cf5-11e8-b45c-acbc32d35fbf)
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training/SGD]
+db.getAttributeItems(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+dumpAttributes: 1e5b1147-0cf5-11e8-9661-acbc32d35fbf
+db.getLinkItems(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+db.getLinkItemByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf, [Variable:0])
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+db.getLinkItemByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf, [Variable_1:0])
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+db.getLinkItemByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf, [Variable_2:0])
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+db.getLinkItemByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf, [Variable_3:0])
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+db.getLinkItemByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf, [Variable_4:0])
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+db.getLinkItemByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf, [Variable_5:0])
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+db.getLinkItemByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf, [Variable_6:0])
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+db.getLinkItemByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf, [Variable_7:0])
+getGroupObjByUuid(1e5b1147-0cf5-11e8-9661-acbc32d35fbf)
+db.getCollection(datasets)
+dumpDataset: 1e598866-0cf5-11e8-828c-acbc32d35fbf
+getDatasetObjByUuid(1e598866-0cf5-11e8-828c-acbc32d35fbf)
+getDatasetObjByUuid(1e598866-0cf5-11e8-828c-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/bias:0]
+db.getAttributeItems(1e598866-0cf5-11e8-828c-acbc32d35fbf)
+dumpAttributes: 1e598866-0cf5-11e8-828c-acbc32d35fbf
+getDatasetObjByUuid(1e598866-0cf5-11e8-828c-acbc32d35fbf)
+dumpDataset: 1e59a0ba-0cf5-11e8-a080-acbc32d35fbf
+getDatasetObjByUuid(1e59a0ba-0cf5-11e8-a080-acbc32d35fbf)
+getDatasetObjByUuid(1e59a0ba-0cf5-11e8-a080-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/kernel:0]
+db.getAttributeItems(1e59a0ba-0cf5-11e8-a080-acbc32d35fbf)
+dumpAttributes: 1e59a0ba-0cf5-11e8-a080-acbc32d35fbf
+getDatasetObjByUuid(1e59a0ba-0cf5-11e8-a080-acbc32d35fbf)
+dumpDataset: 1e59dd63-0cf5-11e8-90fb-acbc32d35fbf
+getDatasetObjByUuid(1e59dd63-0cf5-11e8-90fb-acbc32d35fbf)
+getDatasetObjByUuid(1e59dd63-0cf5-11e8-90fb-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/bias:0]
+db.getAttributeItems(1e59dd63-0cf5-11e8-90fb-acbc32d35fbf)
+dumpAttributes: 1e59dd63-0cf5-11e8-90fb-acbc32d35fbf
+getDatasetObjByUuid(1e59dd63-0cf5-11e8-90fb-acbc32d35fbf)
+dumpDataset: 1e59f178-0cf5-11e8-adb8-acbc32d35fbf
+getDatasetObjByUuid(1e59f178-0cf5-11e8-adb8-acbc32d35fbf)
+getDatasetObjByUuid(1e59f178-0cf5-11e8-adb8-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/kernel:0]
+db.getAttributeItems(1e59f178-0cf5-11e8-adb8-acbc32d35fbf)
+dumpAttributes: 1e59f178-0cf5-11e8-adb8-acbc32d35fbf
+getDatasetObjByUuid(1e59f178-0cf5-11e8-adb8-acbc32d35fbf)
+dumpDataset: 1e5a2bf0-0cf5-11e8-8773-acbc32d35fbf
+getDatasetObjByUuid(1e5a2bf0-0cf5-11e8-8773-acbc32d35fbf)
+getDatasetObjByUuid(1e5a2bf0-0cf5-11e8-8773-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/bias:0]
+db.getAttributeItems(1e5a2bf0-0cf5-11e8-8773-acbc32d35fbf)
+dumpAttributes: 1e5a2bf0-0cf5-11e8-8773-acbc32d35fbf
+getDatasetObjByUuid(1e5a2bf0-0cf5-11e8-8773-acbc32d35fbf)
+dumpDataset: 1e5a4519-0cf5-11e8-a83b-acbc32d35fbf
+getDatasetObjByUuid(1e5a4519-0cf5-11e8-a83b-acbc32d35fbf)
+getDatasetObjByUuid(1e5a4519-0cf5-11e8-a83b-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/kernel:0]
+db.getAttributeItems(1e5a4519-0cf5-11e8-a83b-acbc32d35fbf)
+dumpAttributes: 1e5a4519-0cf5-11e8-a83b-acbc32d35fbf
+getDatasetObjByUuid(1e5a4519-0cf5-11e8-a83b-acbc32d35fbf)
+dumpDataset: 1e5a8e30-0cf5-11e8-b064-acbc32d35fbf
+getDatasetObjByUuid(1e5a8e30-0cf5-11e8-b064-acbc32d35fbf)
+getDatasetObjByUuid(1e5a8e30-0cf5-11e8-b064-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/bias:0]
+db.getAttributeItems(1e5a8e30-0cf5-11e8-b064-acbc32d35fbf)
+dumpAttributes: 1e5a8e30-0cf5-11e8-b064-acbc32d35fbf
+getDatasetObjByUuid(1e5a8e30-0cf5-11e8-b064-acbc32d35fbf)
+dumpDataset: 1e5aa366-0cf5-11e8-ba67-acbc32d35fbf
+getDatasetObjByUuid(1e5aa366-0cf5-11e8-ba67-acbc32d35fbf)
+getDatasetObjByUuid(1e5aa366-0cf5-11e8-ba67-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/kernel:0]
+db.getAttributeItems(1e5aa366-0cf5-11e8-ba67-acbc32d35fbf)
+dumpAttributes: 1e5aa366-0cf5-11e8-ba67-acbc32d35fbf
+getDatasetObjByUuid(1e5aa366-0cf5-11e8-ba67-acbc32d35fbf)
+dumpDataset: 1e5adfd4-0cf5-11e8-8750-acbc32d35fbf
+getDatasetObjByUuid(1e5adfd4-0cf5-11e8-8750-acbc32d35fbf)
+getDatasetObjByUuid(1e5adfd4-0cf5-11e8-8750-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/SGD/iterations:0]
+db.getAttributeItems(1e5adfd4-0cf5-11e8-8750-acbc32d35fbf)
+dumpAttributes: 1e5adfd4-0cf5-11e8-8750-acbc32d35fbf
+getDatasetObjByUuid(1e5adfd4-0cf5-11e8-8750-acbc32d35fbf)
+dumpDataset: 1e5b2c97-0cf5-11e8-8b7a-acbc32d35fbf
+getDatasetObjByUuid(1e5b2c97-0cf5-11e8-8b7a-acbc32d35fbf)
+getDatasetObjByUuid(1e5b2c97-0cf5-11e8-8b7a-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable:0]
+db.getAttributeItems(1e5b2c97-0cf5-11e8-8b7a-acbc32d35fbf)
+dumpAttributes: 1e5b2c97-0cf5-11e8-8b7a-acbc32d35fbf
+getDatasetObjByUuid(1e5b2c97-0cf5-11e8-8b7a-acbc32d35fbf)
+dumpDataset: 1e5b4a3a-0cf5-11e8-aa53-acbc32d35fbf
+getDatasetObjByUuid(1e5b4a3a-0cf5-11e8-aa53-acbc32d35fbf)
+getDatasetObjByUuid(1e5b4a3a-0cf5-11e8-aa53-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_1:0]
+db.getAttributeItems(1e5b4a3a-0cf5-11e8-aa53-acbc32d35fbf)
+dumpAttributes: 1e5b4a3a-0cf5-11e8-aa53-acbc32d35fbf
+getDatasetObjByUuid(1e5b4a3a-0cf5-11e8-aa53-acbc32d35fbf)
+dumpDataset: 1e5b665c-0cf5-11e8-9068-acbc32d35fbf
+getDatasetObjByUuid(1e5b665c-0cf5-11e8-9068-acbc32d35fbf)
+getDatasetObjByUuid(1e5b665c-0cf5-11e8-9068-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_2:0]
+db.getAttributeItems(1e5b665c-0cf5-11e8-9068-acbc32d35fbf)
+dumpAttributes: 1e5b665c-0cf5-11e8-9068-acbc32d35fbf
+getDatasetObjByUuid(1e5b665c-0cf5-11e8-9068-acbc32d35fbf)
+dumpDataset: 1e5b8433-0cf5-11e8-8688-acbc32d35fbf
+getDatasetObjByUuid(1e5b8433-0cf5-11e8-8688-acbc32d35fbf)
+getDatasetObjByUuid(1e5b8433-0cf5-11e8-8688-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_3:0]
+db.getAttributeItems(1e5b8433-0cf5-11e8-8688-acbc32d35fbf)
+dumpAttributes: 1e5b8433-0cf5-11e8-8688-acbc32d35fbf
+getDatasetObjByUuid(1e5b8433-0cf5-11e8-8688-acbc32d35fbf)
+dumpDataset: 1e5b9fdc-0cf5-11e8-911f-acbc32d35fbf
+getDatasetObjByUuid(1e5b9fdc-0cf5-11e8-911f-acbc32d35fbf)
+getDatasetObjByUuid(1e5b9fdc-0cf5-11e8-911f-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_4:0]
+db.getAttributeItems(1e5b9fdc-0cf5-11e8-911f-acbc32d35fbf)
+dumpAttributes: 1e5b9fdc-0cf5-11e8-911f-acbc32d35fbf
+getDatasetObjByUuid(1e5b9fdc-0cf5-11e8-911f-acbc32d35fbf)
+dumpDataset: 1e5bbbca-0cf5-11e8-8620-acbc32d35fbf
+getDatasetObjByUuid(1e5bbbca-0cf5-11e8-8620-acbc32d35fbf)
+getDatasetObjByUuid(1e5bbbca-0cf5-11e8-8620-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_5:0]
+db.getAttributeItems(1e5bbbca-0cf5-11e8-8620-acbc32d35fbf)
+dumpAttributes: 1e5bbbca-0cf5-11e8-8620-acbc32d35fbf
+getDatasetObjByUuid(1e5bbbca-0cf5-11e8-8620-acbc32d35fbf)
+dumpDataset: 1e5bd542-0cf5-11e8-8322-acbc32d35fbf
+getDatasetObjByUuid(1e5bd542-0cf5-11e8-8322-acbc32d35fbf)
+getDatasetObjByUuid(1e5bd542-0cf5-11e8-8322-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_6:0]
+db.getAttributeItems(1e5bd542-0cf5-11e8-8322-acbc32d35fbf)
+dumpAttributes: 1e5bd542-0cf5-11e8-8322-acbc32d35fbf
+getDatasetObjByUuid(1e5bd542-0cf5-11e8-8322-acbc32d35fbf)
+dumpDataset: 1e5bee7d-0cf5-11e8-8aba-acbc32d35fbf
+getDatasetObjByUuid(1e5bee7d-0cf5-11e8-8aba-acbc32d35fbf)
+getDatasetObjByUuid(1e5bee7d-0cf5-11e8-8aba-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_7:0]
+db.getAttributeItems(1e5bee7d-0cf5-11e8-8aba-acbc32d35fbf)
+dumpAttributes: 1e5bee7d-0cf5-11e8-8aba-acbc32d35fbf
+getDatasetObjByUuid(1e5bee7d-0cf5-11e8-8aba-acbc32d35fbf)
+db.getCollection(datatypes)
+Hdf5db __exit
+h5tojson models/my_model.h5
+Using dbFile: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpN7xRQa
+init -- filePath: models/my_model.h5 mode: r
+dbFilePath: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpN7xRQa mode: r+
+Hdf5db __enter
+initializing file
+visit: model_weights name: Group
+visit: model_weights/dense_1 name: Group
+visit: model_weights/dense_1/dense_1 name: Group
+visit: model_weights/dense_1/dense_1/bias:0 name: Dataset
+visit: model_weights/dense_1/dense_1/kernel:0 name: Dataset
+visit: model_weights/dense_2 name: Group
+visit: model_weights/dense_2/dense_2 name: Group
+visit: model_weights/dense_2/dense_2/bias:0 name: Dataset
+visit: model_weights/dense_2/dense_2/kernel:0 name: Dataset
+visit: model_weights/dense_3 name: Group
+visit: model_weights/dense_3/dense_3 name: Group
+visit: model_weights/dense_3/dense_3/bias:0 name: Dataset
+visit: model_weights/dense_3/dense_3/kernel:0 name: Dataset
+visit: model_weights/dense_4 name: Group
+visit: model_weights/dense_4/dense_4 name: Group
+visit: model_weights/dense_4/dense_4/bias:0 name: Dataset
+visit: model_weights/dense_4/dense_4/kernel:0 name: Dataset
+visit: optimizer_weights name: Group
+visit: optimizer_weights/SGD name: Group
+visit: optimizer_weights/SGD/iterations:0 name: Dataset
+visit: optimizer_weights/training name: Group
+visit: optimizer_weights/training/SGD name: Group
+visit: optimizer_weights/training/SGD/Variable:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_1:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_2:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_3:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_4:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_5:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_6:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_7:0 name: Dataset
+getUUIDByPath: [/]
+getGroupObjByUuid(3ba53470-0cf5-11e8-ba9c-acbc32d35fbf)
+dumpGroup alias: [/]
+db.getAttributeItems(3ba53470-0cf5-11e8-ba9c-acbc32d35fbf)
+dumpAttributes: 3ba53470-0cf5-11e8-ba9c-acbc32d35fbf
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 3ba53470-0cf5-11e8-ba9c-acbc32d35fbf, keras_version)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 3ba53470-0cf5-11e8-ba9c-acbc32d35fbf, backend)
+dumpAttribute: [model_config]
+getAttributeItemByUuid(groups, 3ba53470-0cf5-11e8-ba9c-acbc32d35fbf, model_config)
+dumpAttribute: [training_config]
+getAttributeItemByUuid(groups, 3ba53470-0cf5-11e8-ba9c-acbc32d35fbf, training_config)
+db.getLinkItems(3ba53470-0cf5-11e8-ba9c-acbc32d35fbf)
+getGroupObjByUuid(3ba53470-0cf5-11e8-ba9c-acbc32d35fbf)
+db.getLinkItemByUuid(3ba53470-0cf5-11e8-ba9c-acbc32d35fbf, [model_weights])
+getGroupObjByUuid(3ba53470-0cf5-11e8-ba9c-acbc32d35fbf)
+db.getLinkItemByUuid(3ba53470-0cf5-11e8-ba9c-acbc32d35fbf, [optimizer_weights])
+getGroupObjByUuid(3ba53470-0cf5-11e8-ba9c-acbc32d35fbf)
+db.getCollection(groups)
+getGroupObjByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf)
+dumpGroup alias: [/model_weights]
+db.getAttributeItems(3ba66391-0cf5-11e8-b494-acbc32d35fbf)
+dumpAttributes: 3ba66391-0cf5-11e8-b494-acbc32d35fbf
+dumpAttribute: [layer_names]
+getAttributeItemByUuid(groups, 3ba66391-0cf5-11e8-b494-acbc32d35fbf, layer_names)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 3ba66391-0cf5-11e8-b494-acbc32d35fbf, backend)
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 3ba66391-0cf5-11e8-b494-acbc32d35fbf, keras_version)
+db.getLinkItems(3ba66391-0cf5-11e8-b494-acbc32d35fbf)
+getGroupObjByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf)
+db.getLinkItemByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf)
+db.getLinkItemByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf)
+db.getLinkItemByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf)
+db.getLinkItemByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(3ba66391-0cf5-11e8-b494-acbc32d35fbf)
+getGroupObjByUuid(3ba67787-0cf5-11e8-8159-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1]
+db.getAttributeItems(3ba67787-0cf5-11e8-8159-acbc32d35fbf)
+dumpAttributes: 3ba67787-0cf5-11e8-8159-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3ba67787-0cf5-11e8-8159-acbc32d35fbf, weight_names)
+db.getLinkItems(3ba67787-0cf5-11e8-8159-acbc32d35fbf)
+getGroupObjByUuid(3ba67787-0cf5-11e8-8159-acbc32d35fbf)
+db.getLinkItemByUuid(3ba67787-0cf5-11e8-8159-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(3ba67787-0cf5-11e8-8159-acbc32d35fbf)
+getGroupObjByUuid(3ba68dd4-0cf5-11e8-8106-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1/dense_1]
+db.getAttributeItems(3ba68dd4-0cf5-11e8-8106-acbc32d35fbf)
+dumpAttributes: 3ba68dd4-0cf5-11e8-8106-acbc32d35fbf
+db.getLinkItems(3ba68dd4-0cf5-11e8-8106-acbc32d35fbf)
+getGroupObjByUuid(3ba68dd4-0cf5-11e8-8106-acbc32d35fbf)
+db.getLinkItemByUuid(3ba68dd4-0cf5-11e8-8106-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(3ba68dd4-0cf5-11e8-8106-acbc32d35fbf)
+db.getLinkItemByUuid(3ba68dd4-0cf5-11e8-8106-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(3ba68dd4-0cf5-11e8-8106-acbc32d35fbf)
+getGroupObjByUuid(3ba6d65e-0cf5-11e8-8507-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2]
+db.getAttributeItems(3ba6d65e-0cf5-11e8-8507-acbc32d35fbf)
+dumpAttributes: 3ba6d65e-0cf5-11e8-8507-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3ba6d65e-0cf5-11e8-8507-acbc32d35fbf, weight_names)
+db.getLinkItems(3ba6d65e-0cf5-11e8-8507-acbc32d35fbf)
+getGroupObjByUuid(3ba6d65e-0cf5-11e8-8507-acbc32d35fbf)
+db.getLinkItemByUuid(3ba6d65e-0cf5-11e8-8507-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(3ba6d65e-0cf5-11e8-8507-acbc32d35fbf)
+getGroupObjByUuid(3ba6e93d-0cf5-11e8-91e5-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2/dense_2]
+db.getAttributeItems(3ba6e93d-0cf5-11e8-91e5-acbc32d35fbf)
+dumpAttributes: 3ba6e93d-0cf5-11e8-91e5-acbc32d35fbf
+db.getLinkItems(3ba6e93d-0cf5-11e8-91e5-acbc32d35fbf)
+getGroupObjByUuid(3ba6e93d-0cf5-11e8-91e5-acbc32d35fbf)
+db.getLinkItemByUuid(3ba6e93d-0cf5-11e8-91e5-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(3ba6e93d-0cf5-11e8-91e5-acbc32d35fbf)
+db.getLinkItemByUuid(3ba6e93d-0cf5-11e8-91e5-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(3ba6e93d-0cf5-11e8-91e5-acbc32d35fbf)
+getGroupObjByUuid(3ba73c68-0cf5-11e8-9c7b-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3]
+db.getAttributeItems(3ba73c68-0cf5-11e8-9c7b-acbc32d35fbf)
+dumpAttributes: 3ba73c68-0cf5-11e8-9c7b-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3ba73c68-0cf5-11e8-9c7b-acbc32d35fbf, weight_names)
+db.getLinkItems(3ba73c68-0cf5-11e8-9c7b-acbc32d35fbf)
+getGroupObjByUuid(3ba73c68-0cf5-11e8-9c7b-acbc32d35fbf)
+db.getLinkItemByUuid(3ba73c68-0cf5-11e8-9c7b-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(3ba73c68-0cf5-11e8-9c7b-acbc32d35fbf)
+getGroupObjByUuid(3ba75568-0cf5-11e8-9a31-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3/dense_3]
+db.getAttributeItems(3ba75568-0cf5-11e8-9a31-acbc32d35fbf)
+dumpAttributes: 3ba75568-0cf5-11e8-9a31-acbc32d35fbf
+db.getLinkItems(3ba75568-0cf5-11e8-9a31-acbc32d35fbf)
+getGroupObjByUuid(3ba75568-0cf5-11e8-9a31-acbc32d35fbf)
+db.getLinkItemByUuid(3ba75568-0cf5-11e8-9a31-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(3ba75568-0cf5-11e8-9a31-acbc32d35fbf)
+db.getLinkItemByUuid(3ba75568-0cf5-11e8-9a31-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(3ba75568-0cf5-11e8-9a31-acbc32d35fbf)
+getGroupObjByUuid(3ba7a2a1-0cf5-11e8-ae48-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4]
+db.getAttributeItems(3ba7a2a1-0cf5-11e8-ae48-acbc32d35fbf)
+dumpAttributes: 3ba7a2a1-0cf5-11e8-ae48-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3ba7a2a1-0cf5-11e8-ae48-acbc32d35fbf, weight_names)
+db.getLinkItems(3ba7a2a1-0cf5-11e8-ae48-acbc32d35fbf)
+getGroupObjByUuid(3ba7a2a1-0cf5-11e8-ae48-acbc32d35fbf)
+db.getLinkItemByUuid(3ba7a2a1-0cf5-11e8-ae48-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(3ba7a2a1-0cf5-11e8-ae48-acbc32d35fbf)
+getGroupObjByUuid(3ba7ba45-0cf5-11e8-be37-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4/dense_4]
+db.getAttributeItems(3ba7ba45-0cf5-11e8-be37-acbc32d35fbf)
+dumpAttributes: 3ba7ba45-0cf5-11e8-be37-acbc32d35fbf
+db.getLinkItems(3ba7ba45-0cf5-11e8-be37-acbc32d35fbf)
+getGroupObjByUuid(3ba7ba45-0cf5-11e8-be37-acbc32d35fbf)
+db.getLinkItemByUuid(3ba7ba45-0cf5-11e8-be37-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(3ba7ba45-0cf5-11e8-be37-acbc32d35fbf)
+db.getLinkItemByUuid(3ba7ba45-0cf5-11e8-be37-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(3ba7ba45-0cf5-11e8-be37-acbc32d35fbf)
+getGroupObjByUuid(3ba8004c-0cf5-11e8-b05e-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights]
+db.getAttributeItems(3ba8004c-0cf5-11e8-b05e-acbc32d35fbf)
+dumpAttributes: 3ba8004c-0cf5-11e8-b05e-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3ba8004c-0cf5-11e8-b05e-acbc32d35fbf, weight_names)
+db.getLinkItems(3ba8004c-0cf5-11e8-b05e-acbc32d35fbf)
+getGroupObjByUuid(3ba8004c-0cf5-11e8-b05e-acbc32d35fbf)
+db.getLinkItemByUuid(3ba8004c-0cf5-11e8-b05e-acbc32d35fbf, [SGD])
+getGroupObjByUuid(3ba8004c-0cf5-11e8-b05e-acbc32d35fbf)
+db.getLinkItemByUuid(3ba8004c-0cf5-11e8-b05e-acbc32d35fbf, [training])
+getGroupObjByUuid(3ba8004c-0cf5-11e8-b05e-acbc32d35fbf)
+getGroupObjByUuid(3ba816a6-0cf5-11e8-8ba7-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/SGD]
+db.getAttributeItems(3ba816a6-0cf5-11e8-8ba7-acbc32d35fbf)
+dumpAttributes: 3ba816a6-0cf5-11e8-8ba7-acbc32d35fbf
+db.getLinkItems(3ba816a6-0cf5-11e8-8ba7-acbc32d35fbf)
+getGroupObjByUuid(3ba816a6-0cf5-11e8-8ba7-acbc32d35fbf)
+db.getLinkItemByUuid(3ba816a6-0cf5-11e8-8ba7-acbc32d35fbf, [iterations:0])
+getGroupObjByUuid(3ba816a6-0cf5-11e8-8ba7-acbc32d35fbf)
+getGroupObjByUuid(3ba840a3-0cf5-11e8-98b1-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training]
+db.getAttributeItems(3ba840a3-0cf5-11e8-98b1-acbc32d35fbf)
+dumpAttributes: 3ba840a3-0cf5-11e8-98b1-acbc32d35fbf
+db.getLinkItems(3ba840a3-0cf5-11e8-98b1-acbc32d35fbf)
+getGroupObjByUuid(3ba840a3-0cf5-11e8-98b1-acbc32d35fbf)
+db.getLinkItemByUuid(3ba840a3-0cf5-11e8-98b1-acbc32d35fbf, [SGD])
+getGroupObjByUuid(3ba840a3-0cf5-11e8-98b1-acbc32d35fbf)
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training/SGD]
+db.getAttributeItems(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+dumpAttributes: 3ba854f3-0cf5-11e8-8470-acbc32d35fbf
+db.getLinkItems(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+db.getLinkItemByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf, [Variable:0])
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+db.getLinkItemByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf, [Variable_1:0])
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+db.getLinkItemByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf, [Variable_2:0])
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+db.getLinkItemByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf, [Variable_3:0])
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+db.getLinkItemByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf, [Variable_4:0])
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+db.getLinkItemByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf, [Variable_5:0])
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+db.getLinkItemByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf, [Variable_6:0])
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+db.getLinkItemByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf, [Variable_7:0])
+getGroupObjByUuid(3ba854f3-0cf5-11e8-8470-acbc32d35fbf)
+db.getCollection(datasets)
+dumpDataset: 3ba6a6e1-0cf5-11e8-a7d2-acbc32d35fbf
+getDatasetObjByUuid(3ba6a6e1-0cf5-11e8-a7d2-acbc32d35fbf)
+getDatasetObjByUuid(3ba6a6e1-0cf5-11e8-a7d2-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/bias:0]
+db.getAttributeItems(3ba6a6e1-0cf5-11e8-a7d2-acbc32d35fbf)
+dumpAttributes: 3ba6a6e1-0cf5-11e8-a7d2-acbc32d35fbf
+getDatasetObjByUuid(3ba6a6e1-0cf5-11e8-a7d2-acbc32d35fbf)
+dumpDataset: 3ba6bf73-0cf5-11e8-853d-acbc32d35fbf
+getDatasetObjByUuid(3ba6bf73-0cf5-11e8-853d-acbc32d35fbf)
+getDatasetObjByUuid(3ba6bf73-0cf5-11e8-853d-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/kernel:0]
+db.getAttributeItems(3ba6bf73-0cf5-11e8-853d-acbc32d35fbf)
+dumpAttributes: 3ba6bf73-0cf5-11e8-853d-acbc32d35fbf
+getDatasetObjByUuid(3ba6bf73-0cf5-11e8-853d-acbc32d35fbf)
+dumpDataset: 3ba7022b-0cf5-11e8-8245-acbc32d35fbf
+getDatasetObjByUuid(3ba7022b-0cf5-11e8-8245-acbc32d35fbf)
+getDatasetObjByUuid(3ba7022b-0cf5-11e8-8245-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/bias:0]
+db.getAttributeItems(3ba7022b-0cf5-11e8-8245-acbc32d35fbf)
+dumpAttributes: 3ba7022b-0cf5-11e8-8245-acbc32d35fbf
+getDatasetObjByUuid(3ba7022b-0cf5-11e8-8245-acbc32d35fbf)
+dumpDataset: 3ba720fa-0cf5-11e8-9c9b-acbc32d35fbf
+getDatasetObjByUuid(3ba720fa-0cf5-11e8-9c9b-acbc32d35fbf)
+getDatasetObjByUuid(3ba720fa-0cf5-11e8-9c9b-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/kernel:0]
+db.getAttributeItems(3ba720fa-0cf5-11e8-9c9b-acbc32d35fbf)
+dumpAttributes: 3ba720fa-0cf5-11e8-9c9b-acbc32d35fbf
+getDatasetObjByUuid(3ba720fa-0cf5-11e8-9c9b-acbc32d35fbf)
+dumpDataset: 3ba76f80-0cf5-11e8-b266-acbc32d35fbf
+getDatasetObjByUuid(3ba76f80-0cf5-11e8-b266-acbc32d35fbf)
+getDatasetObjByUuid(3ba76f80-0cf5-11e8-b266-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/bias:0]
+db.getAttributeItems(3ba76f80-0cf5-11e8-b266-acbc32d35fbf)
+dumpAttributes: 3ba76f80-0cf5-11e8-b266-acbc32d35fbf
+getDatasetObjByUuid(3ba76f80-0cf5-11e8-b266-acbc32d35fbf)
+dumpDataset: 3ba78a42-0cf5-11e8-bd7c-acbc32d35fbf
+getDatasetObjByUuid(3ba78a42-0cf5-11e8-bd7c-acbc32d35fbf)
+getDatasetObjByUuid(3ba78a42-0cf5-11e8-bd7c-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/kernel:0]
+db.getAttributeItems(3ba78a42-0cf5-11e8-bd7c-acbc32d35fbf)
+dumpAttributes: 3ba78a42-0cf5-11e8-bd7c-acbc32d35fbf
+getDatasetObjByUuid(3ba78a42-0cf5-11e8-bd7c-acbc32d35fbf)
+dumpDataset: 3ba7d1d1-0cf5-11e8-b10b-acbc32d35fbf
+getDatasetObjByUuid(3ba7d1d1-0cf5-11e8-b10b-acbc32d35fbf)
+getDatasetObjByUuid(3ba7d1d1-0cf5-11e8-b10b-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/bias:0]
+db.getAttributeItems(3ba7d1d1-0cf5-11e8-b10b-acbc32d35fbf)
+dumpAttributes: 3ba7d1d1-0cf5-11e8-b10b-acbc32d35fbf
+getDatasetObjByUuid(3ba7d1d1-0cf5-11e8-b10b-acbc32d35fbf)
+dumpDataset: 3ba7e9ee-0cf5-11e8-a053-acbc32d35fbf
+getDatasetObjByUuid(3ba7e9ee-0cf5-11e8-a053-acbc32d35fbf)
+getDatasetObjByUuid(3ba7e9ee-0cf5-11e8-a053-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/kernel:0]
+db.getAttributeItems(3ba7e9ee-0cf5-11e8-a053-acbc32d35fbf)
+dumpAttributes: 3ba7e9ee-0cf5-11e8-a053-acbc32d35fbf
+getDatasetObjByUuid(3ba7e9ee-0cf5-11e8-a053-acbc32d35fbf)
+dumpDataset: 3ba82c02-0cf5-11e8-83d2-acbc32d35fbf
+getDatasetObjByUuid(3ba82c02-0cf5-11e8-83d2-acbc32d35fbf)
+getDatasetObjByUuid(3ba82c02-0cf5-11e8-83d2-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/SGD/iterations:0]
+db.getAttributeItems(3ba82c02-0cf5-11e8-83d2-acbc32d35fbf)
+dumpAttributes: 3ba82c02-0cf5-11e8-83d2-acbc32d35fbf
+getDatasetObjByUuid(3ba82c02-0cf5-11e8-83d2-acbc32d35fbf)
+dumpDataset: 3ba86a0c-0cf5-11e8-ac0b-acbc32d35fbf
+getDatasetObjByUuid(3ba86a0c-0cf5-11e8-ac0b-acbc32d35fbf)
+getDatasetObjByUuid(3ba86a0c-0cf5-11e8-ac0b-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable:0]
+db.getAttributeItems(3ba86a0c-0cf5-11e8-ac0b-acbc32d35fbf)
+dumpAttributes: 3ba86a0c-0cf5-11e8-ac0b-acbc32d35fbf
+getDatasetObjByUuid(3ba86a0c-0cf5-11e8-ac0b-acbc32d35fbf)
+dumpDataset: 3ba8803a-0cf5-11e8-b2ea-acbc32d35fbf
+getDatasetObjByUuid(3ba8803a-0cf5-11e8-b2ea-acbc32d35fbf)
+getDatasetObjByUuid(3ba8803a-0cf5-11e8-b2ea-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_1:0]
+db.getAttributeItems(3ba8803a-0cf5-11e8-b2ea-acbc32d35fbf)
+dumpAttributes: 3ba8803a-0cf5-11e8-b2ea-acbc32d35fbf
+getDatasetObjByUuid(3ba8803a-0cf5-11e8-b2ea-acbc32d35fbf)
+dumpDataset: 3ba897ab-0cf5-11e8-a9ab-acbc32d35fbf
+getDatasetObjByUuid(3ba897ab-0cf5-11e8-a9ab-acbc32d35fbf)
+getDatasetObjByUuid(3ba897ab-0cf5-11e8-a9ab-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_2:0]
+db.getAttributeItems(3ba897ab-0cf5-11e8-a9ab-acbc32d35fbf)
+dumpAttributes: 3ba897ab-0cf5-11e8-a9ab-acbc32d35fbf
+getDatasetObjByUuid(3ba897ab-0cf5-11e8-a9ab-acbc32d35fbf)
+dumpDataset: 3ba8adb3-0cf5-11e8-9c36-acbc32d35fbf
+getDatasetObjByUuid(3ba8adb3-0cf5-11e8-9c36-acbc32d35fbf)
+getDatasetObjByUuid(3ba8adb3-0cf5-11e8-9c36-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_3:0]
+db.getAttributeItems(3ba8adb3-0cf5-11e8-9c36-acbc32d35fbf)
+dumpAttributes: 3ba8adb3-0cf5-11e8-9c36-acbc32d35fbf
+getDatasetObjByUuid(3ba8adb3-0cf5-11e8-9c36-acbc32d35fbf)
+dumpDataset: 3ba8c4c0-0cf5-11e8-8f78-acbc32d35fbf
+getDatasetObjByUuid(3ba8c4c0-0cf5-11e8-8f78-acbc32d35fbf)
+getDatasetObjByUuid(3ba8c4c0-0cf5-11e8-8f78-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_4:0]
+db.getAttributeItems(3ba8c4c0-0cf5-11e8-8f78-acbc32d35fbf)
+dumpAttributes: 3ba8c4c0-0cf5-11e8-8f78-acbc32d35fbf
+getDatasetObjByUuid(3ba8c4c0-0cf5-11e8-8f78-acbc32d35fbf)
+dumpDataset: 3ba8db21-0cf5-11e8-8c73-acbc32d35fbf
+getDatasetObjByUuid(3ba8db21-0cf5-11e8-8c73-acbc32d35fbf)
+getDatasetObjByUuid(3ba8db21-0cf5-11e8-8c73-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_5:0]
+db.getAttributeItems(3ba8db21-0cf5-11e8-8c73-acbc32d35fbf)
+dumpAttributes: 3ba8db21-0cf5-11e8-8c73-acbc32d35fbf
+getDatasetObjByUuid(3ba8db21-0cf5-11e8-8c73-acbc32d35fbf)
+dumpDataset: 3ba8f238-0cf5-11e8-ad04-acbc32d35fbf
+getDatasetObjByUuid(3ba8f238-0cf5-11e8-ad04-acbc32d35fbf)
+getDatasetObjByUuid(3ba8f238-0cf5-11e8-ad04-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_6:0]
+db.getAttributeItems(3ba8f238-0cf5-11e8-ad04-acbc32d35fbf)
+dumpAttributes: 3ba8f238-0cf5-11e8-ad04-acbc32d35fbf
+getDatasetObjByUuid(3ba8f238-0cf5-11e8-ad04-acbc32d35fbf)
+dumpDataset: 3ba90835-0cf5-11e8-a3f0-acbc32d35fbf
+getDatasetObjByUuid(3ba90835-0cf5-11e8-a3f0-acbc32d35fbf)
+getDatasetObjByUuid(3ba90835-0cf5-11e8-a3f0-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_7:0]
+db.getAttributeItems(3ba90835-0cf5-11e8-a3f0-acbc32d35fbf)
+dumpAttributes: 3ba90835-0cf5-11e8-a3f0-acbc32d35fbf
+getDatasetObjByUuid(3ba90835-0cf5-11e8-a3f0-acbc32d35fbf)
+db.getCollection(datatypes)
+Hdf5db __exit
+h5tojson models/my_model.h5
+Using dbFile: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpli_61W
+init -- filePath: models/my_model.h5 mode: r
+dbFilePath: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpli_61W mode: r+
+Hdf5db __enter
+initializing file
+visit: model_weights name: Group
+visit: model_weights/dense_1 name: Group
+visit: model_weights/dense_1/dense_1 name: Group
+visit: model_weights/dense_1/dense_1/bias:0 name: Dataset
+visit: model_weights/dense_1/dense_1/kernel:0 name: Dataset
+visit: model_weights/dense_2 name: Group
+visit: model_weights/dense_2/dense_2 name: Group
+visit: model_weights/dense_2/dense_2/bias:0 name: Dataset
+visit: model_weights/dense_2/dense_2/kernel:0 name: Dataset
+visit: model_weights/dense_3 name: Group
+visit: model_weights/dense_3/dense_3 name: Group
+visit: model_weights/dense_3/dense_3/bias:0 name: Dataset
+visit: model_weights/dense_3/dense_3/kernel:0 name: Dataset
+visit: model_weights/dense_4 name: Group
+visit: model_weights/dense_4/dense_4 name: Group
+visit: model_weights/dense_4/dense_4/bias:0 name: Dataset
+visit: model_weights/dense_4/dense_4/kernel:0 name: Dataset
+visit: optimizer_weights name: Group
+visit: optimizer_weights/SGD name: Group
+visit: optimizer_weights/SGD/iterations:0 name: Dataset
+visit: optimizer_weights/training name: Group
+visit: optimizer_weights/training/SGD name: Group
+visit: optimizer_weights/training/SGD/Variable:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_1:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_2:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_3:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_4:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_5:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_6:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_7:0 name: Dataset
+getUUIDByPath: [/]
+getGroupObjByUuid(9c031dca-0cf5-11e8-a0fc-acbc32d35fbf)
+dumpGroup alias: [/]
+db.getAttributeItems(9c031dca-0cf5-11e8-a0fc-acbc32d35fbf)
+dumpAttributes: 9c031dca-0cf5-11e8-a0fc-acbc32d35fbf
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 9c031dca-0cf5-11e8-a0fc-acbc32d35fbf, keras_version)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 9c031dca-0cf5-11e8-a0fc-acbc32d35fbf, backend)
+dumpAttribute: [model_config]
+getAttributeItemByUuid(groups, 9c031dca-0cf5-11e8-a0fc-acbc32d35fbf, model_config)
+dumpAttribute: [training_config]
+getAttributeItemByUuid(groups, 9c031dca-0cf5-11e8-a0fc-acbc32d35fbf, training_config)
+db.getLinkItems(9c031dca-0cf5-11e8-a0fc-acbc32d35fbf)
+getGroupObjByUuid(9c031dca-0cf5-11e8-a0fc-acbc32d35fbf)
+db.getLinkItemByUuid(9c031dca-0cf5-11e8-a0fc-acbc32d35fbf, [model_weights])
+getGroupObjByUuid(9c031dca-0cf5-11e8-a0fc-acbc32d35fbf)
+db.getLinkItemByUuid(9c031dca-0cf5-11e8-a0fc-acbc32d35fbf, [optimizer_weights])
+getGroupObjByUuid(9c031dca-0cf5-11e8-a0fc-acbc32d35fbf)
+db.getCollection(groups)
+getGroupObjByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf)
+dumpGroup alias: [/model_weights]
+db.getAttributeItems(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf)
+dumpAttributes: 9c043de8-0cf5-11e8-b0e2-acbc32d35fbf
+dumpAttribute: [layer_names]
+getAttributeItemByUuid(groups, 9c043de8-0cf5-11e8-b0e2-acbc32d35fbf, layer_names)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 9c043de8-0cf5-11e8-b0e2-acbc32d35fbf, backend)
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 9c043de8-0cf5-11e8-b0e2-acbc32d35fbf, keras_version)
+db.getLinkItems(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf)
+getGroupObjByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf)
+db.getLinkItemByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf)
+db.getLinkItemByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf)
+db.getLinkItemByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf)
+db.getLinkItemByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(9c043de8-0cf5-11e8-b0e2-acbc32d35fbf)
+getGroupObjByUuid(9c04528a-0cf5-11e8-a8fb-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1]
+db.getAttributeItems(9c04528a-0cf5-11e8-a8fb-acbc32d35fbf)
+dumpAttributes: 9c04528a-0cf5-11e8-a8fb-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 9c04528a-0cf5-11e8-a8fb-acbc32d35fbf, weight_names)
+db.getLinkItems(9c04528a-0cf5-11e8-a8fb-acbc32d35fbf)
+getGroupObjByUuid(9c04528a-0cf5-11e8-a8fb-acbc32d35fbf)
+db.getLinkItemByUuid(9c04528a-0cf5-11e8-a8fb-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(9c04528a-0cf5-11e8-a8fb-acbc32d35fbf)
+getGroupObjByUuid(9c04663a-0cf5-11e8-9ade-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1/dense_1]
+db.getAttributeItems(9c04663a-0cf5-11e8-9ade-acbc32d35fbf)
+dumpAttributes: 9c04663a-0cf5-11e8-9ade-acbc32d35fbf
+db.getLinkItems(9c04663a-0cf5-11e8-9ade-acbc32d35fbf)
+getGroupObjByUuid(9c04663a-0cf5-11e8-9ade-acbc32d35fbf)
+db.getLinkItemByUuid(9c04663a-0cf5-11e8-9ade-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(9c04663a-0cf5-11e8-9ade-acbc32d35fbf)
+db.getLinkItemByUuid(9c04663a-0cf5-11e8-9ade-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(9c04663a-0cf5-11e8-9ade-acbc32d35fbf)
+getGroupObjByUuid(9c04ac8a-0cf5-11e8-a285-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2]
+db.getAttributeItems(9c04ac8a-0cf5-11e8-a285-acbc32d35fbf)
+dumpAttributes: 9c04ac8a-0cf5-11e8-a285-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 9c04ac8a-0cf5-11e8-a285-acbc32d35fbf, weight_names)
+db.getLinkItems(9c04ac8a-0cf5-11e8-a285-acbc32d35fbf)
+getGroupObjByUuid(9c04ac8a-0cf5-11e8-a285-acbc32d35fbf)
+db.getLinkItemByUuid(9c04ac8a-0cf5-11e8-a285-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(9c04ac8a-0cf5-11e8-a285-acbc32d35fbf)
+getGroupObjByUuid(9c04bf99-0cf5-11e8-93ef-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2/dense_2]
+db.getAttributeItems(9c04bf99-0cf5-11e8-93ef-acbc32d35fbf)
+dumpAttributes: 9c04bf99-0cf5-11e8-93ef-acbc32d35fbf
+db.getLinkItems(9c04bf99-0cf5-11e8-93ef-acbc32d35fbf)
+getGroupObjByUuid(9c04bf99-0cf5-11e8-93ef-acbc32d35fbf)
+db.getLinkItemByUuid(9c04bf99-0cf5-11e8-93ef-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(9c04bf99-0cf5-11e8-93ef-acbc32d35fbf)
+db.getLinkItemByUuid(9c04bf99-0cf5-11e8-93ef-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(9c04bf99-0cf5-11e8-93ef-acbc32d35fbf)
+getGroupObjByUuid(9c04fcd1-0cf5-11e8-b2b3-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3]
+db.getAttributeItems(9c04fcd1-0cf5-11e8-b2b3-acbc32d35fbf)
+dumpAttributes: 9c04fcd1-0cf5-11e8-b2b3-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 9c04fcd1-0cf5-11e8-b2b3-acbc32d35fbf, weight_names)
+db.getLinkItems(9c04fcd1-0cf5-11e8-b2b3-acbc32d35fbf)
+getGroupObjByUuid(9c04fcd1-0cf5-11e8-b2b3-acbc32d35fbf)
+db.getLinkItemByUuid(9c04fcd1-0cf5-11e8-b2b3-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(9c04fcd1-0cf5-11e8-b2b3-acbc32d35fbf)
+getGroupObjByUuid(9c050ffd-0cf5-11e8-bb68-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3/dense_3]
+db.getAttributeItems(9c050ffd-0cf5-11e8-bb68-acbc32d35fbf)
+dumpAttributes: 9c050ffd-0cf5-11e8-bb68-acbc32d35fbf
+db.getLinkItems(9c050ffd-0cf5-11e8-bb68-acbc32d35fbf)
+getGroupObjByUuid(9c050ffd-0cf5-11e8-bb68-acbc32d35fbf)
+db.getLinkItemByUuid(9c050ffd-0cf5-11e8-bb68-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(9c050ffd-0cf5-11e8-bb68-acbc32d35fbf)
+db.getLinkItemByUuid(9c050ffd-0cf5-11e8-bb68-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(9c050ffd-0cf5-11e8-bb68-acbc32d35fbf)
+getGroupObjByUuid(9c054d7a-0cf5-11e8-b528-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4]
+db.getAttributeItems(9c054d7a-0cf5-11e8-b528-acbc32d35fbf)
+dumpAttributes: 9c054d7a-0cf5-11e8-b528-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 9c054d7a-0cf5-11e8-b528-acbc32d35fbf, weight_names)
+db.getLinkItems(9c054d7a-0cf5-11e8-b528-acbc32d35fbf)
+getGroupObjByUuid(9c054d7a-0cf5-11e8-b528-acbc32d35fbf)
+db.getLinkItemByUuid(9c054d7a-0cf5-11e8-b528-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(9c054d7a-0cf5-11e8-b528-acbc32d35fbf)
+getGroupObjByUuid(9c056075-0cf5-11e8-b546-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4/dense_4]
+db.getAttributeItems(9c056075-0cf5-11e8-b546-acbc32d35fbf)
+dumpAttributes: 9c056075-0cf5-11e8-b546-acbc32d35fbf
+db.getLinkItems(9c056075-0cf5-11e8-b546-acbc32d35fbf)
+getGroupObjByUuid(9c056075-0cf5-11e8-b546-acbc32d35fbf)
+db.getLinkItemByUuid(9c056075-0cf5-11e8-b546-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(9c056075-0cf5-11e8-b546-acbc32d35fbf)
+db.getLinkItemByUuid(9c056075-0cf5-11e8-b546-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(9c056075-0cf5-11e8-b546-acbc32d35fbf)
+getGroupObjByUuid(9c059f1e-0cf5-11e8-9119-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights]
+db.getAttributeItems(9c059f1e-0cf5-11e8-9119-acbc32d35fbf)
+dumpAttributes: 9c059f1e-0cf5-11e8-9119-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 9c059f1e-0cf5-11e8-9119-acbc32d35fbf, weight_names)
+db.getLinkItems(9c059f1e-0cf5-11e8-9119-acbc32d35fbf)
+getGroupObjByUuid(9c059f1e-0cf5-11e8-9119-acbc32d35fbf)
+db.getLinkItemByUuid(9c059f1e-0cf5-11e8-9119-acbc32d35fbf, [SGD])
+getGroupObjByUuid(9c059f1e-0cf5-11e8-9119-acbc32d35fbf)
+db.getLinkItemByUuid(9c059f1e-0cf5-11e8-9119-acbc32d35fbf, [training])
+getGroupObjByUuid(9c059f1e-0cf5-11e8-9119-acbc32d35fbf)
+getGroupObjByUuid(9c05b31c-0cf5-11e8-afbf-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/SGD]
+db.getAttributeItems(9c05b31c-0cf5-11e8-afbf-acbc32d35fbf)
+dumpAttributes: 9c05b31c-0cf5-11e8-afbf-acbc32d35fbf
+db.getLinkItems(9c05b31c-0cf5-11e8-afbf-acbc32d35fbf)
+getGroupObjByUuid(9c05b31c-0cf5-11e8-afbf-acbc32d35fbf)
+db.getLinkItemByUuid(9c05b31c-0cf5-11e8-afbf-acbc32d35fbf, [iterations:0])
+getGroupObjByUuid(9c05b31c-0cf5-11e8-afbf-acbc32d35fbf)
+getGroupObjByUuid(9c05e199-0cf5-11e8-8851-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training]
+db.getAttributeItems(9c05e199-0cf5-11e8-8851-acbc32d35fbf)
+dumpAttributes: 9c05e199-0cf5-11e8-8851-acbc32d35fbf
+db.getLinkItems(9c05e199-0cf5-11e8-8851-acbc32d35fbf)
+getGroupObjByUuid(9c05e199-0cf5-11e8-8851-acbc32d35fbf)
+db.getLinkItemByUuid(9c05e199-0cf5-11e8-8851-acbc32d35fbf, [SGD])
+getGroupObjByUuid(9c05e199-0cf5-11e8-8851-acbc32d35fbf)
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training/SGD]
+db.getAttributeItems(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+dumpAttributes: 9c05f928-0cf5-11e8-9424-acbc32d35fbf
+db.getLinkItems(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+db.getLinkItemByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf, [Variable:0])
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+db.getLinkItemByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf, [Variable_1:0])
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+db.getLinkItemByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf, [Variable_2:0])
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+db.getLinkItemByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf, [Variable_3:0])
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+db.getLinkItemByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf, [Variable_4:0])
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+db.getLinkItemByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf, [Variable_5:0])
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+db.getLinkItemByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf, [Variable_6:0])
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+db.getLinkItemByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf, [Variable_7:0])
+getGroupObjByUuid(9c05f928-0cf5-11e8-9424-acbc32d35fbf)
+db.getCollection(datasets)
+dumpDataset: 9c047f11-0cf5-11e8-8289-acbc32d35fbf
+getDatasetObjByUuid(9c047f11-0cf5-11e8-8289-acbc32d35fbf)
+getDatasetObjByUuid(9c047f11-0cf5-11e8-8289-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/bias:0]
+db.getAttributeItems(9c047f11-0cf5-11e8-8289-acbc32d35fbf)
+dumpAttributes: 9c047f11-0cf5-11e8-8289-acbc32d35fbf
+getDatasetObjByUuid(9c047f11-0cf5-11e8-8289-acbc32d35fbf)
+dumpDataset: 9c0498d9-0cf5-11e8-add0-acbc32d35fbf
+getDatasetObjByUuid(9c0498d9-0cf5-11e8-add0-acbc32d35fbf)
+getDatasetObjByUuid(9c0498d9-0cf5-11e8-add0-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/kernel:0]
+db.getAttributeItems(9c0498d9-0cf5-11e8-add0-acbc32d35fbf)
+dumpAttributes: 9c0498d9-0cf5-11e8-add0-acbc32d35fbf
+getDatasetObjByUuid(9c0498d9-0cf5-11e8-add0-acbc32d35fbf)
+dumpDataset: 9c04d423-0cf5-11e8-bd07-acbc32d35fbf
+getDatasetObjByUuid(9c04d423-0cf5-11e8-bd07-acbc32d35fbf)
+getDatasetObjByUuid(9c04d423-0cf5-11e8-bd07-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/bias:0]
+db.getAttributeItems(9c04d423-0cf5-11e8-bd07-acbc32d35fbf)
+dumpAttributes: 9c04d423-0cf5-11e8-bd07-acbc32d35fbf
+getDatasetObjByUuid(9c04d423-0cf5-11e8-bd07-acbc32d35fbf)
+dumpDataset: 9c04e93d-0cf5-11e8-98d7-acbc32d35fbf
+getDatasetObjByUuid(9c04e93d-0cf5-11e8-98d7-acbc32d35fbf)
+getDatasetObjByUuid(9c04e93d-0cf5-11e8-98d7-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/kernel:0]
+db.getAttributeItems(9c04e93d-0cf5-11e8-98d7-acbc32d35fbf)
+dumpAttributes: 9c04e93d-0cf5-11e8-98d7-acbc32d35fbf
+getDatasetObjByUuid(9c04e93d-0cf5-11e8-98d7-acbc32d35fbf)
+dumpDataset: 9c0524d1-0cf5-11e8-b0ee-acbc32d35fbf
+getDatasetObjByUuid(9c0524d1-0cf5-11e8-b0ee-acbc32d35fbf)
+getDatasetObjByUuid(9c0524d1-0cf5-11e8-b0ee-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/bias:0]
+db.getAttributeItems(9c0524d1-0cf5-11e8-b0ee-acbc32d35fbf)
+dumpAttributes: 9c0524d1-0cf5-11e8-b0ee-acbc32d35fbf
+getDatasetObjByUuid(9c0524d1-0cf5-11e8-b0ee-acbc32d35fbf)
+dumpDataset: 9c053a1c-0cf5-11e8-b818-acbc32d35fbf
+getDatasetObjByUuid(9c053a1c-0cf5-11e8-b818-acbc32d35fbf)
+getDatasetObjByUuid(9c053a1c-0cf5-11e8-b818-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/kernel:0]
+db.getAttributeItems(9c053a1c-0cf5-11e8-b818-acbc32d35fbf)
+dumpAttributes: 9c053a1c-0cf5-11e8-b818-acbc32d35fbf
+getDatasetObjByUuid(9c053a1c-0cf5-11e8-b818-acbc32d35fbf)
+dumpDataset: 9c05755c-0cf5-11e8-b2b6-acbc32d35fbf
+getDatasetObjByUuid(9c05755c-0cf5-11e8-b2b6-acbc32d35fbf)
+getDatasetObjByUuid(9c05755c-0cf5-11e8-b2b6-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/bias:0]
+db.getAttributeItems(9c05755c-0cf5-11e8-b2b6-acbc32d35fbf)
+dumpAttributes: 9c05755c-0cf5-11e8-b2b6-acbc32d35fbf
+getDatasetObjByUuid(9c05755c-0cf5-11e8-b2b6-acbc32d35fbf)
+dumpDataset: 9c058b45-0cf5-11e8-a6c4-acbc32d35fbf
+getDatasetObjByUuid(9c058b45-0cf5-11e8-a6c4-acbc32d35fbf)
+getDatasetObjByUuid(9c058b45-0cf5-11e8-a6c4-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/kernel:0]
+db.getAttributeItems(9c058b45-0cf5-11e8-a6c4-acbc32d35fbf)
+dumpAttributes: 9c058b45-0cf5-11e8-a6c4-acbc32d35fbf
+getDatasetObjByUuid(9c058b45-0cf5-11e8-a6c4-acbc32d35fbf)
+dumpDataset: 9c05ca7a-0cf5-11e8-afda-acbc32d35fbf
+getDatasetObjByUuid(9c05ca7a-0cf5-11e8-afda-acbc32d35fbf)
+getDatasetObjByUuid(9c05ca7a-0cf5-11e8-afda-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/SGD/iterations:0]
+db.getAttributeItems(9c05ca7a-0cf5-11e8-afda-acbc32d35fbf)
+dumpAttributes: 9c05ca7a-0cf5-11e8-afda-acbc32d35fbf
+getDatasetObjByUuid(9c05ca7a-0cf5-11e8-afda-acbc32d35fbf)
+dumpDataset: 9c0610b5-0cf5-11e8-89fe-acbc32d35fbf
+getDatasetObjByUuid(9c0610b5-0cf5-11e8-89fe-acbc32d35fbf)
+getDatasetObjByUuid(9c0610b5-0cf5-11e8-89fe-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable:0]
+db.getAttributeItems(9c0610b5-0cf5-11e8-89fe-acbc32d35fbf)
+dumpAttributes: 9c0610b5-0cf5-11e8-89fe-acbc32d35fbf
+getDatasetObjByUuid(9c0610b5-0cf5-11e8-89fe-acbc32d35fbf)
+dumpDataset: 9c062723-0cf5-11e8-aae4-acbc32d35fbf
+getDatasetObjByUuid(9c062723-0cf5-11e8-aae4-acbc32d35fbf)
+getDatasetObjByUuid(9c062723-0cf5-11e8-aae4-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_1:0]
+db.getAttributeItems(9c062723-0cf5-11e8-aae4-acbc32d35fbf)
+dumpAttributes: 9c062723-0cf5-11e8-aae4-acbc32d35fbf
+getDatasetObjByUuid(9c062723-0cf5-11e8-aae4-acbc32d35fbf)
+dumpDataset: 9c063eeb-0cf5-11e8-882a-acbc32d35fbf
+getDatasetObjByUuid(9c063eeb-0cf5-11e8-882a-acbc32d35fbf)
+getDatasetObjByUuid(9c063eeb-0cf5-11e8-882a-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_2:0]
+db.getAttributeItems(9c063eeb-0cf5-11e8-882a-acbc32d35fbf)
+dumpAttributes: 9c063eeb-0cf5-11e8-882a-acbc32d35fbf
+getDatasetObjByUuid(9c063eeb-0cf5-11e8-882a-acbc32d35fbf)
+dumpDataset: 9c0656ab-0cf5-11e8-99af-acbc32d35fbf
+getDatasetObjByUuid(9c0656ab-0cf5-11e8-99af-acbc32d35fbf)
+getDatasetObjByUuid(9c0656ab-0cf5-11e8-99af-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_3:0]
+db.getAttributeItems(9c0656ab-0cf5-11e8-99af-acbc32d35fbf)
+dumpAttributes: 9c0656ab-0cf5-11e8-99af-acbc32d35fbf
+getDatasetObjByUuid(9c0656ab-0cf5-11e8-99af-acbc32d35fbf)
+dumpDataset: 9c066ecf-0cf5-11e8-9898-acbc32d35fbf
+getDatasetObjByUuid(9c066ecf-0cf5-11e8-9898-acbc32d35fbf)
+getDatasetObjByUuid(9c066ecf-0cf5-11e8-9898-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_4:0]
+db.getAttributeItems(9c066ecf-0cf5-11e8-9898-acbc32d35fbf)
+dumpAttributes: 9c066ecf-0cf5-11e8-9898-acbc32d35fbf
+getDatasetObjByUuid(9c066ecf-0cf5-11e8-9898-acbc32d35fbf)
+dumpDataset: 9c068685-0cf5-11e8-9191-acbc32d35fbf
+getDatasetObjByUuid(9c068685-0cf5-11e8-9191-acbc32d35fbf)
+getDatasetObjByUuid(9c068685-0cf5-11e8-9191-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_5:0]
+db.getAttributeItems(9c068685-0cf5-11e8-9191-acbc32d35fbf)
+dumpAttributes: 9c068685-0cf5-11e8-9191-acbc32d35fbf
+getDatasetObjByUuid(9c068685-0cf5-11e8-9191-acbc32d35fbf)
+dumpDataset: 9c069c70-0cf5-11e8-9f87-acbc32d35fbf
+getDatasetObjByUuid(9c069c70-0cf5-11e8-9f87-acbc32d35fbf)
+getDatasetObjByUuid(9c069c70-0cf5-11e8-9f87-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_6:0]
+db.getAttributeItems(9c069c70-0cf5-11e8-9f87-acbc32d35fbf)
+dumpAttributes: 9c069c70-0cf5-11e8-9f87-acbc32d35fbf
+getDatasetObjByUuid(9c069c70-0cf5-11e8-9f87-acbc32d35fbf)
+dumpDataset: 9c06b263-0cf5-11e8-8105-acbc32d35fbf
+getDatasetObjByUuid(9c06b263-0cf5-11e8-8105-acbc32d35fbf)
+getDatasetObjByUuid(9c06b263-0cf5-11e8-8105-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_7:0]
+db.getAttributeItems(9c06b263-0cf5-11e8-8105-acbc32d35fbf)
+dumpAttributes: 9c06b263-0cf5-11e8-8105-acbc32d35fbf
+getDatasetObjByUuid(9c06b263-0cf5-11e8-8105-acbc32d35fbf)
+db.getCollection(datatypes)
+Hdf5db __exit
+h5tojson models/my_model.h5
+Using dbFile: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpHRCllW
+init -- filePath: models/my_model.h5 mode: r
+dbFilePath: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpHRCllW mode: r+
+Hdf5db __enter
+initializing file
+visit: model_weights name: Group
+visit: model_weights/dense_1 name: Group
+visit: model_weights/dense_1/dense_1 name: Group
+visit: model_weights/dense_1/dense_1/bias:0 name: Dataset
+visit: model_weights/dense_1/dense_1/kernel:0 name: Dataset
+visit: model_weights/dense_2 name: Group
+visit: model_weights/dense_2/dense_2 name: Group
+visit: model_weights/dense_2/dense_2/bias:0 name: Dataset
+visit: model_weights/dense_2/dense_2/kernel:0 name: Dataset
+visit: model_weights/dense_3 name: Group
+visit: model_weights/dense_3/dense_3 name: Group
+visit: model_weights/dense_3/dense_3/bias:0 name: Dataset
+visit: model_weights/dense_3/dense_3/kernel:0 name: Dataset
+visit: model_weights/dense_4 name: Group
+visit: model_weights/dense_4/dense_4 name: Group
+visit: model_weights/dense_4/dense_4/bias:0 name: Dataset
+visit: model_weights/dense_4/dense_4/kernel:0 name: Dataset
+visit: optimizer_weights name: Group
+visit: optimizer_weights/SGD name: Group
+visit: optimizer_weights/SGD/iterations:0 name: Dataset
+visit: optimizer_weights/training name: Group
+visit: optimizer_weights/training/SGD name: Group
+visit: optimizer_weights/training/SGD/Variable:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_1:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_2:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_3:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_4:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_5:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_6:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_7:0 name: Dataset
+getUUIDByPath: [/]
+getGroupObjByUuid(eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf)
+dumpGroup alias: [/]
+db.getAttributeItems(eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf)
+dumpAttributes: eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf, keras_version)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf, backend)
+dumpAttribute: [model_config]
+getAttributeItemByUuid(groups, eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf, model_config)
+dumpAttribute: [training_config]
+getAttributeItemByUuid(groups, eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf, training_config)
+db.getLinkItems(eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf)
+getGroupObjByUuid(eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf)
+db.getLinkItemByUuid(eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf, [model_weights])
+getGroupObjByUuid(eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf)
+db.getLinkItemByUuid(eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf, [optimizer_weights])
+getGroupObjByUuid(eb1e3214-0cf5-11e8-8b5e-acbc32d35fbf)
+db.getCollection(groups)
+getGroupObjByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf)
+dumpGroup alias: [/model_weights]
+db.getAttributeItems(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf)
+dumpAttributes: eb1f548c-0cf5-11e8-acd8-acbc32d35fbf
+dumpAttribute: [layer_names]
+getAttributeItemByUuid(groups, eb1f548c-0cf5-11e8-acd8-acbc32d35fbf, layer_names)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, eb1f548c-0cf5-11e8-acd8-acbc32d35fbf, backend)
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, eb1f548c-0cf5-11e8-acd8-acbc32d35fbf, keras_version)
+db.getLinkItems(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf)
+getGroupObjByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf)
+db.getLinkItemByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf)
+db.getLinkItemByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf)
+db.getLinkItemByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf)
+db.getLinkItemByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(eb1f548c-0cf5-11e8-acd8-acbc32d35fbf)
+getGroupObjByUuid(eb1f6b33-0cf5-11e8-b98d-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1]
+db.getAttributeItems(eb1f6b33-0cf5-11e8-b98d-acbc32d35fbf)
+dumpAttributes: eb1f6b33-0cf5-11e8-b98d-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, eb1f6b33-0cf5-11e8-b98d-acbc32d35fbf, weight_names)
+db.getLinkItems(eb1f6b33-0cf5-11e8-b98d-acbc32d35fbf)
+getGroupObjByUuid(eb1f6b33-0cf5-11e8-b98d-acbc32d35fbf)
+db.getLinkItemByUuid(eb1f6b33-0cf5-11e8-b98d-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(eb1f6b33-0cf5-11e8-b98d-acbc32d35fbf)
+getGroupObjByUuid(eb1f8251-0cf5-11e8-a29d-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1/dense_1]
+db.getAttributeItems(eb1f8251-0cf5-11e8-a29d-acbc32d35fbf)
+dumpAttributes: eb1f8251-0cf5-11e8-a29d-acbc32d35fbf
+db.getLinkItems(eb1f8251-0cf5-11e8-a29d-acbc32d35fbf)
+getGroupObjByUuid(eb1f8251-0cf5-11e8-a29d-acbc32d35fbf)
+db.getLinkItemByUuid(eb1f8251-0cf5-11e8-a29d-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(eb1f8251-0cf5-11e8-a29d-acbc32d35fbf)
+db.getLinkItemByUuid(eb1f8251-0cf5-11e8-a29d-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(eb1f8251-0cf5-11e8-a29d-acbc32d35fbf)
+getGroupObjByUuid(eb1fcfa1-0cf5-11e8-82b9-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2]
+db.getAttributeItems(eb1fcfa1-0cf5-11e8-82b9-acbc32d35fbf)
+dumpAttributes: eb1fcfa1-0cf5-11e8-82b9-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, eb1fcfa1-0cf5-11e8-82b9-acbc32d35fbf, weight_names)
+db.getLinkItems(eb1fcfa1-0cf5-11e8-82b9-acbc32d35fbf)
+getGroupObjByUuid(eb1fcfa1-0cf5-11e8-82b9-acbc32d35fbf)
+db.getLinkItemByUuid(eb1fcfa1-0cf5-11e8-82b9-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(eb1fcfa1-0cf5-11e8-82b9-acbc32d35fbf)
+getGroupObjByUuid(eb1fe473-0cf5-11e8-8428-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2/dense_2]
+db.getAttributeItems(eb1fe473-0cf5-11e8-8428-acbc32d35fbf)
+dumpAttributes: eb1fe473-0cf5-11e8-8428-acbc32d35fbf
+db.getLinkItems(eb1fe473-0cf5-11e8-8428-acbc32d35fbf)
+getGroupObjByUuid(eb1fe473-0cf5-11e8-8428-acbc32d35fbf)
+db.getLinkItemByUuid(eb1fe473-0cf5-11e8-8428-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(eb1fe473-0cf5-11e8-8428-acbc32d35fbf)
+db.getLinkItemByUuid(eb1fe473-0cf5-11e8-8428-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(eb1fe473-0cf5-11e8-8428-acbc32d35fbf)
+getGroupObjByUuid(eb202221-0cf5-11e8-9c6e-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3]
+db.getAttributeItems(eb202221-0cf5-11e8-9c6e-acbc32d35fbf)
+dumpAttributes: eb202221-0cf5-11e8-9c6e-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, eb202221-0cf5-11e8-9c6e-acbc32d35fbf, weight_names)
+db.getLinkItems(eb202221-0cf5-11e8-9c6e-acbc32d35fbf)
+getGroupObjByUuid(eb202221-0cf5-11e8-9c6e-acbc32d35fbf)
+db.getLinkItemByUuid(eb202221-0cf5-11e8-9c6e-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(eb202221-0cf5-11e8-9c6e-acbc32d35fbf)
+getGroupObjByUuid(eb203473-0cf5-11e8-aea8-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3/dense_3]
+db.getAttributeItems(eb203473-0cf5-11e8-aea8-acbc32d35fbf)
+dumpAttributes: eb203473-0cf5-11e8-aea8-acbc32d35fbf
+db.getLinkItems(eb203473-0cf5-11e8-aea8-acbc32d35fbf)
+getGroupObjByUuid(eb203473-0cf5-11e8-aea8-acbc32d35fbf)
+db.getLinkItemByUuid(eb203473-0cf5-11e8-aea8-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(eb203473-0cf5-11e8-aea8-acbc32d35fbf)
+db.getLinkItemByUuid(eb203473-0cf5-11e8-aea8-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(eb203473-0cf5-11e8-aea8-acbc32d35fbf)
+getGroupObjByUuid(eb20716e-0cf5-11e8-bef6-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4]
+db.getAttributeItems(eb20716e-0cf5-11e8-bef6-acbc32d35fbf)
+dumpAttributes: eb20716e-0cf5-11e8-bef6-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, eb20716e-0cf5-11e8-bef6-acbc32d35fbf, weight_names)
+db.getLinkItems(eb20716e-0cf5-11e8-bef6-acbc32d35fbf)
+getGroupObjByUuid(eb20716e-0cf5-11e8-bef6-acbc32d35fbf)
+db.getLinkItemByUuid(eb20716e-0cf5-11e8-bef6-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(eb20716e-0cf5-11e8-bef6-acbc32d35fbf)
+getGroupObjByUuid(eb208423-0cf5-11e8-bf14-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4/dense_4]
+db.getAttributeItems(eb208423-0cf5-11e8-bf14-acbc32d35fbf)
+dumpAttributes: eb208423-0cf5-11e8-bf14-acbc32d35fbf
+db.getLinkItems(eb208423-0cf5-11e8-bf14-acbc32d35fbf)
+getGroupObjByUuid(eb208423-0cf5-11e8-bf14-acbc32d35fbf)
+db.getLinkItemByUuid(eb208423-0cf5-11e8-bf14-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(eb208423-0cf5-11e8-bf14-acbc32d35fbf)
+db.getLinkItemByUuid(eb208423-0cf5-11e8-bf14-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(eb208423-0cf5-11e8-bf14-acbc32d35fbf)
+getGroupObjByUuid(eb20c1a1-0cf5-11e8-b055-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights]
+db.getAttributeItems(eb20c1a1-0cf5-11e8-b055-acbc32d35fbf)
+dumpAttributes: eb20c1a1-0cf5-11e8-b055-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, eb20c1a1-0cf5-11e8-b055-acbc32d35fbf, weight_names)
+db.getLinkItems(eb20c1a1-0cf5-11e8-b055-acbc32d35fbf)
+getGroupObjByUuid(eb20c1a1-0cf5-11e8-b055-acbc32d35fbf)
+db.getLinkItemByUuid(eb20c1a1-0cf5-11e8-b055-acbc32d35fbf, [SGD])
+getGroupObjByUuid(eb20c1a1-0cf5-11e8-b055-acbc32d35fbf)
+db.getLinkItemByUuid(eb20c1a1-0cf5-11e8-b055-acbc32d35fbf, [training])
+getGroupObjByUuid(eb20c1a1-0cf5-11e8-b055-acbc32d35fbf)
+getGroupObjByUuid(eb20d40f-0cf5-11e8-86bb-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/SGD]
+db.getAttributeItems(eb20d40f-0cf5-11e8-86bb-acbc32d35fbf)
+dumpAttributes: eb20d40f-0cf5-11e8-86bb-acbc32d35fbf
+db.getLinkItems(eb20d40f-0cf5-11e8-86bb-acbc32d35fbf)
+getGroupObjByUuid(eb20d40f-0cf5-11e8-86bb-acbc32d35fbf)
+db.getLinkItemByUuid(eb20d40f-0cf5-11e8-86bb-acbc32d35fbf, [iterations:0])
+getGroupObjByUuid(eb20d40f-0cf5-11e8-86bb-acbc32d35fbf)
+getGroupObjByUuid(eb20ffcf-0cf5-11e8-9489-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training]
+db.getAttributeItems(eb20ffcf-0cf5-11e8-9489-acbc32d35fbf)
+dumpAttributes: eb20ffcf-0cf5-11e8-9489-acbc32d35fbf
+db.getLinkItems(eb20ffcf-0cf5-11e8-9489-acbc32d35fbf)
+getGroupObjByUuid(eb20ffcf-0cf5-11e8-9489-acbc32d35fbf)
+db.getLinkItemByUuid(eb20ffcf-0cf5-11e8-9489-acbc32d35fbf, [SGD])
+getGroupObjByUuid(eb20ffcf-0cf5-11e8-9489-acbc32d35fbf)
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training/SGD]
+db.getAttributeItems(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+dumpAttributes: eb21163a-0cf5-11e8-8ca2-acbc32d35fbf
+db.getLinkItems(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+db.getLinkItemByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf, [Variable:0])
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+db.getLinkItemByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf, [Variable_1:0])
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+db.getLinkItemByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf, [Variable_2:0])
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+db.getLinkItemByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf, [Variable_3:0])
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+db.getLinkItemByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf, [Variable_4:0])
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+db.getLinkItemByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf, [Variable_5:0])
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+db.getLinkItemByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf, [Variable_6:0])
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+db.getLinkItemByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf, [Variable_7:0])
+getGroupObjByUuid(eb21163a-0cf5-11e8-8ca2-acbc32d35fbf)
+db.getCollection(datasets)
+dumpDataset: eb1f9f63-0cf5-11e8-b4c2-acbc32d35fbf
+getDatasetObjByUuid(eb1f9f63-0cf5-11e8-b4c2-acbc32d35fbf)
+getDatasetObjByUuid(eb1f9f63-0cf5-11e8-b4c2-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/bias:0]
+db.getAttributeItems(eb1f9f63-0cf5-11e8-b4c2-acbc32d35fbf)
+dumpAttributes: eb1f9f63-0cf5-11e8-b4c2-acbc32d35fbf
+getDatasetObjByUuid(eb1f9f63-0cf5-11e8-b4c2-acbc32d35fbf)
+dumpDataset: eb1fb98f-0cf5-11e8-a9cd-acbc32d35fbf
+getDatasetObjByUuid(eb1fb98f-0cf5-11e8-a9cd-acbc32d35fbf)
+getDatasetObjByUuid(eb1fb98f-0cf5-11e8-a9cd-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/kernel:0]
+db.getAttributeItems(eb1fb98f-0cf5-11e8-a9cd-acbc32d35fbf)
+dumpAttributes: eb1fb98f-0cf5-11e8-a9cd-acbc32d35fbf
+getDatasetObjByUuid(eb1fb98f-0cf5-11e8-a9cd-acbc32d35fbf)
+dumpDataset: eb1ff978-0cf5-11e8-94c1-acbc32d35fbf
+getDatasetObjByUuid(eb1ff978-0cf5-11e8-94c1-acbc32d35fbf)
+getDatasetObjByUuid(eb1ff978-0cf5-11e8-94c1-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/bias:0]
+db.getAttributeItems(eb1ff978-0cf5-11e8-94c1-acbc32d35fbf)
+dumpAttributes: eb1ff978-0cf5-11e8-94c1-acbc32d35fbf
+getDatasetObjByUuid(eb1ff978-0cf5-11e8-94c1-acbc32d35fbf)
+dumpDataset: eb200ed4-0cf5-11e8-9c71-acbc32d35fbf
+getDatasetObjByUuid(eb200ed4-0cf5-11e8-9c71-acbc32d35fbf)
+getDatasetObjByUuid(eb200ed4-0cf5-11e8-9c71-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/kernel:0]
+db.getAttributeItems(eb200ed4-0cf5-11e8-9c71-acbc32d35fbf)
+dumpAttributes: eb200ed4-0cf5-11e8-9c71-acbc32d35fbf
+getDatasetObjByUuid(eb200ed4-0cf5-11e8-9c71-acbc32d35fbf)
+dumpDataset: eb20489c-0cf5-11e8-ac15-acbc32d35fbf
+getDatasetObjByUuid(eb20489c-0cf5-11e8-ac15-acbc32d35fbf)
+getDatasetObjByUuid(eb20489c-0cf5-11e8-ac15-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/bias:0]
+db.getAttributeItems(eb20489c-0cf5-11e8-ac15-acbc32d35fbf)
+dumpAttributes: eb20489c-0cf5-11e8-ac15-acbc32d35fbf
+getDatasetObjByUuid(eb20489c-0cf5-11e8-ac15-acbc32d35fbf)
+dumpDataset: eb205e68-0cf5-11e8-b2ae-acbc32d35fbf
+getDatasetObjByUuid(eb205e68-0cf5-11e8-b2ae-acbc32d35fbf)
+getDatasetObjByUuid(eb205e68-0cf5-11e8-b2ae-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/kernel:0]
+db.getAttributeItems(eb205e68-0cf5-11e8-b2ae-acbc32d35fbf)
+dumpAttributes: eb205e68-0cf5-11e8-b2ae-acbc32d35fbf
+getDatasetObjByUuid(eb205e68-0cf5-11e8-b2ae-acbc32d35fbf)
+dumpDataset: eb2099bd-0cf5-11e8-8b94-acbc32d35fbf
+getDatasetObjByUuid(eb2099bd-0cf5-11e8-8b94-acbc32d35fbf)
+getDatasetObjByUuid(eb2099bd-0cf5-11e8-8b94-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/bias:0]
+db.getAttributeItems(eb2099bd-0cf5-11e8-8b94-acbc32d35fbf)
+dumpAttributes: eb2099bd-0cf5-11e8-8b94-acbc32d35fbf
+getDatasetObjByUuid(eb2099bd-0cf5-11e8-8b94-acbc32d35fbf)
+dumpDataset: eb20ae40-0cf5-11e8-93ac-acbc32d35fbf
+getDatasetObjByUuid(eb20ae40-0cf5-11e8-93ac-acbc32d35fbf)
+getDatasetObjByUuid(eb20ae40-0cf5-11e8-93ac-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/kernel:0]
+db.getAttributeItems(eb20ae40-0cf5-11e8-93ac-acbc32d35fbf)
+dumpAttributes: eb20ae40-0cf5-11e8-93ac-acbc32d35fbf
+getDatasetObjByUuid(eb20ae40-0cf5-11e8-93ac-acbc32d35fbf)
+dumpDataset: eb20e891-0cf5-11e8-8071-acbc32d35fbf
+getDatasetObjByUuid(eb20e891-0cf5-11e8-8071-acbc32d35fbf)
+getDatasetObjByUuid(eb20e891-0cf5-11e8-8071-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/SGD/iterations:0]
+db.getAttributeItems(eb20e891-0cf5-11e8-8071-acbc32d35fbf)
+dumpAttributes: eb20e891-0cf5-11e8-8071-acbc32d35fbf
+getDatasetObjByUuid(eb20e891-0cf5-11e8-8071-acbc32d35fbf)
+dumpDataset: eb212b73-0cf5-11e8-b3a5-acbc32d35fbf
+getDatasetObjByUuid(eb212b73-0cf5-11e8-b3a5-acbc32d35fbf)
+getDatasetObjByUuid(eb212b73-0cf5-11e8-b3a5-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable:0]
+db.getAttributeItems(eb212b73-0cf5-11e8-b3a5-acbc32d35fbf)
+dumpAttributes: eb212b73-0cf5-11e8-b3a5-acbc32d35fbf
+getDatasetObjByUuid(eb212b73-0cf5-11e8-b3a5-acbc32d35fbf)
+dumpDataset: eb214363-0cf5-11e8-8407-acbc32d35fbf
+getDatasetObjByUuid(eb214363-0cf5-11e8-8407-acbc32d35fbf)
+getDatasetObjByUuid(eb214363-0cf5-11e8-8407-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_1:0]
+db.getAttributeItems(eb214363-0cf5-11e8-8407-acbc32d35fbf)
+dumpAttributes: eb214363-0cf5-11e8-8407-acbc32d35fbf
+getDatasetObjByUuid(eb214363-0cf5-11e8-8407-acbc32d35fbf)
+dumpDataset: eb216345-0cf5-11e8-af09-acbc32d35fbf
+getDatasetObjByUuid(eb216345-0cf5-11e8-af09-acbc32d35fbf)
+getDatasetObjByUuid(eb216345-0cf5-11e8-af09-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_2:0]
+db.getAttributeItems(eb216345-0cf5-11e8-af09-acbc32d35fbf)
+dumpAttributes: eb216345-0cf5-11e8-af09-acbc32d35fbf
+getDatasetObjByUuid(eb216345-0cf5-11e8-af09-acbc32d35fbf)
+dumpDataset: eb218494-0cf5-11e8-a372-acbc32d35fbf
+getDatasetObjByUuid(eb218494-0cf5-11e8-a372-acbc32d35fbf)
+getDatasetObjByUuid(eb218494-0cf5-11e8-a372-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_3:0]
+db.getAttributeItems(eb218494-0cf5-11e8-a372-acbc32d35fbf)
+dumpAttributes: eb218494-0cf5-11e8-a372-acbc32d35fbf
+getDatasetObjByUuid(eb218494-0cf5-11e8-a372-acbc32d35fbf)
+dumpDataset: eb219fe3-0cf5-11e8-838b-acbc32d35fbf
+getDatasetObjByUuid(eb219fe3-0cf5-11e8-838b-acbc32d35fbf)
+getDatasetObjByUuid(eb219fe3-0cf5-11e8-838b-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_4:0]
+db.getAttributeItems(eb219fe3-0cf5-11e8-838b-acbc32d35fbf)
+dumpAttributes: eb219fe3-0cf5-11e8-838b-acbc32d35fbf
+getDatasetObjByUuid(eb219fe3-0cf5-11e8-838b-acbc32d35fbf)
+dumpDataset: eb21b966-0cf5-11e8-8c13-acbc32d35fbf
+getDatasetObjByUuid(eb21b966-0cf5-11e8-8c13-acbc32d35fbf)
+getDatasetObjByUuid(eb21b966-0cf5-11e8-8c13-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_5:0]
+db.getAttributeItems(eb21b966-0cf5-11e8-8c13-acbc32d35fbf)
+dumpAttributes: eb21b966-0cf5-11e8-8c13-acbc32d35fbf
+getDatasetObjByUuid(eb21b966-0cf5-11e8-8c13-acbc32d35fbf)
+dumpDataset: eb21d2b5-0cf5-11e8-a363-acbc32d35fbf
+getDatasetObjByUuid(eb21d2b5-0cf5-11e8-a363-acbc32d35fbf)
+getDatasetObjByUuid(eb21d2b5-0cf5-11e8-a363-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_6:0]
+db.getAttributeItems(eb21d2b5-0cf5-11e8-a363-acbc32d35fbf)
+dumpAttributes: eb21d2b5-0cf5-11e8-a363-acbc32d35fbf
+getDatasetObjByUuid(eb21d2b5-0cf5-11e8-a363-acbc32d35fbf)
+dumpDataset: eb21efa8-0cf5-11e8-9755-acbc32d35fbf
+getDatasetObjByUuid(eb21efa8-0cf5-11e8-9755-acbc32d35fbf)
+getDatasetObjByUuid(eb21efa8-0cf5-11e8-9755-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_7:0]
+db.getAttributeItems(eb21efa8-0cf5-11e8-9755-acbc32d35fbf)
+dumpAttributes: eb21efa8-0cf5-11e8-9755-acbc32d35fbf
+getDatasetObjByUuid(eb21efa8-0cf5-11e8-9755-acbc32d35fbf)
+db.getCollection(datatypes)
+Hdf5db __exit
+h5tojson models/my_model.h5
+Using dbFile: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpPmRm5J
+init -- filePath: models/my_model.h5 mode: r
+dbFilePath: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpPmRm5J mode: r+
+Hdf5db __enter
+initializing file
+visit: model_weights name: Group
+visit: model_weights/dense_1 name: Group
+visit: model_weights/dense_1/dense_1 name: Group
+visit: model_weights/dense_1/dense_1/bias:0 name: Dataset
+visit: model_weights/dense_1/dense_1/kernel:0 name: Dataset
+visit: model_weights/dense_2 name: Group
+visit: model_weights/dense_2/dense_2 name: Group
+visit: model_weights/dense_2/dense_2/bias:0 name: Dataset
+visit: model_weights/dense_2/dense_2/kernel:0 name: Dataset
+visit: model_weights/dense_3 name: Group
+visit: model_weights/dense_3/dense_3 name: Group
+visit: model_weights/dense_3/dense_3/bias:0 name: Dataset
+visit: model_weights/dense_3/dense_3/kernel:0 name: Dataset
+visit: model_weights/dense_4 name: Group
+visit: model_weights/dense_4/dense_4 name: Group
+visit: model_weights/dense_4/dense_4/bias:0 name: Dataset
+visit: model_weights/dense_4/dense_4/kernel:0 name: Dataset
+visit: optimizer_weights name: Group
+visit: optimizer_weights/SGD name: Group
+visit: optimizer_weights/SGD/iterations:0 name: Dataset
+visit: optimizer_weights/training name: Group
+visit: optimizer_weights/training/SGD name: Group
+visit: optimizer_weights/training/SGD/Variable:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_1:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_2:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_3:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_4:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_5:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_6:0 name: Dataset
+visit: optimizer_weights/training/SGD/Variable_7:0 name: Dataset
+getUUIDByPath: [/]
+getGroupObjByUuid(3f5651de-0cf6-11e8-ba74-acbc32d35fbf)
+dumpGroup alias: [/]
+db.getAttributeItems(3f5651de-0cf6-11e8-ba74-acbc32d35fbf)
+dumpAttributes: 3f5651de-0cf6-11e8-ba74-acbc32d35fbf
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 3f5651de-0cf6-11e8-ba74-acbc32d35fbf, keras_version)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 3f5651de-0cf6-11e8-ba74-acbc32d35fbf, backend)
+dumpAttribute: [model_config]
+getAttributeItemByUuid(groups, 3f5651de-0cf6-11e8-ba74-acbc32d35fbf, model_config)
+dumpAttribute: [training_config]
+getAttributeItemByUuid(groups, 3f5651de-0cf6-11e8-ba74-acbc32d35fbf, training_config)
+db.getLinkItems(3f5651de-0cf6-11e8-ba74-acbc32d35fbf)
+getGroupObjByUuid(3f5651de-0cf6-11e8-ba74-acbc32d35fbf)
+db.getLinkItemByUuid(3f5651de-0cf6-11e8-ba74-acbc32d35fbf, [model_weights])
+getGroupObjByUuid(3f5651de-0cf6-11e8-ba74-acbc32d35fbf)
+db.getLinkItemByUuid(3f5651de-0cf6-11e8-ba74-acbc32d35fbf, [optimizer_weights])
+getGroupObjByUuid(3f5651de-0cf6-11e8-ba74-acbc32d35fbf)
+db.getCollection(groups)
+getGroupObjByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf)
+dumpGroup alias: [/model_weights]
+db.getAttributeItems(3f57da2e-0cf6-11e8-971b-acbc32d35fbf)
+dumpAttributes: 3f57da2e-0cf6-11e8-971b-acbc32d35fbf
+dumpAttribute: [layer_names]
+getAttributeItemByUuid(groups, 3f57da2e-0cf6-11e8-971b-acbc32d35fbf, layer_names)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 3f57da2e-0cf6-11e8-971b-acbc32d35fbf, backend)
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 3f57da2e-0cf6-11e8-971b-acbc32d35fbf, keras_version)
+db.getLinkItems(3f57da2e-0cf6-11e8-971b-acbc32d35fbf)
+getGroupObjByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf)
+db.getLinkItemByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf)
+db.getLinkItemByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf)
+db.getLinkItemByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf)
+db.getLinkItemByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(3f57da2e-0cf6-11e8-971b-acbc32d35fbf)
+getGroupObjByUuid(3f57ef47-0cf6-11e8-ad45-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1]
+db.getAttributeItems(3f57ef47-0cf6-11e8-ad45-acbc32d35fbf)
+dumpAttributes: 3f57ef47-0cf6-11e8-ad45-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3f57ef47-0cf6-11e8-ad45-acbc32d35fbf, weight_names)
+db.getLinkItems(3f57ef47-0cf6-11e8-ad45-acbc32d35fbf)
+getGroupObjByUuid(3f57ef47-0cf6-11e8-ad45-acbc32d35fbf)
+db.getLinkItemByUuid(3f57ef47-0cf6-11e8-ad45-acbc32d35fbf, [dense_1])
+getGroupObjByUuid(3f57ef47-0cf6-11e8-ad45-acbc32d35fbf)
+getGroupObjByUuid(3f5802cf-0cf6-11e8-b16b-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_1/dense_1]
+db.getAttributeItems(3f5802cf-0cf6-11e8-b16b-acbc32d35fbf)
+dumpAttributes: 3f5802cf-0cf6-11e8-b16b-acbc32d35fbf
+db.getLinkItems(3f5802cf-0cf6-11e8-b16b-acbc32d35fbf)
+getGroupObjByUuid(3f5802cf-0cf6-11e8-b16b-acbc32d35fbf)
+db.getLinkItemByUuid(3f5802cf-0cf6-11e8-b16b-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(3f5802cf-0cf6-11e8-b16b-acbc32d35fbf)
+db.getLinkItemByUuid(3f5802cf-0cf6-11e8-b16b-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(3f5802cf-0cf6-11e8-b16b-acbc32d35fbf)
+getGroupObjByUuid(3f58419e-0cf6-11e8-865b-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2]
+db.getAttributeItems(3f58419e-0cf6-11e8-865b-acbc32d35fbf)
+dumpAttributes: 3f58419e-0cf6-11e8-865b-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3f58419e-0cf6-11e8-865b-acbc32d35fbf, weight_names)
+db.getLinkItems(3f58419e-0cf6-11e8-865b-acbc32d35fbf)
+getGroupObjByUuid(3f58419e-0cf6-11e8-865b-acbc32d35fbf)
+db.getLinkItemByUuid(3f58419e-0cf6-11e8-865b-acbc32d35fbf, [dense_2])
+getGroupObjByUuid(3f58419e-0cf6-11e8-865b-acbc32d35fbf)
+getGroupObjByUuid(3f58536e-0cf6-11e8-872d-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_2/dense_2]
+db.getAttributeItems(3f58536e-0cf6-11e8-872d-acbc32d35fbf)
+dumpAttributes: 3f58536e-0cf6-11e8-872d-acbc32d35fbf
+db.getLinkItems(3f58536e-0cf6-11e8-872d-acbc32d35fbf)
+getGroupObjByUuid(3f58536e-0cf6-11e8-872d-acbc32d35fbf)
+db.getLinkItemByUuid(3f58536e-0cf6-11e8-872d-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(3f58536e-0cf6-11e8-872d-acbc32d35fbf)
+db.getLinkItemByUuid(3f58536e-0cf6-11e8-872d-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(3f58536e-0cf6-11e8-872d-acbc32d35fbf)
+getGroupObjByUuid(3f588c9c-0cf6-11e8-a46a-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3]
+db.getAttributeItems(3f588c9c-0cf6-11e8-a46a-acbc32d35fbf)
+dumpAttributes: 3f588c9c-0cf6-11e8-a46a-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3f588c9c-0cf6-11e8-a46a-acbc32d35fbf, weight_names)
+db.getLinkItems(3f588c9c-0cf6-11e8-a46a-acbc32d35fbf)
+getGroupObjByUuid(3f588c9c-0cf6-11e8-a46a-acbc32d35fbf)
+db.getLinkItemByUuid(3f588c9c-0cf6-11e8-a46a-acbc32d35fbf, [dense_3])
+getGroupObjByUuid(3f588c9c-0cf6-11e8-a46a-acbc32d35fbf)
+getGroupObjByUuid(3f589e3d-0cf6-11e8-b870-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_3/dense_3]
+db.getAttributeItems(3f589e3d-0cf6-11e8-b870-acbc32d35fbf)
+dumpAttributes: 3f589e3d-0cf6-11e8-b870-acbc32d35fbf
+db.getLinkItems(3f589e3d-0cf6-11e8-b870-acbc32d35fbf)
+getGroupObjByUuid(3f589e3d-0cf6-11e8-b870-acbc32d35fbf)
+db.getLinkItemByUuid(3f589e3d-0cf6-11e8-b870-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(3f589e3d-0cf6-11e8-b870-acbc32d35fbf)
+db.getLinkItemByUuid(3f589e3d-0cf6-11e8-b870-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(3f589e3d-0cf6-11e8-b870-acbc32d35fbf)
+getGroupObjByUuid(3f58da0a-0cf6-11e8-957b-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4]
+db.getAttributeItems(3f58da0a-0cf6-11e8-957b-acbc32d35fbf)
+dumpAttributes: 3f58da0a-0cf6-11e8-957b-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3f58da0a-0cf6-11e8-957b-acbc32d35fbf, weight_names)
+db.getLinkItems(3f58da0a-0cf6-11e8-957b-acbc32d35fbf)
+getGroupObjByUuid(3f58da0a-0cf6-11e8-957b-acbc32d35fbf)
+db.getLinkItemByUuid(3f58da0a-0cf6-11e8-957b-acbc32d35fbf, [dense_4])
+getGroupObjByUuid(3f58da0a-0cf6-11e8-957b-acbc32d35fbf)
+getGroupObjByUuid(3f58f52e-0cf6-11e8-a988-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_4/dense_4]
+db.getAttributeItems(3f58f52e-0cf6-11e8-a988-acbc32d35fbf)
+dumpAttributes: 3f58f52e-0cf6-11e8-a988-acbc32d35fbf
+db.getLinkItems(3f58f52e-0cf6-11e8-a988-acbc32d35fbf)
+getGroupObjByUuid(3f58f52e-0cf6-11e8-a988-acbc32d35fbf)
+db.getLinkItemByUuid(3f58f52e-0cf6-11e8-a988-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(3f58f52e-0cf6-11e8-a988-acbc32d35fbf)
+db.getLinkItemByUuid(3f58f52e-0cf6-11e8-a988-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(3f58f52e-0cf6-11e8-a988-acbc32d35fbf)
+getGroupObjByUuid(3f597b99-0cf6-11e8-8b40-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights]
+db.getAttributeItems(3f597b99-0cf6-11e8-8b40-acbc32d35fbf)
+dumpAttributes: 3f597b99-0cf6-11e8-8b40-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 3f597b99-0cf6-11e8-8b40-acbc32d35fbf, weight_names)
+db.getLinkItems(3f597b99-0cf6-11e8-8b40-acbc32d35fbf)
+getGroupObjByUuid(3f597b99-0cf6-11e8-8b40-acbc32d35fbf)
+db.getLinkItemByUuid(3f597b99-0cf6-11e8-8b40-acbc32d35fbf, [SGD])
+getGroupObjByUuid(3f597b99-0cf6-11e8-8b40-acbc32d35fbf)
+db.getLinkItemByUuid(3f597b99-0cf6-11e8-8b40-acbc32d35fbf, [training])
+getGroupObjByUuid(3f597b99-0cf6-11e8-8b40-acbc32d35fbf)
+getGroupObjByUuid(3f599b8c-0cf6-11e8-aac9-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/SGD]
+db.getAttributeItems(3f599b8c-0cf6-11e8-aac9-acbc32d35fbf)
+dumpAttributes: 3f599b8c-0cf6-11e8-aac9-acbc32d35fbf
+db.getLinkItems(3f599b8c-0cf6-11e8-aac9-acbc32d35fbf)
+getGroupObjByUuid(3f599b8c-0cf6-11e8-aac9-acbc32d35fbf)
+db.getLinkItemByUuid(3f599b8c-0cf6-11e8-aac9-acbc32d35fbf, [iterations:0])
+getGroupObjByUuid(3f599b8c-0cf6-11e8-aac9-acbc32d35fbf)
+getGroupObjByUuid(3f59d4b3-0cf6-11e8-9524-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training]
+db.getAttributeItems(3f59d4b3-0cf6-11e8-9524-acbc32d35fbf)
+dumpAttributes: 3f59d4b3-0cf6-11e8-9524-acbc32d35fbf
+db.getLinkItems(3f59d4b3-0cf6-11e8-9524-acbc32d35fbf)
+getGroupObjByUuid(3f59d4b3-0cf6-11e8-9524-acbc32d35fbf)
+db.getLinkItemByUuid(3f59d4b3-0cf6-11e8-9524-acbc32d35fbf, [SGD])
+getGroupObjByUuid(3f59d4b3-0cf6-11e8-9524-acbc32d35fbf)
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training/SGD]
+db.getAttributeItems(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+dumpAttributes: 3f59f02b-0cf6-11e8-8217-acbc32d35fbf
+db.getLinkItems(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+db.getLinkItemByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf, [Variable:0])
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+db.getLinkItemByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf, [Variable_1:0])
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+db.getLinkItemByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf, [Variable_2:0])
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+db.getLinkItemByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf, [Variable_3:0])
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+db.getLinkItemByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf, [Variable_4:0])
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+db.getLinkItemByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf, [Variable_5:0])
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+db.getLinkItemByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf, [Variable_6:0])
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+db.getLinkItemByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf, [Variable_7:0])
+getGroupObjByUuid(3f59f02b-0cf6-11e8-8217-acbc32d35fbf)
+db.getCollection(datasets)
+dumpDataset: 3f581ae8-0cf6-11e8-b95f-acbc32d35fbf
+getDatasetObjByUuid(3f581ae8-0cf6-11e8-b95f-acbc32d35fbf)
+getDatasetObjByUuid(3f581ae8-0cf6-11e8-b95f-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/bias:0]
+db.getAttributeItems(3f581ae8-0cf6-11e8-b95f-acbc32d35fbf)
+dumpAttributes: 3f581ae8-0cf6-11e8-b95f-acbc32d35fbf
+getDatasetObjByUuid(3f581ae8-0cf6-11e8-b95f-acbc32d35fbf)
+dumpDataset: 3f582f87-0cf6-11e8-8173-acbc32d35fbf
+getDatasetObjByUuid(3f582f87-0cf6-11e8-8173-acbc32d35fbf)
+getDatasetObjByUuid(3f582f87-0cf6-11e8-8173-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_1/dense_1/kernel:0]
+db.getAttributeItems(3f582f87-0cf6-11e8-8173-acbc32d35fbf)
+dumpAttributes: 3f582f87-0cf6-11e8-8173-acbc32d35fbf
+getDatasetObjByUuid(3f582f87-0cf6-11e8-8173-acbc32d35fbf)
+dumpDataset: 3f5866a3-0cf6-11e8-be16-acbc32d35fbf
+getDatasetObjByUuid(3f5866a3-0cf6-11e8-be16-acbc32d35fbf)
+getDatasetObjByUuid(3f5866a3-0cf6-11e8-be16-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/bias:0]
+db.getAttributeItems(3f5866a3-0cf6-11e8-be16-acbc32d35fbf)
+dumpAttributes: 3f5866a3-0cf6-11e8-be16-acbc32d35fbf
+getDatasetObjByUuid(3f5866a3-0cf6-11e8-be16-acbc32d35fbf)
+dumpDataset: 3f587a87-0cf6-11e8-8506-acbc32d35fbf
+getDatasetObjByUuid(3f587a87-0cf6-11e8-8506-acbc32d35fbf)
+getDatasetObjByUuid(3f587a87-0cf6-11e8-8506-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_2/dense_2/kernel:0]
+db.getAttributeItems(3f587a87-0cf6-11e8-8506-acbc32d35fbf)
+dumpAttributes: 3f587a87-0cf6-11e8-8506-acbc32d35fbf
+getDatasetObjByUuid(3f587a87-0cf6-11e8-8506-acbc32d35fbf)
+dumpDataset: 3f58b2dc-0cf6-11e8-908c-acbc32d35fbf
+getDatasetObjByUuid(3f58b2dc-0cf6-11e8-908c-acbc32d35fbf)
+getDatasetObjByUuid(3f58b2dc-0cf6-11e8-908c-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/bias:0]
+db.getAttributeItems(3f58b2dc-0cf6-11e8-908c-acbc32d35fbf)
+dumpAttributes: 3f58b2dc-0cf6-11e8-908c-acbc32d35fbf
+getDatasetObjByUuid(3f58b2dc-0cf6-11e8-908c-acbc32d35fbf)
+dumpDataset: 3f58c7b8-0cf6-11e8-94b4-acbc32d35fbf
+getDatasetObjByUuid(3f58c7b8-0cf6-11e8-94b4-acbc32d35fbf)
+getDatasetObjByUuid(3f58c7b8-0cf6-11e8-94b4-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_3/dense_3/kernel:0]
+db.getAttributeItems(3f58c7b8-0cf6-11e8-94b4-acbc32d35fbf)
+dumpAttributes: 3f58c7b8-0cf6-11e8-94b4-acbc32d35fbf
+getDatasetObjByUuid(3f58c7b8-0cf6-11e8-94b4-acbc32d35fbf)
+dumpDataset: 3f5925ab-0cf6-11e8-9d17-acbc32d35fbf
+getDatasetObjByUuid(3f5925ab-0cf6-11e8-9d17-acbc32d35fbf)
+getDatasetObjByUuid(3f5925ab-0cf6-11e8-9d17-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/bias:0]
+db.getAttributeItems(3f5925ab-0cf6-11e8-9d17-acbc32d35fbf)
+dumpAttributes: 3f5925ab-0cf6-11e8-9d17-acbc32d35fbf
+getDatasetObjByUuid(3f5925ab-0cf6-11e8-9d17-acbc32d35fbf)
+dumpDataset: 3f595200-0cf6-11e8-9014-acbc32d35fbf
+getDatasetObjByUuid(3f595200-0cf6-11e8-9014-acbc32d35fbf)
+getDatasetObjByUuid(3f595200-0cf6-11e8-9014-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_4/dense_4/kernel:0]
+db.getAttributeItems(3f595200-0cf6-11e8-9014-acbc32d35fbf)
+dumpAttributes: 3f595200-0cf6-11e8-9014-acbc32d35fbf
+getDatasetObjByUuid(3f595200-0cf6-11e8-9014-acbc32d35fbf)
+dumpDataset: 3f59b933-0cf6-11e8-8ab6-acbc32d35fbf
+getDatasetObjByUuid(3f59b933-0cf6-11e8-8ab6-acbc32d35fbf)
+getDatasetObjByUuid(3f59b933-0cf6-11e8-8ab6-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/SGD/iterations:0]
+db.getAttributeItems(3f59b933-0cf6-11e8-8ab6-acbc32d35fbf)
+dumpAttributes: 3f59b933-0cf6-11e8-8ab6-acbc32d35fbf
+getDatasetObjByUuid(3f59b933-0cf6-11e8-8ab6-acbc32d35fbf)
+dumpDataset: 3f5a0e5c-0cf6-11e8-bd4c-acbc32d35fbf
+getDatasetObjByUuid(3f5a0e5c-0cf6-11e8-bd4c-acbc32d35fbf)
+getDatasetObjByUuid(3f5a0e5c-0cf6-11e8-bd4c-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable:0]
+db.getAttributeItems(3f5a0e5c-0cf6-11e8-bd4c-acbc32d35fbf)
+dumpAttributes: 3f5a0e5c-0cf6-11e8-bd4c-acbc32d35fbf
+getDatasetObjByUuid(3f5a0e5c-0cf6-11e8-bd4c-acbc32d35fbf)
+dumpDataset: 3f5a2b1c-0cf6-11e8-a5fd-acbc32d35fbf
+getDatasetObjByUuid(3f5a2b1c-0cf6-11e8-a5fd-acbc32d35fbf)
+getDatasetObjByUuid(3f5a2b1c-0cf6-11e8-a5fd-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_1:0]
+db.getAttributeItems(3f5a2b1c-0cf6-11e8-a5fd-acbc32d35fbf)
+dumpAttributes: 3f5a2b1c-0cf6-11e8-a5fd-acbc32d35fbf
+getDatasetObjByUuid(3f5a2b1c-0cf6-11e8-a5fd-acbc32d35fbf)
+dumpDataset: 3f5a4642-0cf6-11e8-8bb7-acbc32d35fbf
+getDatasetObjByUuid(3f5a4642-0cf6-11e8-8bb7-acbc32d35fbf)
+getDatasetObjByUuid(3f5a4642-0cf6-11e8-8bb7-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_2:0]
+db.getAttributeItems(3f5a4642-0cf6-11e8-8bb7-acbc32d35fbf)
+dumpAttributes: 3f5a4642-0cf6-11e8-8bb7-acbc32d35fbf
+getDatasetObjByUuid(3f5a4642-0cf6-11e8-8bb7-acbc32d35fbf)
+dumpDataset: 3f5a61c2-0cf6-11e8-b8cf-acbc32d35fbf
+getDatasetObjByUuid(3f5a61c2-0cf6-11e8-b8cf-acbc32d35fbf)
+getDatasetObjByUuid(3f5a61c2-0cf6-11e8-b8cf-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_3:0]
+db.getAttributeItems(3f5a61c2-0cf6-11e8-b8cf-acbc32d35fbf)
+dumpAttributes: 3f5a61c2-0cf6-11e8-b8cf-acbc32d35fbf
+getDatasetObjByUuid(3f5a61c2-0cf6-11e8-b8cf-acbc32d35fbf)
+dumpDataset: 3f5a7db0-0cf6-11e8-8cae-acbc32d35fbf
+getDatasetObjByUuid(3f5a7db0-0cf6-11e8-8cae-acbc32d35fbf)
+getDatasetObjByUuid(3f5a7db0-0cf6-11e8-8cae-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_4:0]
+db.getAttributeItems(3f5a7db0-0cf6-11e8-8cae-acbc32d35fbf)
+dumpAttributes: 3f5a7db0-0cf6-11e8-8cae-acbc32d35fbf
+getDatasetObjByUuid(3f5a7db0-0cf6-11e8-8cae-acbc32d35fbf)
+dumpDataset: 3f5a984a-0cf6-11e8-a4a6-acbc32d35fbf
+getDatasetObjByUuid(3f5a984a-0cf6-11e8-a4a6-acbc32d35fbf)
+getDatasetObjByUuid(3f5a984a-0cf6-11e8-a4a6-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_5:0]
+db.getAttributeItems(3f5a984a-0cf6-11e8-a4a6-acbc32d35fbf)
+dumpAttributes: 3f5a984a-0cf6-11e8-a4a6-acbc32d35fbf
+getDatasetObjByUuid(3f5a984a-0cf6-11e8-a4a6-acbc32d35fbf)
+dumpDataset: 3f5ab1a3-0cf6-11e8-95b3-acbc32d35fbf
+getDatasetObjByUuid(3f5ab1a3-0cf6-11e8-95b3-acbc32d35fbf)
+getDatasetObjByUuid(3f5ab1a3-0cf6-11e8-95b3-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_6:0]
+db.getAttributeItems(3f5ab1a3-0cf6-11e8-95b3-acbc32d35fbf)
+dumpAttributes: 3f5ab1a3-0cf6-11e8-95b3-acbc32d35fbf
+getDatasetObjByUuid(3f5ab1a3-0cf6-11e8-95b3-acbc32d35fbf)
+dumpDataset: 3f5acafd-0cf6-11e8-a0c0-acbc32d35fbf
+getDatasetObjByUuid(3f5acafd-0cf6-11e8-a0c0-acbc32d35fbf)
+getDatasetObjByUuid(3f5acafd-0cf6-11e8-a0c0-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training/SGD/Variable_7:0]
+db.getAttributeItems(3f5acafd-0cf6-11e8-a0c0-acbc32d35fbf)
+dumpAttributes: 3f5acafd-0cf6-11e8-a0c0-acbc32d35fbf
+getDatasetObjByUuid(3f5acafd-0cf6-11e8-a0c0-acbc32d35fbf)
+db.getCollection(datatypes)
+Hdf5db __exit
+h5tojson models/my_model.h5
+Using dbFile: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpln8lzs
+init -- filePath: models/my_model.h5 mode: r
+dbFilePath: /var/folders/xq/gnpdcdgd6r51n1x1r32w47_w0000gn/T/tmpln8lzs mode: r+
+Hdf5db __enter
+initializing file
+visit: model_weights name: Group
+visit: model_weights/dense_5 name: Group
+visit: model_weights/dense_5/dense_5 name: Group
+visit: model_weights/dense_5/dense_5/bias:0 name: Dataset
+visit: model_weights/dense_5/dense_5/kernel:0 name: Dataset
+visit: model_weights/dense_6 name: Group
+visit: model_weights/dense_6/dense_6 name: Group
+visit: model_weights/dense_6/dense_6/bias:0 name: Dataset
+visit: model_weights/dense_6/dense_6/kernel:0 name: Dataset
+visit: model_weights/dense_7 name: Group
+visit: model_weights/dense_7/dense_7 name: Group
+visit: model_weights/dense_7/dense_7/bias:0 name: Dataset
+visit: model_weights/dense_7/dense_7/kernel:0 name: Dataset
+visit: model_weights/dense_8 name: Group
+visit: model_weights/dense_8/dense_8 name: Group
+visit: model_weights/dense_8/dense_8/bias:0 name: Dataset
+visit: model_weights/dense_8/dense_8/kernel:0 name: Dataset
+visit: optimizer_weights name: Group
+visit: optimizer_weights/SGD_1 name: Group
+visit: optimizer_weights/SGD_1/iterations:0 name: Dataset
+visit: optimizer_weights/training_1 name: Group
+visit: optimizer_weights/training_1/SGD name: Group
+visit: optimizer_weights/training_1/SGD/Variable:0 name: Dataset
+visit: optimizer_weights/training_1/SGD/Variable_1:0 name: Dataset
+visit: optimizer_weights/training_1/SGD/Variable_2:0 name: Dataset
+visit: optimizer_weights/training_1/SGD/Variable_3:0 name: Dataset
+visit: optimizer_weights/training_1/SGD/Variable_4:0 name: Dataset
+visit: optimizer_weights/training_1/SGD/Variable_5:0 name: Dataset
+visit: optimizer_weights/training_1/SGD/Variable_6:0 name: Dataset
+visit: optimizer_weights/training_1/SGD/Variable_7:0 name: Dataset
+getUUIDByPath: [/]
+getGroupObjByUuid(446ba2d4-0cf6-11e8-9995-acbc32d35fbf)
+dumpGroup alias: [/]
+db.getAttributeItems(446ba2d4-0cf6-11e8-9995-acbc32d35fbf)
+dumpAttributes: 446ba2d4-0cf6-11e8-9995-acbc32d35fbf
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 446ba2d4-0cf6-11e8-9995-acbc32d35fbf, keras_version)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 446ba2d4-0cf6-11e8-9995-acbc32d35fbf, backend)
+dumpAttribute: [model_config]
+getAttributeItemByUuid(groups, 446ba2d4-0cf6-11e8-9995-acbc32d35fbf, model_config)
+dumpAttribute: [training_config]
+getAttributeItemByUuid(groups, 446ba2d4-0cf6-11e8-9995-acbc32d35fbf, training_config)
+db.getLinkItems(446ba2d4-0cf6-11e8-9995-acbc32d35fbf)
+getGroupObjByUuid(446ba2d4-0cf6-11e8-9995-acbc32d35fbf)
+db.getLinkItemByUuid(446ba2d4-0cf6-11e8-9995-acbc32d35fbf, [model_weights])
+getGroupObjByUuid(446ba2d4-0cf6-11e8-9995-acbc32d35fbf)
+db.getLinkItemByUuid(446ba2d4-0cf6-11e8-9995-acbc32d35fbf, [optimizer_weights])
+getGroupObjByUuid(446ba2d4-0cf6-11e8-9995-acbc32d35fbf)
+db.getCollection(groups)
+getGroupObjByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf)
+dumpGroup alias: [/model_weights]
+db.getAttributeItems(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf)
+dumpAttributes: 446cc16e-0cf6-11e8-bfd1-acbc32d35fbf
+dumpAttribute: [layer_names]
+getAttributeItemByUuid(groups, 446cc16e-0cf6-11e8-bfd1-acbc32d35fbf, layer_names)
+dumpAttribute: [backend]
+getAttributeItemByUuid(groups, 446cc16e-0cf6-11e8-bfd1-acbc32d35fbf, backend)
+dumpAttribute: [keras_version]
+getAttributeItemByUuid(groups, 446cc16e-0cf6-11e8-bfd1-acbc32d35fbf, keras_version)
+db.getLinkItems(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf)
+getGroupObjByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf)
+db.getLinkItemByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf, [dense_5])
+getGroupObjByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf)
+db.getLinkItemByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf, [dense_6])
+getGroupObjByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf)
+db.getLinkItemByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf, [dense_7])
+getGroupObjByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf)
+db.getLinkItemByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf, [dense_8])
+getGroupObjByUuid(446cc16e-0cf6-11e8-bfd1-acbc32d35fbf)
+getGroupObjByUuid(446cd5ab-0cf6-11e8-a738-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_5]
+db.getAttributeItems(446cd5ab-0cf6-11e8-a738-acbc32d35fbf)
+dumpAttributes: 446cd5ab-0cf6-11e8-a738-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 446cd5ab-0cf6-11e8-a738-acbc32d35fbf, weight_names)
+db.getLinkItems(446cd5ab-0cf6-11e8-a738-acbc32d35fbf)
+getGroupObjByUuid(446cd5ab-0cf6-11e8-a738-acbc32d35fbf)
+db.getLinkItemByUuid(446cd5ab-0cf6-11e8-a738-acbc32d35fbf, [dense_5])
+getGroupObjByUuid(446cd5ab-0cf6-11e8-a738-acbc32d35fbf)
+getGroupObjByUuid(446ce7f0-0cf6-11e8-8763-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_5/dense_5]
+db.getAttributeItems(446ce7f0-0cf6-11e8-8763-acbc32d35fbf)
+dumpAttributes: 446ce7f0-0cf6-11e8-8763-acbc32d35fbf
+db.getLinkItems(446ce7f0-0cf6-11e8-8763-acbc32d35fbf)
+getGroupObjByUuid(446ce7f0-0cf6-11e8-8763-acbc32d35fbf)
+db.getLinkItemByUuid(446ce7f0-0cf6-11e8-8763-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(446ce7f0-0cf6-11e8-8763-acbc32d35fbf)
+db.getLinkItemByUuid(446ce7f0-0cf6-11e8-8763-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(446ce7f0-0cf6-11e8-8763-acbc32d35fbf)
+getGroupObjByUuid(446d2e4a-0cf6-11e8-be9a-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_6]
+db.getAttributeItems(446d2e4a-0cf6-11e8-be9a-acbc32d35fbf)
+dumpAttributes: 446d2e4a-0cf6-11e8-be9a-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 446d2e4a-0cf6-11e8-be9a-acbc32d35fbf, weight_names)
+db.getLinkItems(446d2e4a-0cf6-11e8-be9a-acbc32d35fbf)
+getGroupObjByUuid(446d2e4a-0cf6-11e8-be9a-acbc32d35fbf)
+db.getLinkItemByUuid(446d2e4a-0cf6-11e8-be9a-acbc32d35fbf, [dense_6])
+getGroupObjByUuid(446d2e4a-0cf6-11e8-be9a-acbc32d35fbf)
+getGroupObjByUuid(446d4045-0cf6-11e8-9e38-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_6/dense_6]
+db.getAttributeItems(446d4045-0cf6-11e8-9e38-acbc32d35fbf)
+dumpAttributes: 446d4045-0cf6-11e8-9e38-acbc32d35fbf
+db.getLinkItems(446d4045-0cf6-11e8-9e38-acbc32d35fbf)
+getGroupObjByUuid(446d4045-0cf6-11e8-9e38-acbc32d35fbf)
+db.getLinkItemByUuid(446d4045-0cf6-11e8-9e38-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(446d4045-0cf6-11e8-9e38-acbc32d35fbf)
+db.getLinkItemByUuid(446d4045-0cf6-11e8-9e38-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(446d4045-0cf6-11e8-9e38-acbc32d35fbf)
+getGroupObjByUuid(446d7fdc-0cf6-11e8-90a3-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_7]
+db.getAttributeItems(446d7fdc-0cf6-11e8-90a3-acbc32d35fbf)
+dumpAttributes: 446d7fdc-0cf6-11e8-90a3-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 446d7fdc-0cf6-11e8-90a3-acbc32d35fbf, weight_names)
+db.getLinkItems(446d7fdc-0cf6-11e8-90a3-acbc32d35fbf)
+getGroupObjByUuid(446d7fdc-0cf6-11e8-90a3-acbc32d35fbf)
+db.getLinkItemByUuid(446d7fdc-0cf6-11e8-90a3-acbc32d35fbf, [dense_7])
+getGroupObjByUuid(446d7fdc-0cf6-11e8-90a3-acbc32d35fbf)
+getGroupObjByUuid(446d925e-0cf6-11e8-96ec-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_7/dense_7]
+db.getAttributeItems(446d925e-0cf6-11e8-96ec-acbc32d35fbf)
+dumpAttributes: 446d925e-0cf6-11e8-96ec-acbc32d35fbf
+db.getLinkItems(446d925e-0cf6-11e8-96ec-acbc32d35fbf)
+getGroupObjByUuid(446d925e-0cf6-11e8-96ec-acbc32d35fbf)
+db.getLinkItemByUuid(446d925e-0cf6-11e8-96ec-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(446d925e-0cf6-11e8-96ec-acbc32d35fbf)
+db.getLinkItemByUuid(446d925e-0cf6-11e8-96ec-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(446d925e-0cf6-11e8-96ec-acbc32d35fbf)
+getGroupObjByUuid(446dd3c2-0cf6-11e8-b14c-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_8]
+db.getAttributeItems(446dd3c2-0cf6-11e8-b14c-acbc32d35fbf)
+dumpAttributes: 446dd3c2-0cf6-11e8-b14c-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 446dd3c2-0cf6-11e8-b14c-acbc32d35fbf, weight_names)
+db.getLinkItems(446dd3c2-0cf6-11e8-b14c-acbc32d35fbf)
+getGroupObjByUuid(446dd3c2-0cf6-11e8-b14c-acbc32d35fbf)
+db.getLinkItemByUuid(446dd3c2-0cf6-11e8-b14c-acbc32d35fbf, [dense_8])
+getGroupObjByUuid(446dd3c2-0cf6-11e8-b14c-acbc32d35fbf)
+getGroupObjByUuid(446de666-0cf6-11e8-a2d0-acbc32d35fbf)
+dumpGroup alias: [/model_weights/dense_8/dense_8]
+db.getAttributeItems(446de666-0cf6-11e8-a2d0-acbc32d35fbf)
+dumpAttributes: 446de666-0cf6-11e8-a2d0-acbc32d35fbf
+db.getLinkItems(446de666-0cf6-11e8-a2d0-acbc32d35fbf)
+getGroupObjByUuid(446de666-0cf6-11e8-a2d0-acbc32d35fbf)
+db.getLinkItemByUuid(446de666-0cf6-11e8-a2d0-acbc32d35fbf, [bias:0])
+getGroupObjByUuid(446de666-0cf6-11e8-a2d0-acbc32d35fbf)
+db.getLinkItemByUuid(446de666-0cf6-11e8-a2d0-acbc32d35fbf, [kernel:0])
+getGroupObjByUuid(446de666-0cf6-11e8-a2d0-acbc32d35fbf)
+getGroupObjByUuid(446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights]
+db.getAttributeItems(446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf)
+dumpAttributes: 446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf
+dumpAttribute: [weight_names]
+getAttributeItemByUuid(groups, 446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf, weight_names)
+db.getLinkItems(446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf)
+getGroupObjByUuid(446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf)
+db.getLinkItemByUuid(446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf, [SGD_1])
+getGroupObjByUuid(446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf)
+db.getLinkItemByUuid(446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf, [training_1])
+getGroupObjByUuid(446e2b0a-0cf6-11e8-8ab0-acbc32d35fbf)
+getGroupObjByUuid(446e410f-0cf6-11e8-b518-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/SGD_1]
+db.getAttributeItems(446e410f-0cf6-11e8-b518-acbc32d35fbf)
+dumpAttributes: 446e410f-0cf6-11e8-b518-acbc32d35fbf
+db.getLinkItems(446e410f-0cf6-11e8-b518-acbc32d35fbf)
+getGroupObjByUuid(446e410f-0cf6-11e8-b518-acbc32d35fbf)
+db.getLinkItemByUuid(446e410f-0cf6-11e8-b518-acbc32d35fbf, [iterations:0])
+getGroupObjByUuid(446e410f-0cf6-11e8-b518-acbc32d35fbf)
+getGroupObjByUuid(446e6f97-0cf6-11e8-b02d-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training_1]
+db.getAttributeItems(446e6f97-0cf6-11e8-b02d-acbc32d35fbf)
+dumpAttributes: 446e6f97-0cf6-11e8-b02d-acbc32d35fbf
+db.getLinkItems(446e6f97-0cf6-11e8-b02d-acbc32d35fbf)
+getGroupObjByUuid(446e6f97-0cf6-11e8-b02d-acbc32d35fbf)
+db.getLinkItemByUuid(446e6f97-0cf6-11e8-b02d-acbc32d35fbf, [SGD])
+getGroupObjByUuid(446e6f97-0cf6-11e8-b02d-acbc32d35fbf)
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+dumpGroup alias: [/optimizer_weights/training_1/SGD]
+db.getAttributeItems(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+dumpAttributes: 446e8559-0cf6-11e8-968e-acbc32d35fbf
+db.getLinkItems(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+db.getLinkItemByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf, [Variable:0])
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+db.getLinkItemByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf, [Variable_1:0])
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+db.getLinkItemByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf, [Variable_2:0])
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+db.getLinkItemByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf, [Variable_3:0])
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+db.getLinkItemByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf, [Variable_4:0])
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+db.getLinkItemByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf, [Variable_5:0])
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+db.getLinkItemByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf, [Variable_6:0])
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+db.getLinkItemByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf, [Variable_7:0])
+getGroupObjByUuid(446e8559-0cf6-11e8-968e-acbc32d35fbf)
+db.getCollection(datasets)
+dumpDataset: 446d04ee-0cf6-11e8-9ac6-acbc32d35fbf
+getDatasetObjByUuid(446d04ee-0cf6-11e8-9ac6-acbc32d35fbf)
+getDatasetObjByUuid(446d04ee-0cf6-11e8-9ac6-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_5/dense_5/bias:0]
+db.getAttributeItems(446d04ee-0cf6-11e8-9ac6-acbc32d35fbf)
+dumpAttributes: 446d04ee-0cf6-11e8-9ac6-acbc32d35fbf
+getDatasetObjByUuid(446d04ee-0cf6-11e8-9ac6-acbc32d35fbf)
+dumpDataset: 446d19fa-0cf6-11e8-9c9d-acbc32d35fbf
+getDatasetObjByUuid(446d19fa-0cf6-11e8-9c9d-acbc32d35fbf)
+getDatasetObjByUuid(446d19fa-0cf6-11e8-9c9d-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_5/dense_5/kernel:0]
+db.getAttributeItems(446d19fa-0cf6-11e8-9c9d-acbc32d35fbf)
+dumpAttributes: 446d19fa-0cf6-11e8-9c9d-acbc32d35fbf
+getDatasetObjByUuid(446d19fa-0cf6-11e8-9c9d-acbc32d35fbf)
+dumpDataset: 446d5411-0cf6-11e8-91e6-acbc32d35fbf
+getDatasetObjByUuid(446d5411-0cf6-11e8-91e6-acbc32d35fbf)
+getDatasetObjByUuid(446d5411-0cf6-11e8-91e6-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_6/dense_6/bias:0]
+db.getAttributeItems(446d5411-0cf6-11e8-91e6-acbc32d35fbf)
+dumpAttributes: 446d5411-0cf6-11e8-91e6-acbc32d35fbf
+getDatasetObjByUuid(446d5411-0cf6-11e8-91e6-acbc32d35fbf)
+dumpDataset: 446d6c85-0cf6-11e8-855a-acbc32d35fbf
+getDatasetObjByUuid(446d6c85-0cf6-11e8-855a-acbc32d35fbf)
+getDatasetObjByUuid(446d6c85-0cf6-11e8-855a-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_6/dense_6/kernel:0]
+db.getAttributeItems(446d6c85-0cf6-11e8-855a-acbc32d35fbf)
+dumpAttributes: 446d6c85-0cf6-11e8-855a-acbc32d35fbf
+getDatasetObjByUuid(446d6c85-0cf6-11e8-855a-acbc32d35fbf)
+dumpDataset: 446da8ae-0cf6-11e8-a608-acbc32d35fbf
+getDatasetObjByUuid(446da8ae-0cf6-11e8-a608-acbc32d35fbf)
+getDatasetObjByUuid(446da8ae-0cf6-11e8-a608-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_7/dense_7/bias:0]
+db.getAttributeItems(446da8ae-0cf6-11e8-a608-acbc32d35fbf)
+dumpAttributes: 446da8ae-0cf6-11e8-a608-acbc32d35fbf
+getDatasetObjByUuid(446da8ae-0cf6-11e8-a608-acbc32d35fbf)
+dumpDataset: 446dbf38-0cf6-11e8-8493-acbc32d35fbf
+getDatasetObjByUuid(446dbf38-0cf6-11e8-8493-acbc32d35fbf)
+getDatasetObjByUuid(446dbf38-0cf6-11e8-8493-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_7/dense_7/kernel:0]
+db.getAttributeItems(446dbf38-0cf6-11e8-8493-acbc32d35fbf)
+dumpAttributes: 446dbf38-0cf6-11e8-8493-acbc32d35fbf
+getDatasetObjByUuid(446dbf38-0cf6-11e8-8493-acbc32d35fbf)
+dumpDataset: 446dfafd-0cf6-11e8-bf78-acbc32d35fbf
+getDatasetObjByUuid(446dfafd-0cf6-11e8-bf78-acbc32d35fbf)
+getDatasetObjByUuid(446dfafd-0cf6-11e8-bf78-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_8/dense_8/bias:0]
+db.getAttributeItems(446dfafd-0cf6-11e8-bf78-acbc32d35fbf)
+dumpAttributes: 446dfafd-0cf6-11e8-bf78-acbc32d35fbf
+getDatasetObjByUuid(446dfafd-0cf6-11e8-bf78-acbc32d35fbf)
+dumpDataset: 446e1461-0cf6-11e8-b416-acbc32d35fbf
+getDatasetObjByUuid(446e1461-0cf6-11e8-b416-acbc32d35fbf)
+getDatasetObjByUuid(446e1461-0cf6-11e8-b416-acbc32d35fbf)
+dumpDataset alias: [/model_weights/dense_8/dense_8/kernel:0]
+db.getAttributeItems(446e1461-0cf6-11e8-b416-acbc32d35fbf)
+dumpAttributes: 446e1461-0cf6-11e8-b416-acbc32d35fbf
+getDatasetObjByUuid(446e1461-0cf6-11e8-b416-acbc32d35fbf)
+dumpDataset: 446e5902-0cf6-11e8-849f-acbc32d35fbf
+getDatasetObjByUuid(446e5902-0cf6-11e8-849f-acbc32d35fbf)
+getDatasetObjByUuid(446e5902-0cf6-11e8-849f-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/SGD_1/iterations:0]
+db.getAttributeItems(446e5902-0cf6-11e8-849f-acbc32d35fbf)
+dumpAttributes: 446e5902-0cf6-11e8-849f-acbc32d35fbf
+getDatasetObjByUuid(446e5902-0cf6-11e8-849f-acbc32d35fbf)
+dumpDataset: 446e9c00-0cf6-11e8-b8e5-acbc32d35fbf
+getDatasetObjByUuid(446e9c00-0cf6-11e8-b8e5-acbc32d35fbf)
+getDatasetObjByUuid(446e9c00-0cf6-11e8-b8e5-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training_1/SGD/Variable:0]
+db.getAttributeItems(446e9c00-0cf6-11e8-b8e5-acbc32d35fbf)
+dumpAttributes: 446e9c00-0cf6-11e8-b8e5-acbc32d35fbf
+getDatasetObjByUuid(446e9c00-0cf6-11e8-b8e5-acbc32d35fbf)
+dumpDataset: 446eb1d4-0cf6-11e8-9011-acbc32d35fbf
+getDatasetObjByUuid(446eb1d4-0cf6-11e8-9011-acbc32d35fbf)
+getDatasetObjByUuid(446eb1d4-0cf6-11e8-9011-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training_1/SGD/Variable_1:0]
+db.getAttributeItems(446eb1d4-0cf6-11e8-9011-acbc32d35fbf)
+dumpAttributes: 446eb1d4-0cf6-11e8-9011-acbc32d35fbf
+getDatasetObjByUuid(446eb1d4-0cf6-11e8-9011-acbc32d35fbf)
+dumpDataset: 446ec78c-0cf6-11e8-bc8e-acbc32d35fbf
+getDatasetObjByUuid(446ec78c-0cf6-11e8-bc8e-acbc32d35fbf)
+getDatasetObjByUuid(446ec78c-0cf6-11e8-bc8e-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training_1/SGD/Variable_2:0]
+db.getAttributeItems(446ec78c-0cf6-11e8-bc8e-acbc32d35fbf)
+dumpAttributes: 446ec78c-0cf6-11e8-bc8e-acbc32d35fbf
+getDatasetObjByUuid(446ec78c-0cf6-11e8-bc8e-acbc32d35fbf)
+dumpDataset: 446edd14-0cf6-11e8-a9cd-acbc32d35fbf
+getDatasetObjByUuid(446edd14-0cf6-11e8-a9cd-acbc32d35fbf)
+getDatasetObjByUuid(446edd14-0cf6-11e8-a9cd-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training_1/SGD/Variable_3:0]
+db.getAttributeItems(446edd14-0cf6-11e8-a9cd-acbc32d35fbf)
+dumpAttributes: 446edd14-0cf6-11e8-a9cd-acbc32d35fbf
+getDatasetObjByUuid(446edd14-0cf6-11e8-a9cd-acbc32d35fbf)
+dumpDataset: 446ef451-0cf6-11e8-81d8-acbc32d35fbf
+getDatasetObjByUuid(446ef451-0cf6-11e8-81d8-acbc32d35fbf)
+getDatasetObjByUuid(446ef451-0cf6-11e8-81d8-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training_1/SGD/Variable_4:0]
+db.getAttributeItems(446ef451-0cf6-11e8-81d8-acbc32d35fbf)
+dumpAttributes: 446ef451-0cf6-11e8-81d8-acbc32d35fbf
+getDatasetObjByUuid(446ef451-0cf6-11e8-81d8-acbc32d35fbf)
+dumpDataset: 446f09e1-0cf6-11e8-87af-acbc32d35fbf
+getDatasetObjByUuid(446f09e1-0cf6-11e8-87af-acbc32d35fbf)
+getDatasetObjByUuid(446f09e1-0cf6-11e8-87af-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training_1/SGD/Variable_5:0]
+db.getAttributeItems(446f09e1-0cf6-11e8-87af-acbc32d35fbf)
+dumpAttributes: 446f09e1-0cf6-11e8-87af-acbc32d35fbf
+getDatasetObjByUuid(446f09e1-0cf6-11e8-87af-acbc32d35fbf)
+dumpDataset: 446f2011-0cf6-11e8-874d-acbc32d35fbf
+getDatasetObjByUuid(446f2011-0cf6-11e8-874d-acbc32d35fbf)
+getDatasetObjByUuid(446f2011-0cf6-11e8-874d-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training_1/SGD/Variable_6:0]
+db.getAttributeItems(446f2011-0cf6-11e8-874d-acbc32d35fbf)
+dumpAttributes: 446f2011-0cf6-11e8-874d-acbc32d35fbf
+getDatasetObjByUuid(446f2011-0cf6-11e8-874d-acbc32d35fbf)
+dumpDataset: 446f35fa-0cf6-11e8-92bf-acbc32d35fbf
+getDatasetObjByUuid(446f35fa-0cf6-11e8-92bf-acbc32d35fbf)
+getDatasetObjByUuid(446f35fa-0cf6-11e8-92bf-acbc32d35fbf)
+dumpDataset alias: [/optimizer_weights/training_1/SGD/Variable_7:0]
+db.getAttributeItems(446f35fa-0cf6-11e8-92bf-acbc32d35fbf)
+dumpAttributes: 446f35fa-0cf6-11e8-92bf-acbc32d35fbf
+getDatasetObjByUuid(446f35fa-0cf6-11e8-92bf-acbc32d35fbf)
+db.getCollection(datatypes)
+Hdf5db __exit

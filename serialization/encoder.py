@@ -1,3 +1,9 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='3'
+
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 ##############################################################################
 # Copyright by The HDF Group.                                                #
 # All rights reserved.                                                       #
@@ -24,6 +30,9 @@ from h5json import hdf5dtype
 """
 DumpJson - return json representation of all objects within the given file
 """
+
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
 class DumpJson:

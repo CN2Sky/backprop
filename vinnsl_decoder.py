@@ -15,6 +15,8 @@ def parse_vinnsl(vinnsl):
     activationFunctionOutput = parameters[4]['defaultValue']
     activationFunctionHidden = parameters[5]['defaultValue']
     threshold = parameters[6]['defaultValue']
+    target_data = parameters[7]['defaultValue']
+    number_epochs = parameters[8]['defaultValue']
 
     connections = parsed_json['connections']
 
@@ -47,6 +49,8 @@ def parse_vinnsl(vinnsl):
     nn_structure['activationFunctionOutput'] = activationFunctionOutput
     nn_structure['activationFunctionHidden'] = activationFunctionHidden
     nn_structure['threshold'] = threshold
+    nn_structure['target_data'] = target_data
+    nn_structure['number_epochs'] = number_epochs
 
     print(nn_structure)
 

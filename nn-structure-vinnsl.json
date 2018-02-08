@@ -1,154 +1,204 @@
-    {
-        "_id": "5a42654649dfe705319e13c4",
-        "__v": 0,
-        "data": {
-            "description": "CSV, comma separated",
-            "tableDescription": ",",
-            "fileDescription": "CSV"
-        },
-        "parameters": {
-            "input": [
-                {
-                    "parameter": "learningrate",
-                    "defaultValue": "0.01",
-                    "_id": "5a42654649dfe705319e13ca",
-                    "possibleValues": [
-                        "0.1",
-                        "0.2",
-                        "0.3",
-                        "0.4"
-                    ]
-                },
-                {
-                    "parameter": "biasInput",
-                    "defaultValue": "1",
-                    "_id": "5a42654649dfe705319e13c9",
-                    "possibleValues": []
-                },
-                {
-                    "parameter": "biasHidden",
-                    "defaultValue": "1",
-                    "_id": "5a42654649dfe705319e13c8",
-                    "possibleValues": []
-                },
-                {
-                    "parameter": "momentum",
-                    "defaultValue": "0.9",
-                    "_id": "5a42654649dfe705319e13c7",
-                    "possibleValues": []
-                },
-                {
-                    "parameter": "activationFunction",
-                    "defaultValue": "sigmoid",
-                    "_id": "5a42654649dfe705319e13c6",
-                    "possibleValues": ["sigmoid", "relu"]
-                },
-                {
-                    "parameter": "activationFunctionHidden",
-                    "defaultValue": "relu",
-                    "_id": "5a42654649dfe705319e13c6",
-                    "possibleValues": ["sigmoid", "relu"]
-                },
-                {
-                    "parameter": "threshold",
-                    "defaultValue": "0.000001",
-                    "_id": "5a42654649dfe705319e13c5",
-                    "possibleValues": []
-                }
-            ]
-        },
-        "connections": {
-            "shortcuts": {
-                "isConnected": true,
-                "connections": [
-                    {
-                        "from": "1-input",
-                        "to": "output",
-                        "_id": "5a42654649dfe705319e13cb"
-                    }
-                ]
-            },
-            "fullyConnected": {
-                "isConnected": false
-            }
-        },
-        "structure": {
-            "inputLayer": {
-                "amount": 4,
-                "_id": "5a42654649dfe705319e13cf",
-                "nodesId": [
-                    "1-input",
-                    "2-input",
-                    "3-input",
-                    "4-input"
-                ]
-            },
-            "outputLayer": {
-                "amount": 1,
-                "_id": "5a42654649dfe705319e13cc",
-                "nodesId": [
-                    "1-output"
-                ]
-            },
-            "hiddenLayer": [
-                {
-                    "id": "1-hidden-layer",
-                    "amount": 4,
-                    "_id": "5a42654649dfe705319e13ce",
-                    "nodesId": [
-                        "1-node-1-hidden-layer",
-                        "2-node-1-hidden-layer",
-                        "3-node-1-hidden-layer",
-                        "4-node-1-hidden-layer"
-                    ]
-                },
-                {
-                    "id": "2-hidden-layer",
-                    "amount": 4,
-                    "_id": "5a42654649dfe705319e13cd",
-                    "nodesId": [
-                        "1-node-2-hidden-layer",
-                        "2-node-2-hidden-layer",
-                        "3-node-2-hidden-layer",
-                        "4-node-2-hidden-layer"
-                    ]
-                }
-            ]
-        },
-        "endpoints": [
-            {
-                "name": "train",
-                "endpoint": null,
-                "_id": "5a42654649dfe705319e13d1"
-            },
-            {
-                "name": "test",
-                "endpoint": null,
-                "_id": "5a42654649dfe705319e13d0"
-            }
-        ],
-        "problemDomain": {
-            "problemType": "Classifiers",
-            "networkType": "Backpropagation",
-            "applicationField": [
-                "EMS"
-            ],
-            "propagationType": {
-                "propType": "feedforward",
-                "learningType": "supervised"
-            }
-        },
-        "creator": {
-            "name": "admin",
-            "contact": null
-        },
-        "metadata": {
-            "name": "Face recognition",
-            "description": "face recognition using backpropagation",
-            "paradigm": "Backpropagation",
-            "version": {
-                "major": null,
-                "minor": null
-            }
-        }
-    }
+{
+	"_id": "5a7c83a9e49c5064cdc7f01f",
+	"__v": 0,
+	"executionEnvironment": {
+		"lastRun": null,
+		"isRunning": true,
+		"hardware": null,
+		"isPublic": true,
+		"image": {
+			"imageType": null,
+			"_id": "5a7c83a9e49c5064cdc7f020"
+		}
+	},
+	"data": {
+		"description": "CSV, comma separated",
+		"tableDescription": ",",
+		"fileDescription": "CSV"
+	},
+	"parameters": {
+		"input": [
+			{
+				"parameter": "learningrate",
+				"defaultValue": "0.01",
+				"_id": "5a7c83a9e49c5064cdc7f029",
+				"possibleValues": [
+					"0.1",
+					"0.2",
+					"0.3",
+					"0.4"
+				]
+			},
+			{
+				"parameter": "biasInput",
+				"defaultValue": "1",
+				"_id": "5a7c83a9e49c5064cdc7f028",
+				"possibleValues": [
+					"1",
+					"2",
+					"3"
+				]
+			},
+			{
+				"parameter": "biasHidden",
+				"defaultValue": "1",
+				"_id": "5a7c83a9e49c5064cdc7f027",
+				"possibleValues": [
+					"1",
+					"2",
+					"3"
+				]
+			},
+			{
+				"parameter": "momentum",
+				"defaultValue": "0.9",
+				"_id": "5a7c83a9e49c5064cdc7f026",
+				"possibleValues": [
+					"0.1",
+					"0.2",
+					"0.3",
+					"0.4",
+					"0.5",
+					"0.6",
+					"0.7",
+					"0.8",
+					"0.9"
+				]
+			},
+			{
+				"parameter": "activationFunction",
+				"defaultValue": "softmax",
+				"_id": "5a7c83a9e49c5064cdc7f025",
+				"possibleValues": [
+					"sigmoid",
+					"relu",
+					"softmax"
+				]
+			},
+			{
+				"parameter": "activationFunctionHidden",
+				"defaultValue": "relu",
+				"_id": "5a7c83a9e49c5064cdc7f024",
+				"possibleValues": [
+					"sigmoid",
+					"relu"
+				]
+			},
+			{
+				"parameter": "threshold",
+				"defaultValue": "0.000001",
+				"_id": "5a7c83a9e49c5064cdc7f023",
+				"possibleValues": [
+					"0.00001",
+					"0.000001"
+				]
+			},
+			{
+				"parameter": "target_data",
+				"defaultValue": "[0,0],[1,0],[0,1],[1,1]",
+				"_id": "5a7c83a9e49c5064cdc7f022",
+				"possibleValues": []
+			},
+			{
+				"parameter": "epoche",
+				"defaultValue": "300",
+				"_id": "5a7c83a9e49c5064cdc7f021",
+				"possibleValues": []
+			}
+		]
+	},
+	"connections": {
+		"shortcuts": {
+			"isConnected": true,
+			"connections": [
+				{
+					"from": "1-input",
+					"to": "output",
+					"_id": "5a7c83a9e49c5064cdc7f02a"
+				}
+			]
+		},
+		"fullyConnected": {
+			"isConnected": false
+		}
+	},
+	"structure": {
+		"inputLayer": {
+			"amount": 3,
+			"_id": "5a7c83a9e49c5064cdc7f02e",
+			"nodesId": [
+				"1-input",
+				"2-input",
+				"3-input"
+			]
+		},
+		"outputLayer": {
+			"amount": 2,
+			"_id": "5a7c83a9e49c5064cdc7f02b",
+			"nodesId": [
+				"1-output",
+				"2-output"
+			]
+		},
+		"hiddenLayer": [
+			{
+				"id": "1-hidden-layer",
+				"amount": 4,
+				"_id": "5a7c83a9e49c5064cdc7f02d",
+				"nodesId": [
+					"1-node-1-hidden-layer",
+					"2-node-1-hidden-layer",
+					"3-node-1-hidden-layer",
+					"4-node-1-hidden-layer"
+				]
+			},
+			{
+				"id": "2-hidden-layer",
+				"amount": 4,
+				"_id": "5a7c83a9e49c5064cdc7f02c",
+				"nodesId": [
+					"1-node-2-hidden-layer",
+					"2-node-2-hidden-layer",
+					"3-node-2-hidden-layer",
+					"4-node-2-hidden-layer"
+				]
+			}
+		]
+	},
+	"endpoints": [
+		{
+			"_id": "5a7c83bae49c5064cdc7f035",
+			"endpoint": "localhost:5000/train",
+			"name": "train"
+		},
+		{
+			"_id": "5a7c83bae49c5064cdc7f034",
+			"endpoint": "localhost:5000/test",
+			"name": "test"
+		}
+	],
+	"problemDomain": {
+		"problemType": "Classifiers",
+		"networkType": "Backpropagation",
+		"applicationField": [
+			"EMS"
+		],
+		"propagationType": {
+			"propType": "feedforward",
+			"learningType": "supervised"
+		}
+	},
+	"creator": {
+		"name": "admin",
+		"contact": null
+	},
+	"metadata": {
+		"name": "test 5",
+		"description": "test 123",
+		"paradigm": "Backpropagation",
+		"version": {
+			"major": null,
+			"minor": null
+		}
+	}
+}
