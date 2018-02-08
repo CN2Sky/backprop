@@ -14,6 +14,8 @@ import numpy as np
 import subprocess
 from flask import Flask
 from flask import request
+import csv
+import json
 
 
 app = Flask(__name__)
@@ -38,10 +40,15 @@ def train():
 
 @app.route('/logs/<model_id>', methods=['GET'])
 def logs(model_id):
-    with open('logs/' + model_id) as f:
-        s = f.read() + '\n'  # add trailing new line character
-    print(repr(s))
-    return repr(s), 200, {'Content-Type': 'text/css; charset=utf-8'}
+
+    csvfile = open('logs/' + model_id, 'r')
+    reader = csv.DictReader(csvfile)
+
+    out = json.dumps([row for row in reader])
+
+    print(out)
+
+    return out, 200, {'Content-Type': 'text/css; charset=utf-8'}
 
 
 @app.route('/test', methods=['POST'])
