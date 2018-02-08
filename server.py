@@ -12,13 +12,14 @@ from flask import Flask
 from flask import request
 
 import warnings
+
 warnings.filterwarnings("ignore")
 
 app = Flask(__name__)
 
-@app.route('/train', methods=['GET','POST'])
-def train():
 
+@app.route('/train', methods=['GET', 'POST'])
+def train():
     vinnsl_description = request.form['vinnsl']
     training_data = request.form['training_data']
     epoche = int(request.form['epoche'])
@@ -35,22 +36,31 @@ def train():
                             stderr=subprocess.STDOUT)
     return proc.communicate()[0]
 
+
+@app.route('/logs', methods=['GET'])
+def logs():
+    with open('logs/training.log') as f:
+        s = f.read() + '\n'  # add trailing new line character
+    print(repr(s))
+    return repr(s), 200, {'Content-Type': 'text/css; charset=utf-8'}
+
+
 @app.route('/test', methods=['POST'])
 def test():
-
     model = request.form['model']
     testing_data = request.form['testing_data']
     x = eval(testing_data)
     testing_data = np.array(x, "float32")
 
     with io.open('models/model.json', 'w', encoding='utf-8') as f:
-         f.write(model)
+        f.write(model)
 
     if os.path.exists('models/model.h5'):
         os.remove('models/model.h5')
 
-    p = subprocess.Popen(['python', 'serialization/decoder.py', 'models/model.json', 'models/model.h5'], stdout=subprocess.PIPE,
-                            stderr=subprocess.STDOUT)
+    p = subprocess.Popen(['python', 'serialization/decoder.py', 'models/model.json', 'models/model.h5'],
+                         stdout=subprocess.PIPE,
+                         stderr=subprocess.STDOUT)
     p_status = p.wait()
 
     model = load_model('models/model.h5')
@@ -58,5 +68,6 @@ def test():
 
     return str(predictions)
 
+
 if __name__ == '__main__':
-      app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000)

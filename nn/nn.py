@@ -7,7 +7,7 @@ from keras.callbacks import CSVLogger
 
 
 def train_model(training_data, testing_data, epoche, description, parameters):
-    csv_logger = CSVLogger('training.log')
+    csv_logger = CSVLogger('data/training.log')
 
     #Sending realtime training data to visualization
     # remote = RemoteMonitor(root='http://localhost:9000')
