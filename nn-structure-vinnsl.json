@@ -1,0 +1,154 @@
+    {
+        "_id": "5a42654649dfe705319e13c4",
+        "__v": 0,
+        "data": {
+            "description": "CSV, comma separated",
+            "tableDescription": ",",
+            "fileDescription": "CSV"
+        },
+        "parameters": {
+            "input": [
+                {
+                    "parameter": "learningrate",
+                    "defaultValue": "0.01",
+                    "_id": "5a42654649dfe705319e13ca",
+                    "possibleValues": [
+                        "0.1",
+                        "0.2",
+                        "0.3",
+                        "0.4"
+                    ]
+                },
+                {
+                    "parameter": "biasInput",
+                    "defaultValue": "1",
+                    "_id": "5a42654649dfe705319e13c9",
+                    "possibleValues": []
+                },
+                {
+                    "parameter": "biasHidden",
+                    "defaultValue": "1",
+                    "_id": "5a42654649dfe705319e13c8",
+                    "possibleValues": []
+                },
+                {
+                    "parameter": "momentum",
+                    "defaultValue": "0.9",
+                    "_id": "5a42654649dfe705319e13c7",
+                    "possibleValues": []
+                },
+                {
+                    "parameter": "activationFunction",
+                    "defaultValue": "sigmoid",
+                    "_id": "5a42654649dfe705319e13c6",
+                    "possibleValues": ["sigmoid", "relu"]
+                },
+                {
+                    "parameter": "activationFunctionHidden",
+                    "defaultValue": "relu",
+                    "_id": "5a42654649dfe705319e13c6",
+                    "possibleValues": ["sigmoid", "relu"]
+                },
+                {
+                    "parameter": "threshold",
+                    "defaultValue": "0.000001",
+                    "_id": "5a42654649dfe705319e13c5",
+                    "possibleValues": []
+                }
+            ]
+        },
+        "connections": {
+            "shortcuts": {
+                "isConnected": true,
+                "connections": [
+                    {
+                        "from": "1-input",
+                        "to": "output",
+                        "_id": "5a42654649dfe705319e13cb"
+                    }
+                ]
+            },
+            "fullyConnected": {
+                "isConnected": false
+            }
+        },
+        "structure": {
+            "inputLayer": {
+                "amount": 4,
+                "_id": "5a42654649dfe705319e13cf",
+                "nodesId": [
+                    "1-input",
+                    "2-input",
+                    "3-input",
+                    "4-input"
+                ]
+            },
+            "outputLayer": {
+                "amount": 1,
+                "_id": "5a42654649dfe705319e13cc",
+                "nodesId": [
+                    "1-output"
+                ]
+            },
+            "hiddenLayer": [
+                {
+                    "id": "1-hidden-layer",
+                    "amount": 4,
+                    "_id": "5a42654649dfe705319e13ce",
+                    "nodesId": [
+                        "1-node-1-hidden-layer",
+                        "2-node-1-hidden-layer",
+                        "3-node-1-hidden-layer",
+                        "4-node-1-hidden-layer"
+                    ]
+                },
+                {
+                    "id": "2-hidden-layer",
+                    "amount": 4,
+                    "_id": "5a42654649dfe705319e13cd",
+                    "nodesId": [
+                        "1-node-2-hidden-layer",
+                        "2-node-2-hidden-layer",
+                        "3-node-2-hidden-layer",
+                        "4-node-2-hidden-layer"
+                    ]
+                }
+            ]
+        },
+        "endpoints": [
+            {
+                "name": "train",
+                "endpoint": null,
+                "_id": "5a42654649dfe705319e13d1"
+            },
+            {
+                "name": "test",
+                "endpoint": null,
+                "_id": "5a42654649dfe705319e13d0"
+            }
+        ],
+        "problemDomain": {
+            "problemType": "Classifiers",
+            "networkType": "Backpropagation",
+            "applicationField": [
+                "EMS"
+            ],
+            "propagationType": {
+                "propType": "feedforward",
+                "learningType": "supervised"
+            }
+        },
+        "creator": {
+            "name": "admin",
+            "contact": null
+        },
+        "metadata": {
+            "name": "Face recognition",
+            "description": "face recognition using backpropagation",
+            "paradigm": "Backpropagation",
+            "version": {
+                "major": null,
+                "minor": null
+            }
+        }
+    }
